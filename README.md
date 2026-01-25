@@ -14,8 +14,10 @@
 
 ### Для пользователей Podkop:
 
-Просто добавьте эти URL в настройках Podkop:
-
+| Раздел в Podkop | Куда добавить | URL для вставки |
+| :--- | :--- | :--- |
+| **Списки доменов** | `Секции` → `Внешние списки доменов` → `URL` | `https://raw.githubusercontent.com/.../domains.txt` |
+| **Списки подсетей** | `Секции` → `Внешние списки подсетей` → `URL` | `https://raw.githubusercontent.com/.../cidr.txt` |
 - **Домены:** `https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/lists/domains.txt`
 - **CIDR:** `https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/lists/cidr.txt`
 
