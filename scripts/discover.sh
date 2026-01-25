@@ -5,8 +5,11 @@ set -e
 echo "Creating full WhatsApp lists..."
 mkdir -p lists
 
+# Get current date for both files
+CURRENT_DATE=$(date '+%Y-%m-%d %H:%M:%S')
+
 # Full domain list (27 domains like original)
-cat > lists/domains.txt << 'DOMAINS_EOF'
+cat > lists/domains.txt << DOMAINS_EOF
 # WhatsApp domains
 whatsapp.com
 www.whatsapp.com
@@ -45,11 +48,11 @@ scontent.xx.fbcdn.net
 instagram.com
 www.instagram.com
 
-# Generated: $(date)
+# Generated: $CURRENT_DATE
 DOMAINS_EOF
 
 # Full CIDR list (20 ranges like original)
-cat > lists/cidr.txt << 'CIDR_EOF'
+cat > lists/cidr.txt << CIDR_EOF
 # Meta IP ranges
 31.13.24.0/21
 31.13.64.0/18
@@ -74,9 +77,10 @@ cat > lists/cidr.txt << 'CIDR_EOF'
 31.13.75.0/24
 57.144.245.0/24
 
-# Generated: $(date)
+# Generated: $CURRENT_DATE
 CIDR_EOF
 
 echo "✅ Created full WhatsApp lists:"
 echo "   Domains: $(wc -l < lists/domains.txt)"
 echo "   CIDR: $(wc -l < lists/cidr.txt)"
+echo "   Date: $CURRENT_DATE"
