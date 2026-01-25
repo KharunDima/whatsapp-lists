@@ -24,11 +24,20 @@
 ```bash
 # Клонировать репозиторий
 git clone https://github.com/KharunDima/whatsapp-lists.git
-
+```
+```bash
 # Запустить скрипт обнаружения вручную
 cd whatsapp-lists
+```
+```bash
+# Даем права на выполнение скрипта поиска
 chmod +x scripts/discover.sh
+```
+```bash
+# Запускаем  скрипт
 ./scripts/discover.sh
+```
+```
 Структура
 text
 ├── .github/workflows/    # Автоматические обновления
@@ -36,10 +45,10 @@ text
 ├── lists/                # Актуальные списки
 ├── history/              # Архив версий
 └── podkop-instructions.txt  # Инструкция
-Лицензия
-MIT
+```
 
-text
+
+
 
 ## **Как запустить:**
 
