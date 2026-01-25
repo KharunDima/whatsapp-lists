@@ -1,0 +1,3 @@
+whatsapp.com
+web.whatsapp.com
+api.whatsapp.com
