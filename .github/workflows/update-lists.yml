@@ -1,76 +1,35 @@
 name: Update WhatsApp Lists
 
 on:
-  schedule:
-    - cron: '0 */6 * * *'  # Каждые 6 часов
   workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    
+
     steps:
-    - name: 📥 Checkout repository
+    - name: Checkout
       uses: actions/checkout@v3
-    
-    - name: ⚙️ Setup environment
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y dnsutils curl
-    
-    - name: 🔍 Create WhatsApp lists
+
+    - name: Create lists
       run: |
         mkdir -p lists
-        
-        # Простые статические списки
-        cat > lists/domains.txt << 'DOMAINS'
-# WhatsApp domains (auto-updated)
-whatsapp.com
-www.whatsapp.com
-web.whatsapp.com
-api.whatsapp.com
-chat.whatsapp.com
-call.whatsapp.com
-voice.whatsapp.com
-beta.whatsapp.com
-s.whatsapp.net
-static.whatsapp.net
-mmg.whatsapp.net
-mmi.whatsapp.net
-mms.whatsapp.net
-v.whatsapp.net
-voip.whatsapp.com
-facebook.com
-www.facebook.com
-fbcdn.net
-# Generated: $(date)
-DOMAINS
-        
-        cat > lists/cidr.txt << 'CIDR'
-# Meta/WhatsApp IP ranges
-31.13.24.0/21
-31.13.64.0/18
-157.240.0.0/16
-129.134.0.0/16
-173.252.64.0/18
-# Generated: $(date)
-CIDR
-        
-        echo "Created:"
-        echo "  Domains: $(wc -l < lists/domains.txt)"
-        echo "  CIDR: $(wc -l < lists/cidr.txt)"
-    
-    - name: 📝 Commit and push
+        echo "whatsapp.com" > lists/domains.txt
+        echo "web.whatsapp.com" >> lists/domains.txt
+        echo "api.whatsapp.com" >> lists/domains.txt
+        echo "31.13.0.0/16" > lists/cidr.txt
+        echo "157.240.0.0/16" >> lists/cidr.txt
+
+    - name: Commit
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        
         git add lists/
-        if git diff --cached --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "Update WhatsApp lists: $(date '+%Y-%m-%d %H:%M:%S')"
+        if ! git diff --cached --quiet; then
+          git commit -m "Update: $(date)"
           git push
         fi
