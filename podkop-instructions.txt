@@ -1,36 +1,30 @@
 # 📱 WhatsApp Lists for PodKop
 
-Автоматически обновляемые списки доменов и IP-адресов для обхода блокировок WhatsApp.
-
-## 🔗 Ссылки для PodKop
+## 🔗 Ссылки для Podkop
 
 1. **Домены WhatsApp:**
 https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/lists/domains.txt
 
-text
-
 2. **CIDR диапазоны:**
 https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/lists/cidr.txt
 
-text
+
 
 ## ⚡ Быстрая настройка
 
 В веб-интерфейсе PodKop:
 
-1. **Домены** → **Добавить список** → **URL**
-Название: whatsapp-domains
+1. **Секции** → **Внешние списки доменов** → **URL**
 URL: https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/lists/domains.txt
 Обновлять: Каждые 6 часов
 
-text
 
-2. **Подсети** → **Добавить список** → **URL**
-Название: whatsapp-cidr
+
+2. **Секции** → **Внешние списки подсетей** → **URL**
 URL: https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/lists/cidr.txt
 Обновлять: Каждые 6 часов
 
-text
+
 
 ## 📊 Статистика
 
@@ -43,7 +37,7 @@ text
 
 Если нужно обновить списки вручную:
 
-```bash
+
 # Скачать актуальные списки
 curl -o /tmp/whatsapp-domains.txt \
 https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/lists/domains.txt
