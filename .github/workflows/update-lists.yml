@@ -1,9 +1,16 @@
 name: Update WhatsApp Lists
 
 on:
-  workflow_dispatch:
+  # Автоматически каждые 6 часов
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: '0 */6 * * *'  # Правильный формат: '0 */6 * * *'
+  
+  # Ручной запуск
+  workflow_dispatch:
+  
+  # При пуше в main
+  push:
+    branches: [ main ]
 
 jobs:
   update:
@@ -12,22 +19,61 @@ jobs:
       contents: write
 
     steps:
-    - name: Checkout
+    # Шаг 1: Получение кода
+    - name: 📥 Checkout repository
       uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # Полная история для git операций
 
-    - name: Run discovery script
+    # Шаг 2: Установка зависимостей
+    - name: ⚙️ Setup environment
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y curl dnsutils whois
+        
+    # Шаг 3: Генерация списков
+    - name: 🔍 Generate WhatsApp lists
       run: |
         chmod +x scripts/discover.sh
         ./scripts/discover.sh
-
-    - name: Commit changes
+        
+    # Шаг 4: Проверка списков (если есть verify.sh)
+    - name: ✅ Verify lists (optional)
       run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-        git add lists/
-        if ! git diff --cached --quiet; then
-          git commit -m "Update WhatsApp lists: $(date '+%Y-%m-%d %H:%M:%S')"
-          git push
+        if [ -f scripts/verify.sh ]; then
+          chmod +x scripts/verify.sh
+          ./scripts/verify.sh || echo "⚠️ Verification showed warnings"
         else
-          echo "No changes to commit"
+          echo "ℹ️ verify.sh not found, skipping verification"
+        fi
+        
+    # Шаг 5: Сохранение в историю
+    - name: 💾 Save to history
+      run: |
+        mkdir -p history/
+        TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+        cp lists/domains.txt "history/domains_$TIMESTAMP.txt"
+        cp lists/cidr.txt "history/cidr_$TIMESTAMP.txt"
+        
+        # Оставляем только последние 30 версий
+        ls -t history/domains_*.txt | tail -n +31 | xargs rm -f 2>/dev/null || true
+        ls -t history/cidr_*.txt | tail -n +31 | xargs rm -f 2>/dev/null || true
+        
+    # Шаг 6: Коммит изменений
+    - name: 📝 Commit and push changes
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
+        
+        git add lists/ history/
+        
+        if git diff --cached --quiet; then
+          echo "✅ No changes to commit"
+        else
+          git commit -m "Auto-update: $(date '+%Y-%m-%d %H:%M:%S UTC')
+          
+          Updated WhatsApp domains and CIDR lists.
+          Generated: $(date '+%Y-%m-%d %H:%M:%S')"
+          git push
+          echo "✅ Changes pushed successfully"
         fi
