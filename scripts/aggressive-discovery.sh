@@ -214,7 +214,7 @@ save_results() {
 # Total domains: $DOMAIN_COUNT
 # 
 # ⚡ РЕАЛЬНО СУЩЕСТВУЮЩИЕ ДОМЕНЫ WhatsApp/Meta ⚡
-# Для использования в PodKop и других обходчиках
+# Для использования в Podkop
 # URL: https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/lists/domains.txt
 #
 
@@ -230,7 +230,7 @@ EOF
 # Total CIDR: $CIDR_COUNT
 # 
 # ⚡ РЕАЛЬНЫЕ ПОДСЕТИ WhatsApp/Meta ⚡
-# Для использования в PodKop и других обходчиках
+# Для использования в Podkop
 # URL: https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/lists/cidr.txt
 #
 
