@@ -1,111 +1,67 @@
 #!/bin/bash
-# WhatsApp Power Discovery System v2.0
+# WhatsApp Power Discovery v2.1 - GitHub Actions compatible
 set -euo pipefail
 
-# ============================================================================
-# КОНФИГУРАЦИЯ
-# ============================================================================
-WORK_DIR="/tmp/whatsapp-power-$$"
+echo "========================================"
+echo " WhatsApp Power Discovery v2.1"
+echo "========================================"
+
+# Конфигурация
+WORK_DIR="/tmp/whatsapp-discovery-$$"
 mkdir -p "$WORK_DIR"
-LOG_FILE="$WORK_DIR/power-discovery.log"
 
-# Meta/Facebook ASN номера (основные)
-META_ASN_LIST=("AS32934" "AS63293" "AS54115" "AS34825")
-
-# Минимальные/максимальные значения
-MIN_DOMAINS=20
-MIN_CIDR=15
-MAX_DOMAINS=150
-MAX_CIDR=100
-
-# Пакеты которые нам понадобятся
-REQUIRED_PACKAGES=("curl" "jq" "whois" "dig" "nmap" "openssl")
-
-# Цвета
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
-BLUE='\033[0;34m'
-NC='\033[0m'
-
-# ============================================================================
-# ФУНКЦИИ ЛОГИРОВАНИЯ
-# ============================================================================
-log() { echo -e "${BLUE}[$(date '+%H:%M:%S')]${NC} $1" | tee -a "$LOG_FILE"; }
-success() { echo -e "${GREEN}✅ $1${NC}" | tee -a "$LOG_FILE"; }
-warning() { echo -e "${YELLOW}⚠️  $1${NC}" | tee -a "$LOG_FILE"; }
-error() { echo -e "${RED}❌ $1${NC}" | tee -a "$LOG_FILE"; }
-
-# ============================================================================
-# ПРОВЕРКА ЗАВИСИМОСТЕЙ
-# ============================================================================
-check_dependencies() {
-    log "Проверка зависимостей..."
-    local missing=()
-    
-    for pkg in "${REQUIRED_PACKAGES[@]}"; do
-        if ! command -v "$pkg" &> /dev/null; then
-            missing+=("$pkg")
-        fi
-    done
-    
-    if [ ${#missing[@]} -gt 0 ]; then
-        warning "Не хватает пакетов: ${missing[*]}"
-        log "Установка недостающих пакетов..."
-        sudo apt-get update
-        sudo apt-get install -y "${missing[@]}" || {
-            error "Не удалось установить пакеты"
-            return 1
-        }
-    fi
-    
-    success "Все зависимости установлены"
-}
+# Функции простого логирования
+log() { echo "[$(date '+%H:%M:%S')] $1"; }
+success() { echo "✅ $1"; }
+warning() { echo "⚠️  $1"; }
+error() { echo "❌ $1"; }
 
 # ============================================================================
 # 1. ПОЛУЧЕНИЕ CIDR ИЗ ASN META/FACEBOOK
 # ============================================================================
 discover_meta_cidr() {
     log "1. Поиск CIDR через ASN Meta/Facebook..."
-    local asn_cidr_file="$WORK_DIR/asn_cidr.txt"
     
-    echo "# Meta/Facebook CIDR from ASN" > "$asn_cidr_file"
+    # Статические CIDR Meta/Facebook (основные)
+    cat > "$WORK_DIR/static_cidr.txt" << 'STATIC_CIDR'
+31.13.24.0/21
+31.13.64.0/18
+45.64.40.0/22
+66.220.144.0/20
+69.63.176.0/20
+69.171.224.0/19
+74.119.76.0/22
+102.132.96.0/20
+103.4.96.0/22
+129.134.0.0/16
+157.240.0.0/16
+173.252.64.0/18
+185.60.216.0/22
+199.201.64.0/22
+204.15.20.0/22
+31.13.72.0/24
+31.13.73.0/24
+31.13.74.0/24
+31.13.75.0/24
+57.144.245.0/24
+STATIC_CIDR
     
-    for asn in "${META_ASN_LIST[@]}"; do
-        log "  Анализ $asn..."
-        
-        # Метод 1: whois (основной) с timeout
-        timeout 5 whois -h whois.radb.net "!g$asn" 2>/dev/null | \
-            grep -E "^route:|^route6:" | \
-            awk '{print $2}' | \
-            sort -u >> "$asn_cidr_file" || true
-        
-        # Метод 2: Статические CIDR Meta
-        echo "31.13.24.0/21" >> "$asn_cidr_file"
-        echo "31.13.64.0/18" >> "$asn_cidr_file"
-        echo "45.64.40.0/22" >> "$asn_cidr_file"
-        echo "66.220.144.0/20" >> "$asn_cidr_file"
-        echo "69.63.176.0/20" >> "$asn_cidr_file"
-        echo "69.171.224.0/19" >> "$asn_cidr_file"
-        echo "74.119.76.0/22" >> "$asn_cidr_file"
-        echo "102.132.96.0/20" >> "$asn_cidr_file"
-        echo "103.4.96.0/22" >> "$asn_cidr_file"
-        echo "129.134.0.0/16" >> "$asn_cidr_file"
-        echo "157.240.0.0/16" >> "$asn_cidr_file"
-        echo "173.252.64.0/18" >> "$asn_cidr_file"
-        echo "185.60.216.0/22" >> "$asn_cidr_file"
-        echo "199.201.64.0/22" >> "$asn_cidr_file"
-        echo "204.15.20.0/22" >> "$asn_cidr_file"
-    done
+    # Пробуем whois (с timeout на случай если сервер не отвечает)
+    log "  Запрос whois для AS32934 (Meta)..."
+    timeout 10 whois -h whois.radb.net "!gAS32934" 2>/dev/null | \
+        grep -E "^route:|^route6:" | \
+        awk '{print $2}' | \
+        head -20 > "$WORK_DIR/whois_cidr.txt" || true
     
-    # Уникализация и сортировка
-    sort -u "$asn_cidr_file" | grep -v "^#" > "$WORK_DIR/all_cidr.txt"
+    # Объединяем
+    cat "$WORK_DIR/static_cidr.txt" "$WORK_DIR/whois_cidr.txt" 2>/dev/null | \
+        sort -u | grep -v "^#" > "$WORK_DIR/all_cidr.txt"
     
-    local cidr_count=$(wc -l < "$WORK_DIR/all_cidr.txt")
-    success "  Найдено CIDR: $cidr_count"
+    # Фильтруем приватные подсети
+    grep -v -E "^(10\.|172\.(1[6-9]|2[0-9]|3[0-1])\.|192\.168\.|127\.|0\.|169\.254\.)" \
+        "$WORK_DIR/all_cidr.txt" > "$WORK_DIR/filtered_cidr.txt"
     
-    # Ограничиваем максимальное количество
-    head -$MAX_CIDR "$WORK_DIR/all_cidr.txt" > "$WORK_DIR/filtered_cidr.txt"
+    success "  Найдено CIDR: $(wc -l < "$WORK_DIR/filtered_cidr.txt")"
 }
 
 # ============================================================================
@@ -147,25 +103,23 @@ instagram.com
 www.instagram.com
 STATIC_DOMAINS
     
-    # SSL сертификаты (быстрая проверка)
-    log "  Проверка SSL сертификатов..."
-    for domain in whatsapp.com facebook.com; do
-        timeout 5 openssl s_client -connect "$domain:443" -servername "$domain" 2>/dev/null < /dev/null | \
-            openssl x509 -noout -text 2>/dev/null | \
-            grep -o "DNS:[^,]*" 2>/dev/null | \
-            sed 's/DNS://g' | tr ',' '\n' | \
-            grep -i "whatsapp\|facebook" >> "$WORK_DIR/ssl_domains.txt" || true
-    done
+    # SSL сертификаты (опционально, если openssl доступен)
+    if command -v openssl >/dev/null 2>&1; then
+        log "  Проверка SSL сертификатов..."
+        for domain in whatsapp.com facebook.com; do
+            timeout 5 openssl s_client -connect "$domain:443" -servername "$domain" 2>/dev/null < /dev/null | \
+                openssl x509 -noout -text 2>/dev/null | \
+                grep -o "DNS:[^,]*" 2>/dev/null | \
+                sed 's/DNS://g' | tr ',' '\n' | \
+                grep -i "whatsapp\|facebook" >> "$WORK_DIR/ssl_domains.txt" 2>/dev/null || true
+        done
+    fi
     
     # Объединяем все источники
     cat "$WORK_DIR/static_domains.txt" "$WORK_DIR/ssl_domains.txt" 2>/dev/null | \
-        sort -u | grep -v "^#" > "$WORK_DIR/all_domains.txt"
+        sort -u | grep -v "^#" | grep -v '^\*\.' > "$WORK_DIR/all_domains.txt"
     
-    # Фильтруем wildcard и некорректные домены
-    grep -v '^\*\.' "$WORK_DIR/all_domains.txt" | \
-        grep -E '^[a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?(\.[a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?)+$' > "$WORK_DIR/filtered_domains.txt"
-    
-    success "  Найдено доменов: $(wc -l < "$WORK_DIR/filtered_domains.txt")"
+    success "  Найдено доменов: $(wc -l < "$WORK_DIR/all_domains.txt")"
 }
 
 # ============================================================================
@@ -174,23 +128,28 @@ STATIC_DOMAINS
 validate_entries() {
     log "3. Валидация записей..."
     
-    # Валидация доменов (параллельно, 5 потоков)
+    # Валидация доменов (простая проверка DNS)
     echo "# Validated domains" > "$WORK_DIR/valid_domains.txt"
     
-    validate_single_domain() {
+    validate_domain() {
         local d="$1"
-        # Быстрая проверка DNS
+        # Быстрая проверка DNS через 1.1.1.1 (Cloudflare)
         if timeout 2 dig +short "$d" @1.1.1.1 >/dev/null 2>&1; then
             echo "$d"
         fi
     }
-    export -f validate_single_domain
     
-    cat "$WORK_DIR/filtered_domains.txt" | xargs -P 5 -I {} bash -c 'validate_single_domain "{}"' >> "$WORK_DIR/valid_domains.txt"
+    # Проверяем домены (без параллелизма для простоты)
+    while read -r domain; do
+        [[ -z "$domain" ]] && continue
+        [[ "$domain" =~ ^# ]] && continue
+        validate_domain "$domain" >> "$WORK_DIR/valid_domains.txt"
+    done < "$WORK_DIR/all_domains.txt"
     
     # Валидация CIDR (просто проверка формата)
     echo "# Validated CIDR" > "$WORK_DIR/valid_cidr.txt"
-    grep -E '^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}/[0-9]{1,2}$' "$WORK_DIR/filtered_cidr.txt" >> "$WORK_DIR/valid_cidr.txt"
+    grep -E '^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}/[0-9]{1,2}$' \
+        "$WORK_DIR/filtered_cidr.txt" >> "$WORK_DIR/valid_cidr.txt"
     
     success "  Валидных доменов: $(grep -c '^[^#]' "$WORK_DIR/valid_domains.txt")"
     success "  Валидных CIDR: $(grep -c '^[^#]' "$WORK_DIR/valid_cidr.txt")"
@@ -206,7 +165,7 @@ write_results() {
     
     # Домены
     local domain_count=$(grep -c '^[^#]' "$WORK_DIR/valid_domains.txt")
-    echo "# WhatsApp Power Discovery v2.0" > lists/domains.txt
+    echo "# WhatsApp Power Discovery v2.1" > lists/domains.txt
     echo "# Generated: $(date '+%Y-%m-%d %H:%M:%S')" >> lists/domains.txt
     echo "# Total domains: $domain_count" >> lists/domains.txt
     echo "" >> lists/domains.txt
@@ -214,7 +173,7 @@ write_results() {
     
     # CIDR
     local cidr_count=$(grep -c '^[^#]' "$WORK_DIR/valid_cidr.txt")
-    echo "# WhatsApp Power Discovery v2.0" > lists/cidr.txt
+    echo "# WhatsApp Power Discovery v2.1" > lists/cidr.txt
     echo "# Generated: $(date '+%Y-%m-%d %H:%M:%S')" >> lists/cidr.txt
     echo "# Total CIDR: $cidr_count" >> lists/cidr.txt
     echo "" >> lists/cidr.txt
@@ -229,16 +188,10 @@ write_results() {
 # ОСНОВНАЯ ФУНКЦИЯ
 # ============================================================================
 main() {
-    echo "========================================"
-    echo " WhatsApp Power Discovery v2.0"
-    echo "========================================"
     echo ""
     
     # Создаем директорию
     mkdir -p lists/
-    
-    # Проверяем зависимости
-    check_dependencies
     
     # Выполняем все этапы
     discover_meta_cidr
