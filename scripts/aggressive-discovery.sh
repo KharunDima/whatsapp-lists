@@ -229,11 +229,43 @@ find_real_cidr() {
         "66.220.144.0/20"     # Facebook
         "173.252.64.0/18"     # Facebook
         "185.60.216.0/22"     # Facebook
+        "45.64.40.0/22"       # Facebook
+        "204.15.20.0/22"      # Facebook
+        "199.201.64.0/22"     # Facebook
+        "74.119.76.0/22"      # Facebook
+        "103.4.96.0/22"       # Facebook
         "31.13.64.0/18"       # Facebook
-        "31.13.72.0/24"       # Важная сеть для WhatsApp
-        "31.13.73.0/24"       # Важная сеть для WhatsApp
-        "31.13.74.0/24"       # Важная сеть для WhatsApp
-        "31.13.75.0/24"       # Важная сеть для WhatsApp
+        "31.13.65.0/24"       # Facebook
+        "31.13.66.0/24"       # Facebook
+        "31.13.67.0/24"       # Facebook
+        "31.13.68.0/24"       # Facebook
+        "31.13.69.0/24"       # Facebook
+        "31.13.70.0/24"       # Facebook
+        "31.13.71.0/24"       # Facebook
+        "31.13.72.0/24"       # Facebook
+        "31.13.73.0/24"       # Facebook
+        "31.13.74.0/24"       # Facebook
+        "31.13.75.0/24"       # Facebook
+        "31.13.76.0/24"       # Facebook
+        "31.13.77.0/24"       # Facebook
+        "31.13.78.0/24"       # Facebook
+        "31.13.79.0/24"       # Facebook
+        "31.13.80.0/24"       # Facebook
+        "31.13.81.0/24"       # Facebook
+        "31.13.82.0/24"       # Facebook
+        "31.13.83.0/24"       # Facebook
+        "31.13.84.0/24"       # Facebook
+        "31.13.85.0/24"       # Facebook
+        "31.13.86.0/24"       # Facebook
+        "31.13.87.0/24"       # Facebook
+        "31.13.88.0/24"       # Facebook
+        "31.13.89.0/24"       # Facebook
+        "31.13.90.0/24"       # Facebook
+        "31.13.91.0/24"       # Facebook
+        "31.13.92.0/24"       # Facebook
+        "31.13.93.0/24"       # Facebook
+        "31.13.94.0/24"       # Facebook
+        "31.13.95.0/24"       # Facebook
     )
     
     info "  Добавляем известные сети Meta..."
