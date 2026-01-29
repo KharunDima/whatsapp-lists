@@ -1,70 +1,70 @@
 name: WhatsApp Scanner v5.0
 
 on:
-  workflow_dispatch:  # Ручной запуск
+  workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'  # Каждые 6 часов (опционально)
+    - cron: "0 */6 * * *"
 
 jobs:
   scan:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-    
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-    
-    - name: Install dependencies
-      run: |
-        pip install --upgrade pip
-        pip install -r requirements.txt
-    
-    - name: Run WhatsApp scan
-      run: |
-        python3 main.py whatsapp --output-dir results --log-level INFO
-    
-    - name: Create combined CIDR file
-      run: |
-        cat > results/cidr.txt << 'EOF'
-# Combined CIDR Networks (IPv4 + IPv6)
-# Generated from WhatsApp Discovery v5.0
-# For use in PodKop
-#
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-        if [ -f "results/cidr_ipv4.txt" ]; then
-          echo "# IPv4 Networks:" >> results/cidr.txt
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run WhatsApp scan
+        run: |
+          python3 main.py whatsapp --output-dir results --log-level INFO
+
+      - name: Create combined CIDR file
+        run: |
+          echo "# Combined CIDR Networks (IPv4 + IPv6)" > results/cidr.txt
+          echo "# Generated from WhatsApp Discovery v5.0" >> results/cidr.txt
+          echo "# For use in PodKop" >> results/cidr.txt
           echo "" >> results/cidr.txt
-          grep -v '^#' results/cidr_ipv4.txt >> results/cidr.txt
-          echo "" >> results/cidr.txt
-        fi
-        if [ -f "results/cidr_ipv6.txt" ]; then
-          echo "# IPv6 Networks:" >> results/cidr.txt
-          echo "" >> results/cidr.txt
-          grep -v '^#' results/cidr_ipv6.txt >> results/cidr.txt
-        fi
-    
-    - name: Show results
-      run: |
-        echo "📊 Результаты сканирования:"
-        if [ -f "results/domains.txt" ]; then
-          DOMAINS=$(grep -c -v '^#' results/domains.txt)
-          echo "✅ Доменов: $DOMAINS"
-        fi
-        if [ -f "results/cidr_ipv4.txt" ]; then
-          CIDR4=$(grep -c -v '^#' results/cidr_ipv4.txt)
-          echo "✅ IPv4 CIDR: $CIDR4"
-        fi
-        if [ -f "results/cidr_ipv6.txt" ]; then
-          CIDR6=$(grep -c -v '^#' results/cidr_ipv6.txt)
-          echo "✅ IPv6 CIDR: $CIDR6"
-        fi
-    
-    - name: Upload results as artifact
-      uses: actions/upload-artifact@v4  # <-- ОБНОВЛЕНО С v3 НА v4
-      with:
-        name: whatsapp-scanner-results
-        path: results/
+          
+          if [ -f "results/cidr_ipv4.txt" ]; then
+            echo "# IPv4 Networks:" >> results/cidr.txt
+            echo "" >> results/cidr.txt
+            grep -v "^#" results/cidr_ipv4.txt >> results/cidr.txt
+            echo "" >> results/cidr.txt
+          fi
+          
+          if [ -f "results/cidr_ipv6.txt" ]; then
+            echo "# IPv6 Networks:" >> results/cidr.txt
+            echo "" >> results/cidr.txt
+            grep -v "^#" results/cidr_ipv6.txt >> results/cidr.txt
+          fi
+
+      - name: Show results
+        run: |
+          echo "📊 Результаты сканирования:"
+          if [ -f "results/domains.txt" ]; then
+            DOMAINS=$(grep -c -v "^#" results/domains.txt || echo "0")
+            echo "✅ Доменов: $DOMAINS"
+          fi
+          if [ -f "results/cidr_ipv4.txt" ]; then
+            CIDR4=$(grep -c -v "^#" results/cidr_ipv4.txt || echo "0")
+            echo "✅ IPv4 CIDR: $CIDR4"
+          fi
+          if [ -f "results/cidr_ipv6.txt" ]; then
+            CIDR6=$(grep -c -v "^#" results/cidr_ipv6.txt || echo "0")
+            echo "✅ IPv6 CIDR: $CIDR6"
+          fi
+
+      - name: Upload results as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: whatsapp-scanner-results
+          path: results/
