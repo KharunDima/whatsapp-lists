@@ -25,7 +25,27 @@ jobs:
     
     - name: Run WhatsApp scan
       run: |
-        python main.py whatsapp --output-dir results --log-level INFO
+        python3 main.py whatsapp --output-dir results --log-level INFO
+    
+    - name: Create combined CIDR file
+      run: |
+        cat > results/cidr.txt << 'EOF'
+# Combined CIDR Networks (IPv4 + IPv6)
+# Generated from WhatsApp Discovery v5.0
+# For use in PodKop
+#
+EOF
+        if [ -f "results/cidr_ipv4.txt" ]; then
+          echo "# IPv4 Networks:" >> results/cidr.txt
+          echo "" >> results/cidr.txt
+          grep -v '^#' results/cidr_ipv4.txt >> results/cidr.txt
+          echo "" >> results/cidr.txt
+        fi
+        if [ -f "results/cidr_ipv6.txt" ]; then
+          echo "# IPv6 Networks:" >> results/cidr.txt
+          echo "" >> results/cidr.txt
+          grep -v '^#' results/cidr_ipv6.txt >> results/cidr.txt
+        fi
     
     - name: Show results
       run: |
@@ -44,7 +64,7 @@ jobs:
         fi
     
     - name: Upload results as artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4  # <-- ОБНОВЛЕНО С v3 НА v4
       with:
         name: whatsapp-scanner-results
         path: results/
