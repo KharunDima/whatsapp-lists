@@ -22,7 +22,6 @@ ENV/
 venv*/
 
 # Results (опционально - если не хочешь коммитить результаты)
-results/
 
 # IDE
 .vscode/
