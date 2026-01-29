@@ -34,7 +34,7 @@ jobs:
 # Generated from WhatsApp Discovery v5.0
 # For use in PodKop
 #
-EOF
+
         if [ -f "results/cidr_ipv4.txt" ]; then
           echo "# IPv4 Networks:" >> results/cidr.txt
           echo "" >> results/cidr.txt
