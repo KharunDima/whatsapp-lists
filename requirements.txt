@@ -1,0 +1,8 @@
+aiohttp==3.13.3
+dnspython==2.8.0
+beautifulsoup4==4.14.3
+lxml==6.0.2
+requests==2.32.5
+tqdm==4.67.1
+colorama==0.4.6
+aiofiles==25.1.0  # Обновляем версию

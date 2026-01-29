@@ -1,0 +1,50 @@
+name: WhatsApp Scanner v5.0
+
+on:
+  workflow_dispatch:  # Ручной запуск
+  schedule:
+    - cron: '0 */6 * * *'  # Каждые 6 часов (опционально)
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run WhatsApp scan
+      run: |
+        python main.py whatsapp --output-dir results --log-level INFO
+    
+    - name: Show results
+      run: |
+        echo "📊 Результаты сканирования:"
+        if [ -f "results/domains.txt" ]; then
+          DOMAINS=$(grep -c -v '^#' results/domains.txt)
+          echo "✅ Доменов: $DOMAINS"
+        fi
+        if [ -f "results/cidr_ipv4.txt" ]; then
+          CIDR4=$(grep -c -v '^#' results/cidr_ipv4.txt)
+          echo "✅ IPv4 CIDR: $CIDR4"
+        fi
+        if [ -f "results/cidr_ipv6.txt" ]; then
+          CIDR6=$(grep -c -v '^#' results/cidr_ipv6.txt)
+          echo "✅ IPv6 CIDR: $CIDR6"
+        fi
+    
+    - name: Upload results as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: whatsapp-scanner-results
+        path: results/
