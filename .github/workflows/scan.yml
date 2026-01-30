@@ -1,12 +1,12 @@
-name: WhatsApp Scanner v5.0
+    name: WhatsApp Scanner v5.0
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 */6 * * *"
+    on:
+       workflow_dispatch:
+       schedule:
+        - cron: "0 */6 * * *"
 
-jobs:
-  scan:
+    jobs:
+    scan:
     runs-on: ubuntu-latest
     
     steps:
@@ -37,13 +37,13 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          
+
           # Добавляем только нужные файлы
           git add results/domains.txt
           git add results/cidr_ipv4.txt
           git add results/cidr_ipv6.txt
           git add results/report.json
-          
+
           # Проверяем есть ли изменения
           if git diff --cached --quiet; then
             echo "ℹ️ Нет изменений для коммита"
@@ -52,7 +52,5 @@ jobs:
             TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
             DOMAINS=$(grep -c -v "^#" results/domains.txt 2>/dev/null || echo "0")
             CIDR4=$(grep -c -v "^#" results/cidr_ipv4.txt 2>/dev/null || echo "0")
-            CIDR6=$(grep -c -v "^#" results/cidr_ipv6.txt 2>/dev/null || echo "0")
-            
-            git commit -m "🤖 Auto-update: $TIMESTAMP | Domains: $DOMAINS | CIDR: $CIDR4+$CIDR6"
-            git push
+
+
