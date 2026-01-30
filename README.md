@@ -53,23 +53,25 @@ python main.py whatsapp --timeout 60 --concurrent 200 --log-level DEBUG
 Параметры командной строки
 target - Цель поиска (например: whatsapp)
 
---list-targets - Показать список доступных целей
+- --list-targets - Показать список доступных целей
 
---create-target NAME - Создать шаблон конфигурации
+- --create-target NAME - Создать шаблон конфигурации
 
---timeout SECONDS - Таймаут запросов (по умолчанию: 30)
+- --timeout SECONDS - Таймаут запросов (по умолчанию: 30)
 
---concurrent N - Количество одновременных запросов (по умолчанию: 200)
+- --concurrent N - Количество одновременных запросов (по умолчанию: 200)
 
---output-dir DIR - Директория для результатов (по умолчанию: results)
+- --output-dir DIR - Директория для результатов (по умолчанию: results)
 
---log-level LEVEL - Уровень логирования (DEBUG, INFO, WARNING, ERROR)
+- --log-level LEVEL - Уровень логирования (DEBUG, INFO, WARNING, ERROR)
 
---log-file FILE - Файл для сохранения логов
+- --log-file FILE - Файл для сохранения логов
 
-Конфигурация
-Конфигурация целей хранится в config/targets/ в формате JSON. Пример для WhatsApp:
 
+Конфигурация целей хранится в config/targets/ в формате JSON.
+
+Пример для WhatsApp:
+```
 json
 {
   "name": "whatsapp",
@@ -80,28 +82,46 @@ json
   "crt_sh_patterns": ["%.whatsapp.net", "%.whatsapp.com"],
   "domain_patterns": [".+\\.whatsapp\\.(com|net)$"]
 }
-Структура проекта
-text
-whatsapp-discovery/
-├── config/              # Конфигурация приложения
+```
+```
+Структура проекта:
+
+whatsapp-lists/
+├── config/             # Конфигурация приложения
+│   ├── __init__.py
 │   ├── settings.py     # Основные настройки
 │   └── targets/        # Конфигурации целей
+│       └── whatsapp.json
 ├── core/               # Основные компоненты
 │   ├── analyzer.py     # Анализ IP и создание CIDR
+│   ├── __init__.py
 │   ├── resolver.py     # DNS резолвер
 │   └── saver.py        # Сохранение результатов
+├── __init__.py
+├── main.py             # Главный скрипт
+├── podkop-instructions.txt
+├── README.md           # Документация
+├── requirements.txt    # Зависимости
+├── results/            # Готовые фаилы 
+│   ├── cidr_ipv4.txt
+│   ├── cidr_ipv6.txt
+│   ├── domains.txt
+│   └── report.json     
+├── scripts/
+│   ├── aggressive-discovery.sh # Старый скрипт 
+│   └── run.sh          # Скрипт установки 
 ├── sources/            # Источники данных
 │   ├── base.py         # Базовый класс источников
 │   ├── crtsh.py        # CRT.SH источник
 │   ├── dns_bruteforce.py # DNS brute force
+│   ├── __init__.py
 │   ├── passive.py      # Пассивные источники
 │   └── static.py       # Статические данные
-├── utils/              # Вспомогательные функции
-│   ├── helpers.py      # Утилиты
-│   └── validator.py    # Валидатор доменов
-├── main.py             # Главный скрипт
-├── requirements.txt    # Зависимости
-└── README.md          # Документация
+└── utils/              # Вспомогательные функции
+    ├── helpers.py      # Утилиты
+    ├── __init__.py
+    └── validator.py    # Валидатор доменов
+```
 Результаты
 После выполнения сканирования в папке results/ создаются следующие файлы:
 
@@ -115,9 +135,6 @@ report.json - Полный отчет в формате JSON
 
 Зависимости
 См. файл requirements.txt для списка зависимостей.
-
-Лицензия
-MIT License
 
 Вклад в проект
 Форкните репозиторий
