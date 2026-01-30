@@ -15,18 +15,20 @@
 
 ### 🌐 **Для Podkop:**
 
-Домены WhatsApp/Meta
+Домены:
+```
 https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/results/domains.txt
-
-IPv4 сети
+```
+Сети:
+```
 https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/results/cidr_ipv4.txt
-
+```
 ## Установка
 
 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/KharunDima/whatsapp-discovery.git
-cd whatsapp-discovery
+cd whatsapp-lists
 ```
 Установите зависимости:
 
