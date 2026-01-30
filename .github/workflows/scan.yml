@@ -1,46 +1,63 @@
+---
 name: WhatsApp Scanner v5.0
 on:
   workflow_dispatch: null
   schedule:
     - cron: 0 */6 * * *
-jobs: null
-scan: null
-runs-on: ubuntu-latest
-steps:
-  - name: Checkout repository
-    uses: actions/checkout@v3
-    with:
-      token: ${{ secrets.GITHUB_TOKEN }}
-  - name: Set up Python
-    uses: actions/setup-python@v4
-    with:
-      python-version: "3.10"
-  - name: Install dependencies
-    run: |
-      pip install --upgrade pip
-      pip install -r requirements.txt
-  - name: Run WhatsApp scan
-    run: |
-      python3 main.py whatsapp --output-dir results --log-level INFO
-  - name: Remove unwanted cidr.txt if exists
-    run: |
-      rm -f results/cidr.txt 2>/dev/null || true
-  - name: Commit and push results
-    run: |
-      git config --global user.name "GitHub Actions"
-      git config --global user.email "actions@github.com"
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run WhatsApp scan
+        run: |
+          python3 main.py whatsapp --output-dir results --log-level INFO
+      - name: Create combined CIDR file
+        run: |
+          echo "# Combined CIDR Networks (IPv4 + IPv6)" > results/cidr.txt
+          echo "# Generated from WhatsApp Discovery v5.0" >> results/cidr.txt
+          echo "# For use in PodKop" >> results/cidr.txt
+          echo "" >> results/cidr.txt
 
-      # Добавляем только нужные файлы
-      git add results/domains.txt
-      git add results/cidr_ipv4.txt
-      git add results/cidr_ipv6.txt
-      git add results/report.json
+          if [ -f "results/cidr_ipv4.txt" ]; then
+            echo "# IPv4 Networks:" >> results/cidr.txt
+            echo "" >> results/cidr.txt
+            grep -v "^#" results/cidr_ipv4.txt >> results/cidr.txt
+            echo "" >> results/cidr.txt
+          fi
 
-      # Проверяем есть ли изменения
-      if git diff --cached --quiet; then
-        echo "ℹ️ Нет изменений для коммита"
-      else
-        # Создаем коммит
-        TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
-        DOMAINS=$(grep -c -v "^#" results/domains.txt 2>/dev/null || echo "0")
-        CIDR4=$(grep -c -v "^#" results/cidr_ipv4.txt 2>/dev/null || echo "0")
+          if [ -f "results/cidr_ipv6.txt" ]; then
+            echo "# IPv6 Networks:" >> results/cidr.txt
+            echo "" >> results/cidr.txt
+            grep -v "^#" results/cidr_ipv6.txt >> results/cidr.txt
+          fi
+      - name: Show results
+        run: |
+          echo "📊 Результаты сканирования:"
+          if [ -f "results/domains.txt" ]; then
+            DOMAINS=$(grep -c -v "^#" results/domains.txt || echo "0")
+            echo "✅ Доменов: $DOMAINS"
+          fi
+          if [ -f "results/cidr_ipv4.txt" ]; then
+            CIDR4=$(grep -c -v "^#" results/cidr_ipv4.txt || echo "0")
+            echo "✅ IPv4 CIDR: $CIDR4"
+          fi
+          if [ -f "results/cidr_ipv6.txt" ]; then
+            CIDR6=$(grep -c -v "^#" results/cidr_ipv6.txt || echo "0")
+            echo "✅ IPv6 CIDR: $CIDR6"
+          fi
+      - name: Upload results as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: whatsapp-scanner-results
+          path: results/
+          retention-days: 7
