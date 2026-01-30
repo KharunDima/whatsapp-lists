@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/results/cidr_ip
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/KharunDima/whatsapp-discovery.git
+git clone https://github.com/KharunDima/whatsapp-lists.git
 cd whatsapp-lists
 ```
 Установите зависимости:
