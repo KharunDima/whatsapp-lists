@@ -15,51 +15,15 @@ https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/results/cidr_ip
 В веб-интерфейсе Podkop:
 
 1. **Секции** → **Внешние списки доменов** → **URL**
-URL: https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/lists/domains.txt
+URL: https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/results/domains.txt
 Обновлять: Каждые 6 часов
 
 
 
 2. **Секции** → **Внешние списки подсетей** → **URL**
-URL: https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/lists/cidr.txt
+URL: https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/results/cidr_ipv4.txt
 Обновлять: Каждые 6 часов
 
 
 
-## 📊 Статистика
 
-- **Обновляется:** Каждые 6 часов
-- **Последнее обновление:** [см. stats.md]
-- **Количество доменов:** ~30-50
-- **Количество CIDR:** ~15-25
-
-## 🛠 Ручное обновление
-
-Если нужно обновить списки вручную:
-
-
-# Скачать актуальные списки
-curl -o /tmp/whatsapp-domains.txt \
-https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/lists/domains.txt
-
-curl -o /tmp/whatsapp-cidr.txt \
-https://raw.githubusercontent.com/KharunDima/whatsapp-lists/main/lists/cidr.txt
-
-# Обновить в Podkop
-uci set podkop.@whatsapp_domains[0].list="$(cat /tmp/whatsapp-domains.txt)"
-uci set podkop.@whatsapp_cidr[0].list="$(cat /tmp/whatsapp-cidr.txt)"
-uci commit podkop
-/etc/init.d/podkop restart
-⚠️ Важно
-Списки обновляются автоматически
-
-Все домены и IP проверяются перед добавлением
-
-При проблемах используйте старые версии из папки history/
-
-🔗 Ссылки
-История изменений
-
-Исходный код
-
-GitHub Actions лог
