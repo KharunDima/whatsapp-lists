@@ -1,398 +1,148 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T13:11:33.338236",
+    "generated_at": "2026-01-31T18:49:48.008599",
     "target": "whatsapp",
     "description": "WhatsApp domains and networks - optimized config",
     "statistics": {
-      "total_domains": 2018,
-      "unique_domains": 2018,
-      "domains_with_ips": 536,
-      "unique_ips": 803,
-      "ipv4_count": 599,
-      "ipv6_count": 205,
-      "ipv4_networks": 395,
-      "ipv6_networks": 41
+      "total_domains": 2016,
+      "unique_domains": 2016,
+      "domains_with_ips": 452,
+      "unique_ips": 677,
+      "ipv4_count": 513,
+      "ipv6_count": 165,
+      "ipv4_networks": 337,
+      "ipv6_networks": 32
     }
   },
   "domains": [
     {
-      "domain": "node48.whatsapp.net",
+      "domain": "super.oewabox.at",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "deelen-wageningen.nl",
-      "ips": [
-        "91.142.254.86"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "edwardsviolet.shop",
-      "ips": [
-        "104.18.20.248"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "support.whatsapp.net",
+      "domain": "oewa.oewabox.at",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "s14.whatsapp.net",
+      "domain": "server75.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "wallsandmurals.com",
-      "ips": [
-        "209.38.54.126"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "bdb.oewabox.at",
+      "domain": "node21.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "e52.whatsapp.net",
+      "domain": "m51.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "m33.whatsapp.net",
+      "domain": "m87.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "trafficswarm.com",
-      "ips": [
-        "54.243.152.50"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "wap.casee.cn",
+      "domain": "server96.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "jubowi.ilowap.pl",
-      "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "jawaratekno.com",
-      "ips": [
-        "76.223.54.146",
-        "13.248.169.48"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "wantsfly.com",
+      "domain": "c82.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "node42.whatsapp.net",
+      "domain": "noen.oewabox.at",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "server59.whatsapp.net",
+      "domain": "waterinneed.org",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "mychoicerewards.com",
+      "domain": "c19.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "hanwag-polska.com",
+      "domain": "beeswaxdisplay108801632049.s.moatpixel.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "c75.whatsapp.net",
+      "domain": "metric.marthastewart.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "edge.whatsapp.net",
+      "domain": "whatsapp-chatd-3-4.fbcdn.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "server98.whatsapp.net",
+      "domain": "whatsapp-chatd-4-1.fbcdn.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "s17.whatsapp.net",
+      "domain": "d2zd0wa1vpt7j9.cloudfront.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "bazarwaldorf.com",
-      "ips": [
-        "161.35.80.167"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "voice.whatsapp.net",
+      "domain": "e55.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "ebookandsoftwarestore.com",
+      "domain": "wink-software.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "server16.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "oe24.oewabox.at",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge72.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m46.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m38.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m21.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "bostonwall.com",
-      "ips": [
-        "13.223.25.84",
-        "54.243.117.197",
-        "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb",
-        "2600:1f18:4ae:c606:78d4:4260:db4e:aeee"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "pub.hardware.fr",
-      "ips": [
-        "83.243.20.127"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "anwan.pl",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "allgetaways.us.intellitxt.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "futureinvestwave.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "dontwatch.us",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e22.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "gateway.foresee.com",
-      "ips": [
-        "18.65.3.93",
-        "18.65.3.74",
-        "18.65.3.22",
-        "18.65.3.27"
-      ],
-      "ipv4_count": 4,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "swa.and.co.uk",
-      "ips": [
-        "23.32.152.18",
-        "23.32.152.4",
-        "2600:1406:5400::170f:f1e0",
-        "2600:1406:5400::170f:f198"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "e9.whatsapp.net",
-      "ips": [
-        "15.197.210.208"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "warivea1.com",
-      "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "beacon-cdn-custom.walmart.com.akadns.net",
-      "ips": [
-        "20.230.171.39"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "s21.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-3.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "wagohuu.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "call.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "north.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node39.whatsapp.net",
+      "domain": "pps.fbcdn.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -406,546 +156,28 @@
       "has_ips": false
     },
     {
-      "domain": "t.wowanalytics.co.uk",
-      "ips": [
-        "37.221.223.17"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "whatsapp-cdn-shv-2.fbcdn.net",
+      "domain": "whatsapp-chatd-3-3.fbcdn.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "whatsapp-cdn-shv-1-2.fbcdn.net",
+      "domain": "edge78.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "heute.oewabox.at",
+      "domain": "s94.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "edge26.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "forumprawa24.pl",
-      "ips": [
-        "188.210.221.83"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "flashrewards.co",
-      "ips": [
-        "104.18.0.150",
-        "104.18.1.150",
-        "2606:4700::6812:96",
-        "2606:4700::6812:196"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "warezkeeper.com",
-      "ips": [
-        "154.196.106.237"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "opensoftwareupdate.com",
-      "ips": [
-        "104.18.14.65",
-        "104.18.15.65"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "ehg-wachovia.hitbox.com",
-      "ips": [
-        "205.216.15.71"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "whatsapp-chatd-4.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node99.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "wabotai.click",
-      "ips": [
-        "172.67.205.219",
-        "104.21.50.114",
-        "2606:4700:3033::6815:3272",
-        "2606:4700:3031::ac43:cddb"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "newandroidapps.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "adwarereport.us.intellitxt.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge32.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "warnerbrothersrecords.112.2o7.net",
-      "ips": [
-        "63.140.37.45",
-        "63.140.37.103",
-        "63.140.37.191",
-        "63.140.37.142",
-        "63.140.37.53",
-        "63.140.37.149",
-        "63.140.36.67",
-        "63.140.37.237",
-        "63.140.37.238",
-        "63.140.36.253"
-      ],
-      "ipv4_count": 10,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "gateway.answerscloud.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s45.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "fakturowanieklientow.com",
-      "ips": [
-        "172.67.218.173",
-        "104.21.70.26",
-        "2606:4700:3033::6815:461a",
-        "2606:4700:3036::ac43:daad"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "whatsapp-chatd-4-4.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "wapstart.ru",
-      "ips": [
-        "195.201.181.157",
-        "195.201.181.156"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "waveuplift.com",
-      "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "node87.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "j2waycm.netmng.com",
-      "ips": [
-        "198.18.10.0"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "c5.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m68.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s83.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "wangmeng.baidu.com",
-      "ips": [
-        "112.80.255.110",
-        "112.80.255.117"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "stats.airfarewatchdog.com",
-      "ips": [
-        "63.140.37.151",
-        "63.140.37.191",
-        "63.140.37.238",
-        "63.140.37.246",
-        "63.140.36.26",
-        "63.140.36.67",
-        "63.140.36.131",
-        "63.140.36.210",
-        "63.140.37.103",
-        "63.140.37.142"
-      ],
-      "ipv4_count": 10,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "nomorewarnow.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "wwwalaskaair.com",
-      "ips": [
-        "172.237.146.25",
-        "172.233.219.78",
-        "172.233.219.123",
-        "172.233.219.49",
-        "172.237.146.38",
-        "172.237.146.8"
-      ],
-      "ipv4_count": 6,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "server56.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "hardwarezone.us.intellitxt.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s27.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s9.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node83.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e13.whatsapp.net",
-      "ips": [
-        "3.33.252.61"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "manoces.waw.pl",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "mdwaugusta.112.2o7.net",
-      "ips": [
-        "63.140.36.131",
-        "63.140.36.210",
-        "63.140.36.212",
-        "63.140.37.142",
-        "63.140.37.151",
-        "63.140.37.191",
-        "63.140.37.238",
-        "63.140.37.246",
-        "63.140.36.26",
-        "63.140.36.67"
-      ],
-      "ipv4_count": 10,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "greenwatermovement.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "adsatt.abc.starwave.com",
-      "ips": [
-        "184.28.81.236",
-        "184.28.81.239"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "sa.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c99.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "offerwall.headlines.pw",
-      "ips": [
-        "172.67.72.7",
-        "104.26.5.249",
-        "104.26.4.249"
-      ],
-      "ipv4_count": 3,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "safety-wash.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c36.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "dreamwatchevent.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "newtrackway.com",
-      "ips": [
-        "172.67.157.38",
-        "104.21.40.221",
-        "2606:4700:3030::ac43:9d26",
-        "2606:4700:3033::6815:28dd"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "central.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "bsg.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "taiwanshorts.com",
-      "ips": [
-        "159.223.238.50"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "zdrowasfera.pl",
-      "ips": [
-        "185.253.212.22"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "wwwtwa.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server21.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "145639-4902.link.iwanttodeliver.com",
-      "ips": [
-        "185.88.180.103",
-        "185.88.180.102"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "server11.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "watershed.bm23.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m90.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge49.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e23.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e33.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c38.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "alert.whatsapp.com",
+      "domain": "server45.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -962,206 +194,58 @@
       "has_ips": true
     },
     {
-      "domain": "c7.whatsapp.net",
+      "domain": "m94.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "diwan-alarab.net",
+      "domain": "tarnobrzegwave.goralcode5.digital",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "download.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "gwallet.com",
       "ips": [
-        "134.209.26.209"
+        "74.118.186.65"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "hardcoreware.us.intellitxt.com",
+      "domain": "skysport.oewabox.at",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "microsoft-ware.com",
+      "domain": "c64.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "smtp.whatsapp.com",
+      "domain": "owa.wa.me",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "softswapp.com",
-      "ips": [
-        "172.239.57.117",
-        "172.234.24.211"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "skyway.capital",
-      "ips": [
-        "104.26.13.134",
-        "172.67.70.47",
-        "104.26.12.134",
-        "2606:4700:20::ac43:462f",
-        "2606:4700:20::681a:c86",
-        "2606:4700:20::681a:d86"
-      ],
-      "ipv4_count": 3,
-      "ipv6_count": 3,
-      "has_ips": true
-    },
-    {
-      "domain": "node62.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s93.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e51.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge71.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "waylaunch.com",
-      "ips": [
-        "172.67.189.39",
-        "104.21.65.73",
-        "2606:4700:3033::ac43:bd27",
-        "2606:4700:3033::6815:4149"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "pc-wallpapers.co.uk",
-      "ips": [
-        "52.16.25.241"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "east.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "app2.jeoway.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e54.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c92.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "adserver.waggonerguide.com",
-      "ips": [
-        "209.126.24.127"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "asia.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "tenzo-warszawa.com",
-      "ips": [
-        "23.227.38.36",
-        "2620:127:f00f:4::"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "tripwolf.oewabox.at",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge23.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "analytics.jeoway.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "udziele-pozyczki-prywatnie.pl",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s71.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "ppgwave.com",
+      "domain": "eddyeddyedwardsrealestate.com",
       "ips": [
         "146.112.61.108",
         "::ffff:146.112.61.108"
@@ -1171,43 +255,371 @@
       "has_ips": true
     },
     {
-      "domain": "c70.whatsapp.net",
+      "domain": "joshforwashington.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "hothardware.us.intellitxt.com",
+      "domain": "c38.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "c84.whatsapp.net",
+      "domain": "fwaw4-1.fna.fbcdn.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "trafficgateway.research-int.se",
+      "domain": "naa-twa.com",
       "ips": [
-        "20.71.79.99"
+        "209.38.55.135"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "liveramp2waycm-atl.netmng.com",
+      "domain": "wa-track.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "macatawa.org",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m75.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "dragonawaken.com",
+      "ips": [
+        "3.224.28.164"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "whatsapp-cdn-shv-9.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s56.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c45.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wwwaolmail.com",
+      "ips": [
+        "13.248.158.7",
+        "76.223.84.192"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "whatsapp-cdn-shv-3-4.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "swagster.pl",
+      "ips": [
+        "185.253.212.22"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "c16.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e25.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "hot2015rewards.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "lijit2waycm.netmng.com",
       "ips": [
         "198.18.10.0"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
+    },
+    {
+      "domain": "server386917.nazwa.pl",
+      "ips": [
+        "146.112.61.108",
+        "::ffff:146.112.61.108"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "nottinghamsuburbanrailway.co.uk",
+      "ips": [
+        "77.68.7.204"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "server69.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "kronehit.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "cdnwa.com",
+      "ips": [
+        "54.243.117.197",
+        "13.223.25.84",
+        "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb",
+        "2600:1f18:4ae:c606:78d4:4260:db4e:aeee"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 2,
+      "has_ips": true
+    },
+    {
+      "domain": "edge79.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "socket.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "pjwareaxi.org",
+      "ips": [
+        "178.128.140.206"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "hawasa.com",
+      "ips": [
+        "146.112.61.108",
+        "::ffff:146.112.61.108"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "derstand.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wataads.com",
+      "ips": [
+        "172.234.24.211",
+        "172.239.57.117"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "wallacedowns.com",
+      "ips": [
+        "146.112.61.108",
+        "::ffff:146.112.61.108"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "s72.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "highway2.soom.la",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s79.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "mdwathens.112.2o7.net",
+      "ips": [
+        "63.140.38.213",
+        "63.140.38.61",
+        "63.140.39.214",
+        "63.140.39.145",
+        "63.140.39.244",
+        "63.140.39.146",
+        "63.140.38.130",
+        "63.140.38.77",
+        "63.140.38.116",
+        "63.140.39.25"
+      ],
+      "ipv4_count": 10,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "dalriadasoftware.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wa.kuwo.cn",
+      "ips": [
+        "122.188.44.51",
+        "59.83.212.226",
+        "42.56.88.117",
+        "122.188.45.182",
+        "221.204.15.60",
+        "1.56.98.140",
+        "122.188.45.51",
+        "119.167.249.58",
+        "122.188.44.139",
+        "122.193.250.66",
+        "14.204.50.238",
+        "119.167.249.90",
+        "2408:8763:0:29c:65::6",
+        "2408:873c:7016:0:5e::1c",
+        "2408:8726:1001:153:62::2",
+        "2408:8763:0:29c:65::3",
+        "2408:8726:1001:153:62::5"
+      ],
+      "ipv4_count": 12,
+      "ipv6_count": 5,
+      "has_ips": true
+    },
+    {
+      "domain": "s92.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wavyinve.sbs",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m91.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "uplinkway.com",
+      "ips": [
+        "104.21.10.116",
+        "172.67.163.38",
+        "2606:4700:3037::ac43:a326",
+        "2606:4700:3037::6815:a74"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 2,
+      "has_ips": true
+    },
+    {
+      "domain": "whatsapp-cdn-shv-1-2.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wakeup247.klick.vn",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "ws38.watashinonegai.ru",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
     },
     {
       "domain": "alert.whatsapp.net",
@@ -1217,21 +629,138 @@
       "has_ips": false
     },
     {
-      "domain": "top.oewabox.at",
+      "domain": "tracker.metricswave.com",
+      "ips": [
+        "104.21.92.54",
+        "172.67.186.208",
+        "2606:4700:3031::6815:5c36",
+        "2606:4700:3035::ac43:bad0"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 2,
+      "has_ips": true
+    },
+    {
+      "domain": "server7.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "austria.oewabox.at",
+      "domain": "edge73.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "server74.whatsapp.net",
+      "domain": "whatsapp-cdn-shv-2-4.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "ssl-willhab.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "ads.watchmygf.net",
+      "ips": [
+        "209.239.172.132",
+        "216.18.179.236",
+        "216.18.188.236"
+      ],
+      "ipv4_count": 3,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "sunny.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "api.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "video.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "falcoware.com",
+      "ips": [
+        "45.10.111.18"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "img.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server3.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "gateway.122.2o7.net",
+      "ips": [
+        "63.140.38.213",
+        "63.140.38.116",
+        "63.140.39.210",
+        "63.140.39.68",
+        "63.140.39.154",
+        "63.140.39.114",
+        "63.140.38.59",
+        "63.140.39.244",
+        "63.140.39.214"
+      ],
+      "ipv4_count": 9,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "tebokedowasafe.today",
+      "ips": [
+        "104.21.40.186",
+        "172.67.156.75",
+        "2606:4700:3032::6815:28ba",
+        "2606:4700:3036::ac43:9c4b"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 2,
+      "has_ips": true
+    },
+    {
+      "domain": "wakeup.klick.vn",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -1248,557 +777,340 @@
       "has_ips": true
     },
     {
-      "domain": "t.yesware.com",
+      "domain": "platform.jeoway.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-2-2.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "guestreser-washongate.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "airmilesrewardprogram.112.2o7.net",
       "ips": [
-        "34.206.227.154",
-        "100.49.105.102",
-        "98.87.245.59"
-      ],
-      "ipv4_count": 3,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "blog.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge83.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "wallacefisher.com",
-      "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "c22.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "waoptions.com.au",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edwardsstella.shop",
-      "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "east.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s20.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e88.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "west.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge94.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "walkingsoccer.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "telewizja-internetowa24.pl",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "pozyczki-prywatne.com",
-      "ips": [
-        "104.21.59.124",
-        "172.67.177.127",
-        "2606:4700:3036::ac43:b17f",
-        "2606:4700:3033::6815:3b7c"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "m35.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node54.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node73.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m19.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "howhwasu.space",
-      "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "s8.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node43.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "imwahcla.com",
-      "ips": [
-        "104.21.59.33",
-        "172.67.211.240",
-        "2606:4700:3037::6815:3b21",
-        "2606:4700:3030::ac43:d3f0"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "media.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "www2.autopartswarehouse.com",
-      "ips": [
-        "63.140.36.86",
-        "63.140.37.149",
-        "63.140.37.53",
-        "63.140.37.103",
-        "63.140.36.107",
-        "63.140.37.237",
-        "63.140.37.201",
-        "63.140.36.26",
-        "63.140.36.210",
-        "63.140.36.165"
+        "63.140.39.68",
+        "63.140.39.78",
+        "63.140.39.114",
+        "63.140.39.123",
+        "63.140.39.154",
+        "63.140.39.210",
+        "63.140.39.244",
+        "63.140.38.77",
+        "63.140.38.130",
+        "63.140.38.248"
       ],
       "ipv4_count": 10,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "software-updates.co",
+      "domain": "ppgwave.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "c60.whatsapp.net",
+      "domain": "c89.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "wa.essent.nl",
+      "domain": "portal.whatsapp.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "node11.whatsapp.net",
+      "domain": "server73.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "wansplamay.com",
+      "domain": "e81.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "exchange.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "ricwade.com",
       "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
+        "209.38.55.90"
       ],
       "ipv4_count": 1,
-      "ipv6_count": 1,
+      "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "server91.whatsapp.net",
+      "domain": "north.whatsapp.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "whatsapp-chatd.wa.me",
+      "domain": "m22.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "server386917.nazwa.pl",
+      "domain": "wakjawa.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "pol-dywan.pl",
+      "domain": "s1.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m68.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "boostsoftware.com",
       "ips": [
-        "23.227.38.65",
-        "2620:127:f00f:e::"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "adsatt.disney.starwave.com",
-      "ips": [
-        "184.28.81.239",
-        "184.28.81.236"
+        "13.248.169.48",
+        "76.223.54.146"
       ],
       "ipv4_count": 2,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "awizowane.pl",
+      "domain": "akaads-espn.starwave.com",
       "ips": [
-        "104.21.14.15",
-        "172.67.133.191",
-        "2606:4700:3030::ac43:85bf",
-        "2606:4700:3032::6815:e0f"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "s24.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "wautotech.com",
-      "ips": [
-        "129.212.221.52"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "gowadogo.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "swagshoponline.pl",
-      "ips": [
-        "77.79.227.242"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "wallet.mediaz.vn",
-      "ips": [
-        "172.67.204.85",
-        "104.21.69.45"
+        "23.205.106.150",
+        "23.205.106.159"
       ],
       "ipv4_count": 2,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "nowak-krakow.pl",
+      "domain": "wafiime.2ix.at",
       "ips": [
-        "23.227.38.66",
-        "2620:127:f00f:6::"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "whatsapp-cdn-shv-3-4.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge80.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "wwaszzaanssatrazpl.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "easy-extra-income-ways-makes-you-rich.store",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "warnermediagroup-com.videoplayerhub.com",
-      "ips": [
-        "104.26.8.50",
-        "104.26.9.50",
-        "172.67.74.207",
-        "2606:4700:20::681a:932",
-        "2606:4700:20::ac43:4acf",
-        "2606:4700:20::681a:832"
+        "91.216.248.20",
+        "91.216.248.21",
+        "91.216.248.22",
+        "2a00:f48:2000:affe::50"
       ],
       "ipv4_count": 3,
-      "ipv6_count": 3,
+      "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "www.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "watchnphoto.com",
+      "domain": "targeting.washpost.nile.works",
       "ips": [
-        "167.99.130.65"
+        "100.30.27.235"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "kwarunteens.com",
+      "domain": "wahehcnido.homes",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "mx.whatsapp.com",
+      "domain": "wateristian.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "support.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "tracking.softwareprojects.com",
+      "domain": "donotwatch.org",
       "ips": [
-        "172.66.40.147",
-        "172.66.43.109",
-        "2606:4700:3108::ac42:2893",
-        "2606:4700:3108::ac42:2b6d"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "karriere.oewabox.at",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "halex.waw.pl",
-      "ips": [
-        "185.200.47.182"
+        "199.59.243.228"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "c96.whatsapp.net",
+      "domain": "beta.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "for-ward.jp",
+      "domain": "node64.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wanatoo.fr",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node39.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wap.casee.cn",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server54.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "stenplus.onewaywinner.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "enerweb.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node30.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "ssl-geizhals.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server40.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "ads.ccgateway.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "viashockwave.112.2o7.net",
       "ips": [
-        "163.44.185.231"
+        "63.140.39.145",
+        "63.140.38.204",
+        "63.140.39.114",
+        "63.140.39.146",
+        "63.140.39.244",
+        "63.140.39.214",
+        "63.140.38.213",
+        "63.140.38.59",
+        "63.140.38.130",
+        "63.140.39.25"
       ],
-      "ipv4_count": 1,
+      "ipv4_count": 10,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "static.whatsapp.com",
+      "domain": "s98.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "server22.whatsapp.net",
+      "domain": "app.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "duologinsupersdk.ewan.cn",
-      "ips": [
-        "114.117.137.129"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "whatsapp-chatd-7.fbcdn.net",
+      "domain": "smedizin.oewabox.at",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "server41.whatsapp.net",
+      "domain": "e80.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "edge13.whatsapp.net",
+      "domain": "turystyczne-suwalki.pl",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "freelaptopreward.com",
+      "domain": "gardenrailwayproducts.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "e53.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "asia.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "warioland.com",
-      "ips": [
-        "76.223.54.146",
-        "13.248.169.48"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "server80.whatsapp.net",
+      "domain": "owa.fbcdn.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -1812,1005 +1124,44 @@
       "has_ips": false
     },
     {
-      "domain": "dropkick.oewabox.at",
+      "domain": "call.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "edge64.whatsapp.net",
+      "domain": "analytics.jeoway.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "server72.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "pqwaker.altervista.org",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge63.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "notification.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "walko.4lima.de",
+      "domain": "rewarded-video.fyber.com",
       "ips": [
-        "91.216.248.21",
-        "91.216.248.22",
-        "91.216.248.20",
-        "2a00:f48:2000:affe::50"
-      ],
-      "ipv4_count": 3,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "edge50.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "zorawarsports.com",
-      "ips": [
-        "138.68.82.182"
+        "35.186.238.108"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "c21.whatsapp.net",
+      "domain": "static.wa.me",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "plymouthhoewaterfront.com",
-      "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "e70.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s12.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "warsawsneakers.pl",
-      "ips": [
-        "5.252.231.39"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "secure.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "tomshardware.fr.intellitxt.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e38.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "volkswagens.fr",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s99.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "adsatt.go.starwave.com",
-      "ips": [
-        "184.28.81.239",
-        "184.28.81.236"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "servintlwebappsverifynawgdhasvduwads.abhilashkhatri.com.np",
-      "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "e49.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "imap.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "dimplebharwani.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s35.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "ascout24.oewabox.at",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node22.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge16.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "datoben.waw.pl",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "rebevengwas.com",
-      "ips": [
-        "172.67.176.61",
-        "104.21.31.111",
-        "2606:4700:3036::6815:1f6f",
-        "2606:4700:3036::ac43:b03d"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "software-wenc.co.cc",
-      "ips": [
-        "3.163.125.118",
-        "3.163.125.126",
-        "3.163.125.86",
-        "3.163.125.91",
-        "2600:9000:265c:6000:5:aeb:1400:93a1",
-        "2600:9000:265c:7e00:5:aeb:1400:93a1",
-        "2600:9000:265c:b800:5:aeb:1400:93a1",
-        "2600:9000:265c:be00:5:aeb:1400:93a1",
-        "2600:9000:265c:c000:5:aeb:1400:93a1",
-        "2600:9000:265c:da00:5:aeb:1400:93a1",
-        "2600:9000:265c:de00:5:aeb:1400:93a1",
-        "2600:9000:265c:f800:5:aeb:1400:93a1"
-      ],
-      "ipv4_count": 4,
-      "ipv6_count": 8,
-      "has_ips": true
-    },
-    {
-      "domain": "s77.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "inquisitivereward.com",
-      "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "dfp-gateway.s-onetag.com",
-      "ips": [
-        "18.154.132.109",
-        "18.154.132.2",
-        "18.154.132.36",
-        "18.154.132.71"
-      ],
-      "ipv4_count": 4,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "whatsappsupport.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "audi4e.oewabox.at",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "obscenesidewalk.com",
-      "ips": [
-        "34.117.135.216",
-        "2600:1901:0:ab09::1"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "qwas0.trackvoluum.com",
-      "ips": [
-        "52.84.20.55",
-        "52.84.20.25",
-        "52.84.20.63",
-        "52.84.20.19"
-      ],
-      "ipv4_count": 4,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "beacon.affil.walmart.com",
-      "ips": [
-        "20.230.171.39"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "m94.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e73.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "fondprof.oewabox.at",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "iwanttodeliver.com",
-      "ips": [
-        "185.88.180.102",
-        "185.88.180.103"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "whatsapp-cdn-shv-1-1.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server57.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "sonytaiwan.112.2o7.net",
-      "ips": [
-        "63.140.37.201",
-        "63.140.37.237",
-        "63.140.36.26",
-        "63.140.36.86",
-        "63.140.36.107",
-        "63.140.36.165",
-        "63.140.36.210",
-        "63.140.37.53",
-        "63.140.37.103",
-        "63.140.37.149"
-      ],
-      "ipv4_count": 10,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "whatsapp-cdn-shv-10.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "dailynewswalla.com",
-      "ips": [
-        "146.190.29.105"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "whatsapp-cdn-shv-2-1.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m8.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge73.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "kowasaki.com",
-      "ips": [
-        "76.223.54.146",
-        "13.248.169.48"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "m26.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "owa.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "ads.iwangmedia.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "wajanderet.rest",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "regcure.software-phile.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "beta.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-3-3.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m47.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "eyeviewads.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server35.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "randkowachwila.pl",
-      "ips": [
-        "185.110.51.170"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "central.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "swagster.pl",
-      "ips": [
-        "185.253.212.22"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "mail.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m73.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "ads.krawall.de",
-      "ips": [
-        "185.12.50.88"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "internet-cleaning-tool.capital-software.qarchive.org",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "notowani.pl",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "business.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "udzielepozyczkiprywatnejszybko.pl",
-      "ips": [
-        "77.55.252.135"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "arboe.oewabox.at",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "adansoftware.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "awarialaptopa.pl",
-      "ips": [
-        "46.242.180.105"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "banner-gateway.supersonicads.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "gwarek.angeliccount.com",
-      "ips": [
-        "104.21.47.251",
-        "172.67.174.218",
-        "2606:4700:3032::6815:2ffb",
-        "2606:4700:3035::ac43:aeda"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "edge66.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "goaltrackway.com",
-      "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "watch-this.live",
-      "ips": [
-        "103.224.212.213"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "whatsapp-chatd-2-3.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "d2zd0wa1vpt7j9.cloudfront.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "landwirt.oewabox.at",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "manewaul.com",
-      "ips": [
-        "185.107.44.123"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "node47.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "rewardinside.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m67.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node66.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "forwardtogether.fb.com",
-      "ips": [
-        "57.144.252.141",
-        "2a03:2880:f37e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "inspect.codriwa.com.co",
-      "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "regclean.software-phile.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "pathwaylink.digital",
-      "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "m97.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c67.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e78.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "ipds.gateway.adrta.com",
-      "ips": [
-        "100.50.23.241",
-        "52.90.12.230",
-        "18.213.87.243",
-        "3.82.124.221",
-        "100.24.87.64",
-        "100.49.0.82",
-        "34.231.113.167",
-        "44.219.243.254",
-        "2600:1f18:26d4:7e06:b413:c9b7:558:7fd8",
-        "2600:1f18:26d4:7e01:955d:14ba:76de:b117",
-        "2600:1f18:26d4:7e01:9c5a:c1f3:8619:9cb8",
-        "2600:1f18:26d4:7e01:2853:21e2:f5cf:5488",
-        "2600:1f18:26d4:7e06:7203:6d9d:76f1:f9ad",
-        "2600:1f18:26d4:7e06:34fc:994e:166f:95c0",
-        "2600:1f18:26d4:7e01:c9ca:4b6:6a57:1108",
-        "2600:1f18:26d4:7e06:6373:5206:241a:2cae"
-      ],
-      "ipv4_count": 8,
-      "ipv6_count": 8,
-      "has_ips": true
-    },
-    {
-      "domain": "updatenewsalways.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m40.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s43.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge31.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "vpn.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "airportparkingways.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server76.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "subway2016.tt.omtrdc.net",
-      "ips": [
-        "63.140.36.253",
-        "63.140.37.254",
-        "63.140.36.144",
-        "63.140.37.45",
-        "63.140.37.172",
-        "63.140.36.212",
-        "63.140.37.191",
-        "63.140.36.67",
-        "63.140.37.151",
-        "63.140.37.238"
-      ],
-      "ipv4_count": 10,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "derwentwaterhouse.com",
-      "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "towarzyskizamosc.pl",
-      "ips": [
-        "188.210.221.221"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "wahacondrax.iad-03.braze.com",
-      "ips": [
-        "104.18.36.46",
-        "172.64.151.210"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "zytpirwai.net",
-      "ips": [
-        "104.247.81.99"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "edge46.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "rcdna.gwallet.com",
-      "ips": [
-        "72.5.64.18"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "edge58.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "storywave.today",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server29.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "sc.vmware.com",
-      "ips": [
-        "63.140.37.142",
-        "63.140.37.246",
-        "63.140.37.191",
-        "63.140.37.238",
-        "63.140.36.131",
-        "63.140.36.67",
-        "63.140.36.212",
-        "63.140.37.151",
-        "63.140.36.210",
-        "63.140.37.172"
-      ],
-      "ipv4_count": 10,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "spywarebegone.com",
-      "ips": [
-        "172.67.219.179",
-        "104.21.38.61",
-        "2606:4700:3033::ac43:dbb3",
-        "2606:4700:3033::6815:263d"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "node9.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge42.whatsapp.net",
+      "domain": "images.whatsapp.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
-    },
-    {
-      "domain": "swan-swan-goose.com",
-      "ips": [
-        "172.67.187.68",
-        "104.21.88.243"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "jizzware.com",
-      "ips": [
-        "167.71.35.242"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
     },
     {
-      "domain": "enerweb.oewabox.at",
+      "domain": "node50.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -2829,53 +1180,252 @@
       "has_ips": true
     },
     {
-      "domain": "surveyrewardplace.com",
+      "domain": "waldenfarms.com",
       "ips": [
-        "129.212.253.247"
+        "23.227.38.65"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "wakjawa.com",
+      "domain": "node94.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "support.whatsapp.com",
+      "domain": "willhab.oewabox.at",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "server62.whatsapp.net",
+      "domain": "node19.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "swap-chenix-cap.com",
+      "domain": "awardspace.de.intellitxt.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "cdn.watchingthat.net",
       "ips": [
-        "185.107.44.123"
+        "37.19.207.37",
+        "2400:52e0:1a04::1310:1"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "whatsapp-cdn-shv-4.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "admin.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "admin.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "imap.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s4.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "live-media-aka.warnermediacdn.com",
+      "ips": [
+        "23.53.11.241",
+        "23.53.11.243",
+        "23.53.11.229",
+        "23.53.11.249",
+        "2600:1408:5400:15::17dd:e34b",
+        "2600:1408:5400:15::17dd:e353"
+      ],
+      "ipv4_count": 4,
+      "ipv6_count": 2,
+      "has_ips": true
+    },
+    {
+      "domain": "c50.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e69.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "plymouthhoewaterfront.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c91.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s43.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "ads.wapx.cn",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node68.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "maewan.fr",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "hradware.fr",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s89.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s19.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "akredytowane.pl",
+      "ips": [
+        "172.67.149.241",
+        "104.21.57.208",
+        "2606:4700:3035::6815:39d0",
+        "2606:4700:3035::ac43:95f1"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 2,
+      "has_ips": true
+    },
+    {
+      "domain": "adfemwater.com",
+      "ips": [
+        "159.89.26.239"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "salzburg.oewabox.at",
+      "domain": "reclaimsoftware.com",
+      "ips": [
+        "174.138.12.192"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "central.wa.me",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "drswarthout.com",
+      "domain": "t.wowanalytics.co.uk",
+      "ips": [
+        "37.221.223.17"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "immediate-bitwave.org",
+      "ips": [
+        "104.21.84.10",
+        "172.67.184.135",
+        "2606:4700:3032::ac43:b887",
+        "2606:4700:3034::6815:540a"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 2,
+      "has_ips": true
+    },
+    {
+      "domain": "edge45.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "go-to-watch.org",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "empowermmawarriors.com",
       "ips": [
         "146.112.61.108",
         "::ffff:146.112.61.108"
@@ -2883,6 +1433,840 @@
       "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
+    },
+    {
+      "domain": "notowani.pl",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "tips.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "subway2016.tt.omtrdc.net",
+      "ips": [
+        "63.140.38.107",
+        "63.140.38.213",
+        "63.140.38.116",
+        "63.140.39.254",
+        "63.140.39.87",
+        "63.140.39.214",
+        "63.140.39.146",
+        "63.140.38.61",
+        "63.140.39.145",
+        "63.140.38.38"
+      ],
+      "ipv4_count": 10,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "pilierfinward.net",
+      "ips": [
+        "146.112.61.108",
+        "::ffff:146.112.61.108"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "edge42.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server74.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "timewarner.122.2o7.net",
+      "ips": [
+        "63.140.38.213",
+        "63.140.39.87",
+        "63.140.39.114",
+        "63.140.39.123",
+        "63.140.39.154",
+        "63.140.39.214",
+        "63.140.39.244",
+        "63.140.39.254",
+        "63.140.38.107",
+        "63.140.38.116"
+      ],
+      "ipv4_count": 10,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "node73.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "v.whatsapp.com",
+      "ips": [
+        "31.13.66.56",
+        "2a03:2880:f203:c5:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "chartarcway.com",
+      "ips": [
+        "146.112.61.108",
+        "::ffff:146.112.61.108"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "edge80.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge68.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c4.myway.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "silver-hubdachwohnwagen.de",
+      "ips": [
+        "217.160.0.48",
+        "2001:8d8:100f:f000::2a1"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "e38.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node63.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wss.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "north.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "opensoftwareupdater.com",
+      "ips": [
+        "104.18.15.241",
+        "104.18.14.241"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "edge93.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "dropkick.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "pozyczka-minutowa.pl",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e97.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "beta.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "watoyojunugev.today",
+      "ips": [
+        "172.67.205.46",
+        "104.21.58.152",
+        "2606:4700:3032::6815:3a98",
+        "2606:4700:3037::ac43:cd2e"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 2,
+      "has_ips": true
+    },
+    {
+      "domain": "help.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e95.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "gwarek.angeliccount.com",
+      "ips": [
+        "172.67.174.218",
+        "104.21.47.251",
+        "2606:4700:3032::6815:2ffb",
+        "2606:4700:3035::ac43:aeda"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 2,
+      "has_ips": true
+    },
+    {
+      "domain": "node74.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "walmart.112.2o7.net",
+      "ips": [
+        "63.140.39.114",
+        "63.140.39.123",
+        "63.140.38.213",
+        "63.140.39.154",
+        "63.140.39.210",
+        "63.140.38.248",
+        "63.140.38.130",
+        "63.140.38.116",
+        "63.140.38.107",
+        "63.140.39.244"
+      ],
+      "ipv4_count": 10,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "notification.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server12.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m39.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m40.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edwardsviolet.shop",
+      "ips": [
+        "146.112.61.108",
+        "::ffff:146.112.61.108"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "m95.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-cdn-shv.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c70.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c3.whatsapp.net",
+      "ips": [
+        "15.197.206.217"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "m82.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "marian-wasilewski.pl",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "ad.jetsoftware.com",
+      "ips": [
+        "169.63.11.249"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "wienerz.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge62.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s11.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c12.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e60.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c10.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "liveramp2waycm-atl.netmng.com",
+      "ips": [
+        "198.18.10.0"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "dailynewswalla.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "rosswade.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s24.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "orf.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "waaw.to",
+      "ips": [
+        "190.115.19.71"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "whatsapp-chatd-2-1.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "telemetry.malwarebytes.com",
+      "ips": [
+        "3.170.19.119",
+        "3.170.19.84",
+        "3.170.19.35",
+        "3.170.19.63",
+        "2600:9000:286d:da00:4:9552:a340:93a1",
+        "2600:9000:286d:c000:4:9552:a340:93a1",
+        "2600:9000:286d:f800:4:9552:a340:93a1",
+        "2600:9000:286d:400:4:9552:a340:93a1",
+        "2600:9000:286d:8000:4:9552:a340:93a1",
+        "2600:9000:286d:8200:4:9552:a340:93a1",
+        "2600:9000:286d:6e00:4:9552:a340:93a1",
+        "2600:9000:286d:9c00:4:9552:a340:93a1"
+      ],
+      "ipv4_count": 4,
+      "ipv6_count": 8,
+      "has_ips": true
+    },
+    {
+      "domain": "na.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "is-gateway.supersonicads.com",
+      "ips": [
+        "13.35.78.56",
+        "13.35.78.47",
+        "13.35.78.35",
+        "13.35.78.33"
+      ],
+      "ipv4_count": 4,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "na.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node38.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node66.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m23.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m43.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e37.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c58.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node81.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m81.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c8.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wwa.hitbox.com",
+      "ips": [
+        "205.216.15.71"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "edwardsstella.shop",
+      "ips": [
+        "104.18.20.248"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "partner.wapster.pl",
+      "ips": [
+        "213.218.116.220"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "wanbuy.net",
+      "ips": [
+        "61.222.243.152"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "boostawards.com",
+      "ips": [
+        "146.112.61.108",
+        "::ffff:146.112.61.108"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "wwaol.com",
+      "ips": [
+        "13.248.158.7",
+        "76.223.84.192"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "edge19.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "syntrowave.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "pc-wallpapers.co.uk",
+      "ips": [
+        "52.16.25.241"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "m70.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge70.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "www.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "newtrackway.com",
+      "ips": [
+        "172.67.157.38",
+        "104.21.40.221",
+        "2606:4700:3033::6815:28dd",
+        "2606:4700:3030::ac43:9d26"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 2,
+      "has_ips": true
+    },
+    {
+      "domain": "zytpirwai.net",
+      "ips": [
+        "104.247.81.99"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "e56.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server46.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wwwtwa.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e43.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s59.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "pleasewait.co",
+      "ips": [
+        "76.223.54.146",
+        "13.248.169.48"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "ometrics.warnerbros.com",
+      "ips": [
+        "63.140.39.114",
+        "63.140.39.244",
+        "63.140.39.123",
+        "63.140.38.107",
+        "63.140.38.213",
+        "63.140.38.116",
+        "63.140.39.254",
+        "63.140.39.87",
+        "63.140.39.214",
+        "63.140.39.146"
+      ],
+      "ipv4_count": 10,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "s57.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "central.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c14.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "kawabe.es",
+      "ips": [
+        "31.47.77.84",
+        "2a01:a940:446:50::1"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "c6.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node90.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s48.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "socket.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "update.info-schwab.cfd",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server34.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge81.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node54.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
     },
     {
       "domain": "m36.whatsapp.net",
@@ -2892,167 +2276,47 @@
       "has_ips": false
     },
     {
-      "domain": "all4wap.ru",
+      "domain": "server24.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "zwanta.live",
       "ips": [
-        "104.21.53.114",
-        "172.67.212.60",
-        "2606:4700:3037::ac43:d43c",
-        "2606:4700:3034::6815:3572"
+        "172.67.221.1",
+        "104.21.24.230",
+        "2606:4700:3037::6815:18e6",
+        "2606:4700:3032::ac43:dd01"
       ],
       "ipv4_count": 2,
       "ipv6_count": 2,
       "has_ips": true
     },
     {
-      "domain": "wall.adgaterewards.com",
-      "ips": [
-        "104.18.0.141",
-        "104.18.1.141",
-        "2606:4700::6812:18d",
-        "2606:4700::6812:8d"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "server1.whatsapp.net",
+      "domain": "e64.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "owa.whatsapp.com",
+      "domain": "whatsapp-cdn-shv.fbcdn.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "node20.whatsapp.net",
+      "domain": "juwanli.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "secure.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "sonymediasoftware.112.2o7.net",
-      "ips": [
-        "63.140.37.238",
-        "63.140.37.246",
-        "63.140.36.26",
-        "63.140.36.67",
-        "63.140.36.131",
-        "63.140.36.210",
-        "63.140.37.103",
-        "63.140.37.142",
-        "63.140.37.151",
-        "63.140.37.191"
-      ],
-      "ipv4_count": 10,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "iadctest.qwapi.com",
-      "ips": [
-        "184.30.148.157",
-        "184.30.148.169"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "s3.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e68.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "smtp.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "pl9522rezerwacja98325.sbs",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c15.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "images.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge65.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c95.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "watsonautumn.shop",
-      "ips": [
-        "146.112.61.108",
-        "::ffff:146.112.61.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "gatewaystorm.sbs",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "wirtvlg.oewabox.at",
+      "domain": "e39.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -3066,74 +2330,146 @@
       "has_ips": false
     },
     {
-      "domain": "s8powazkowska-modlinska.pl",
+      "domain": "wytypowany-zwyciezca.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "dfp-gateway.s-onetag.com",
       "ips": [
-        "46.105.174.181"
+        "13.35.78.80",
+        "13.35.78.117",
+        "13.35.78.13",
+        "13.35.78.108"
+      ],
+      "ipv4_count": 4,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "showads1000.pubmatic.com",
+      "ips": [
+        "206.188.4.26"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "wpad.software",
+      "domain": "edge82.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "anwan.pl",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "goalpathway.digital",
       "ips": [
-        "104.21.53.119",
-        "172.67.212.162",
-        "2606:4700:3033::6815:3577",
-        "2606:4700:3030::ac43:d4a2"
+        "104.21.64.126",
+        "172.67.185.24",
+        "2606:4700:3030::ac43:b918",
+        "2606:4700:3034::6815:407e"
       ],
       "ipv4_count": 2,
       "ipv6_count": 2,
       "has_ips": true
     },
     {
-      "domain": "atom.warnermedia.com",
+      "domain": "c86.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "walkingsoccer.com",
       "ips": [
-        "35.82.189.160",
-        "44.231.81.189",
-        "54.200.93.113"
+        "159.65.200.160"
       ],
-      "ipv4_count": 3,
+      "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "server58.whatsapp.net",
+      "domain": "server83.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "node57.whatsapp.net",
+      "domain": "s5.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "s86.whatsapp.net",
+      "domain": "watch9.com",
+      "ips": [
+        "13.248.169.48",
+        "76.223.54.146"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "edge95.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "bluewaffle.biz",
+      "domain": "warmafterthought.com",
+      "ips": [
+        "34.160.51.128",
+        "2600:1901:0:6b2b::1"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "chat.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "e46.whatsapp.net",
+      "domain": "e32.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "freewarehome.us.intellitxt.com",
+      "domain": "node71.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s37.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -3147,7 +2483,338 @@
       "has_ips": false
     },
     {
-      "domain": "clicks.zwaar.org",
+      "domain": "smetrics.newark.com",
+      "ips": [
+        "63.140.38.248",
+        "63.140.39.214",
+        "63.140.39.146",
+        "63.140.39.87",
+        "63.140.39.154",
+        "63.140.39.114",
+        "63.140.38.107",
+        "63.140.38.59",
+        "63.140.38.213",
+        "63.140.39.244"
+      ],
+      "ipv4_count": 10,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "server61.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "owabgxis.wp.pl",
+      "ips": [
+        "212.77.100.83"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "server13.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c28.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "howhwasu.space",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "germanwash.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "nextwavelab.click",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "callbackward.click",
+      "ips": [
+        "146.112.61.108",
+        "::ffff:146.112.61.108"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "s8.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "247wallstreet.us.intellitxt.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node70.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e7.whatsapp.net",
+      "ips": [
+        "3.33.221.48"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "futurepay.globway.eu",
+      "ips": [
+        "62.204.71.20"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "notification.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m88.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-6.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wasted-nights.com",
+      "ips": [
+        "185.230.63.186",
+        "185.230.63.107",
+        "185.230.63.171"
+      ],
+      "ipv4_count": 3,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "edge.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "gateway.unityads.unity3d.com",
+      "ips": [
+        "34.149.76.49"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "regclean.software-phile.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "centralwestwater.com.au",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s27.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server27.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c24.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server79.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "yourgiftrewards.com",
+      "ips": [
+        "3.33.130.190",
+        "15.197.148.33"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "iab-imp-gateway.supersonicads.com",
+      "ips": [
+        "13.226.238.66",
+        "13.226.238.75",
+        "13.226.238.81",
+        "13.226.238.55"
+      ],
+      "ipv4_count": 4,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "app.software-phile.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s87.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-2.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "waterstudio.fr",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "adsatt.espn.starwave.com",
+      "ips": [
+        "23.215.0.198",
+        "23.215.0.205"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "nowak-krakow.pl",
+      "ips": [
+        "23.227.38.66",
+        "2620:127:f00f:6::"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "hotelakwapalace.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "for-ward.jp",
+      "ips": [
+        "163.44.185.231"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "tomshardware.us.intellitxt.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "j2waycm.netmng.com",
+      "ips": [
+        "198.18.10.0"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "e51.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "volkswagens.fr",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "banners.mellowads.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "zwaar.org",
       "ips": [
         "104.21.54.218",
         "172.67.142.218"
@@ -3157,121 +2824,21 @@
       "has_ips": true
     },
     {
-      "domain": "api-rewarded-video.fyber.com",
-      "ips": [
-        "35.186.238.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "c31.whatsapp.net",
+      "domain": "waveiz.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "s38.whatsapp.net",
+      "domain": "east.wa.me",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "s68.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "stats.xxxrewards.com",
-      "ips": [
-        "66.115.133.50"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "mail.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c16.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server9.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "1000ps.oewabox.at",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "viacom.oewabox.at",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "oferta-watch-3-ultra.biz",
-      "ips": [
-        "172.67.158.117",
-        "104.21.50.69",
-        "2606:4700:3037::6815:3245",
-        "2606:4700:3036::ac43:9e75"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "c18.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c40.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m22.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server88.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s36.whatsapp.net",
+      "domain": "gabrielstewart.shop",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -3287,464 +2854,169 @@
       "has_ips": true
     },
     {
-      "domain": "pathwaysurge.com",
+      "domain": "ins-services.meltwater.com",
       "ips": [
-        "104.21.15.43",
-        "172.67.161.137",
-        "2606:4700:3035::6815:f2b",
-        "2606:4700:3037::ac43:a189"
+        "23.221.227.225",
+        "23.221.227.210"
       ],
       "ipv4_count": 2,
-      "ipv6_count": 2,
+      "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "m15.whatsapp.net",
+      "domain": "m73.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "krone.oewabox.at",
+      "domain": "c92.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "beacon.walmart.ca",
+      "domain": "m42.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s63.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge28.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "warnermediagroup-com.videoplayerhub.com",
       "ips": [
-        "20.242.10.199"
+        "172.67.74.207",
+        "104.26.8.50",
+        "104.26.9.50",
+        "2606:4700:20::681a:832",
+        "2606:4700:20::681a:932",
+        "2606:4700:20::ac43:4acf"
+      ],
+      "ipv4_count": 3,
+      "ipv6_count": 3,
+      "has_ips": true
+    },
+    {
+      "domain": "wadcuknobb.homes",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "awasete.nakanohito.jp",
+      "ips": [
+        "52.194.135.183"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "dispiwardm.rest",
+      "domain": "mmarkt.oewabox.at",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "bot2.googlerenewals.net",
+      "domain": "e91.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "phunware.com",
+      "domain": "inhwakang.com",
       "ips": [
-        "35.215.93.240"
+        "199.15.163.139"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "silver-hubdachwohnwagen.de",
+      "domain": "whatsapp.net",
       "ips": [
-        "217.160.0.48",
-        "2001:8d8:100f:f000::2a1"
+        "157.240.229.60",
+        "2a03:2880:f203:c5:face:b00c:0:167"
       ],
       "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "wwatchcomusa.112.2o7.net",
-      "ips": [
-        "63.140.36.86",
-        "63.140.36.26",
-        "63.140.37.151",
-        "63.140.37.238",
-        "63.140.36.210",
-        "63.140.36.131",
-        "63.140.37.103",
-        "63.140.37.246",
-        "63.140.37.142",
-        "63.140.36.67"
-      ],
-      "ipv4_count": 10,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "mikolowwavefm.goralspirit7.cyou",
+      "domain": "e96.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "edge24.whatsapp.net",
+      "domain": "c93.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "chat.whatsapp.com",
+      "domain": "dawa.ero-advertising.com",
       "ips": [
-        "31.13.70.49",
-        "2a03:2880:f20d:c5:face:b00c:0:167"
+        "208.74.150.138",
+        "2607:ffb8:c:147::138"
       ],
       "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "node33.whatsapp.net",
+      "domain": "edge40.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "guest-reserwationhub.click",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "beeswaxdisplay108801632049.s.moatpixel.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server18.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "nickde.oewabox.at",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "svpro7.oewabox.at",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "watchvideo.pl",
+      "domain": "counter2.freeware.de",
       "ips": [
-        "172.67.128.246",
-        "104.21.1.92",
-        "2606:4700:3030::6815:15c",
-        "2606:4700:3036::ac43:80f6"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "edge57.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "watch24.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "mx.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e86.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s91.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "marian-wasilewski.pl",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "cdn.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "wau.tynt.com",
-      "ips": [
-        "104.18.13.146",
-        "104.18.12.146"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "node71.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "notification.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "waardex.com",
-      "ips": [
-        "172.67.182.196",
-        "104.21.32.39",
-        "2606:4700:3034::ac43:b6c4",
-        "2606:4700:3031::6815:2027"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "app.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "dragonawaken.com",
-      "ips": [
-        "3.224.28.164"
+        "13.53.163.134"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "s51.whatsapp.net",
+      "domain": "m20.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "homewares.org",
-      "ips": [
-        "199.59.243.228"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "tomshardware.se.intellitxt.com",
+      "domain": "server35.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "central.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "update.info-schwab.cfd",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "monawa3ate.org",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "admin.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c2.whatsapp.net",
-      "ips": [
-        "15.197.210.208"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "c44.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "vistaconstructionsoftware.com",
-      "ips": [
-        "188.166.132.239"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "node56.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "app.meltwater.com",
-      "ips": [
-        "173.222.162.156",
-        "173.222.162.160"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "server71.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "falcoware.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "oewa.at",
-      "ips": [
-        "128.204.132.4"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "sol-b.alwayssunny.care",
-      "ips": [
-        "172.67.146.95",
-        "104.21.55.90",
-        "2606:4700:3032::6815:375a",
-        "2606:4700:3035::ac43:925f"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "server94.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "wardemily.shop",
-      "ips": [
-        "104.18.20.248"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "volkswagen.122.2o7.net",
-      "ips": [
-        "63.140.36.165",
-        "63.140.36.86",
-        "63.140.37.142",
-        "63.140.36.210",
-        "63.140.37.246",
-        "63.140.36.26",
-        "63.140.37.103",
-        "63.140.37.238",
-        "63.140.36.131",
-        "63.140.37.151"
-      ],
-      "ipv4_count": 10,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "mms.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m2.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "rewarded-video.fyber.com",
-      "ips": [
-        "35.186.238.108"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "s79.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "serwislaptopowwarszawa.com.pl",
+      "domain": "painting-walls.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -3760,61 +3032,961 @@
       "has_ips": true
     },
     {
-      "domain": "e84.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge30.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m13.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c37.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "upload.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge47.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node17.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "seekways.com",
+      "domain": "tracking01.walmart.com",
       "ips": [
-        "216.194.171.244"
+        "161.170.244.192"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "swallowwire.sa.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "tagpress.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m38.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge2.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wallflore.de",
+      "ips": [
+        "188.64.138.5",
+        "2a0e:fd45:2ba0:10:188:64:138:5"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "s82.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "ws.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s6.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "internet-cleaning-tool.capital-software.qarchive.org",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node4.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e17.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s9.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "jobwohn.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "immediatebitwave.co",
+      "ips": [
+        "35.214.125.73"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "alert.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "uj3wazyk5u4hnvtk.onion.pet",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "hardwarezone.us.intellitxt.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server76.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "beacon.affil.walmart.com",
+      "ips": [
+        "20.114.74.38"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "top.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "acezsoftware.com",
+      "ips": [
+        "172.239.57.117",
+        "172.234.24.211"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "edge52.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e49.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s44.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "tripwolf.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "api.whatsapp.com",
+      "ips": [
+        "31.13.66.56",
+        "2a03:2880:f203:c5:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "server53.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "duxurewaqap.com",
+      "ips": [
+        "172.67.178.193",
+        "104.21.72.88",
+        "2606:4700:3031::ac43:b2c1",
+        "2606:4700:3033::6815:4858"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 2,
+      "has_ips": true
+    },
+    {
+      "domain": "nextgoalway.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "claimfreerewards.com",
+      "ips": [
+        "172.233.219.78",
+        "172.233.219.49",
+        "172.237.146.8",
+        "172.237.146.38",
+        "172.233.219.123",
+        "172.237.146.25"
+      ],
+      "ipv4_count": 6,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "s18.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node47.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "startway.digital",
+      "ips": [
+        "146.112.61.108",
+        "::ffff:146.112.61.108"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "safety-wash.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "onwardclick.com",
+      "ips": [
+        "67.227.227.190"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "m66.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s29.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "seibli.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "newads.cmpnet.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "aa-metrics.airwait.jp",
+      "ips": [
+        "63.140.39.210",
+        "63.140.39.244",
+        "63.140.38.77",
+        "63.140.38.130",
+        "63.140.38.248",
+        "63.140.39.68",
+        "63.140.39.78",
+        "63.140.39.114",
+        "63.140.39.123",
+        "63.140.39.154"
+      ],
+      "ipv4_count": 10,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "video.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e76.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "blogadswap.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m78.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "modawanilia.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "speedbar.myway.com",
+      "ips": [
+        "34.117.28.143"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "pl-dostawa14154.pl",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c34.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wannawatch.com",
+      "ips": [
+        "64.98.135.21"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "linkswaper.com",
+      "ips": [
+        "13.248.169.48",
+        "76.223.54.146"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "watson.telemetry.microsoft.com",
+      "ips": [
+        "172.178.240.163"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "south.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "spywarebegone.com",
+      "ips": [
+        "172.67.219.179",
+        "104.21.38.61",
+        "2606:4700:3033::6815:263d",
+        "2606:4700:3033::ac43:dbb3"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 2,
+      "has_ips": true
+    },
+    {
+      "domain": "c79.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "emea.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "adserver.hardwareanalysis.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "apac.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e29.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wohnnet.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "web.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s73.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "facewatch.borec.cz",
+      "ips": [
+        "185.64.219.7"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "ssl-top.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "goaltrackway.com",
+      "ips": [
+        "146.112.61.108",
+        "::ffff:146.112.61.108"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "ugg-warsawa.com",
+      "ips": [
+        "23.227.38.73",
+        "2620:127:f00f:d::"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "edge.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-cdn-shv-1-1.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e1.whatsapp.net",
+      "ips": [
+        "3.33.252.61"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "centraliowamartialarts.com",
+      "ips": [
+        "146.112.61.108",
+        "::ffff:146.112.61.108"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "apodir.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "sawayoutlet.sbs",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "lbal.wowanalytics.co.uk",
+      "ips": [
+        "37.221.223.17"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "olivrae-warszawa.com",
+      "ips": [
+        "23.227.38.68",
+        "2620:127:f00f:8::"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "www.whatsapp.com",
+      "ips": [
+        "31.13.66.56",
+        "2a03:2880:f203:1c1:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "mmg.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s42.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "walkthedinosaur.com",
+      "ips": [
+        "154.210.253.154"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "m32.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "waterrd.digital",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "polowapazdziernika.wixsite.com",
+      "ips": [
+        "34.8.133.164"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "whatsapp-chatd-5.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "static.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c66.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "freewarepalm.uk.intellitxt.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "obscenesidewalk.com",
+      "ips": [
+        "34.117.135.216",
+        "2600:1901:0:ab09::1"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "c57.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "software-phile.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "speising.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "ads.topwam.com",
+      "ips": [
+        "70.38.95.135"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "notori.oewabox.at",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "adansoftware.com",
+      "ips": [
+        "146.112.61.108",
+        "::ffff:146.112.61.108"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "diavotowar.rest",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "qwas0.trackvoluum.com",
+      "ips": [
+        "13.226.238.53",
+        "13.226.238.86",
+        "13.226.238.109",
+        "13.226.238.39"
+      ],
+      "ipv4_count": 4,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "away.us.intellitxt.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "ads-resources.waze.com",
+      "ips": [
+        "130.211.12.225",
+        "2600:1901:0:8de6::"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "s60.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s33.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "sa.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c80.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-1-1.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "images.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge99.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e47.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "analytics.cibcrewards.com",
+      "ips": [
+        "63.140.39.214",
+        "63.140.38.38",
+        "63.140.38.59",
+        "63.140.38.61",
+        "63.140.38.77",
+        "63.140.38.204",
+        "63.140.39.25",
+        "63.140.39.87",
+        "63.140.39.145",
+        "63.140.39.146"
+      ],
+      "ipv4_count": 10,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "e94.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node44.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "derwentwaterhouse.com",
+      "ips": [
+        "146.112.61.108",
+        "::ffff:146.112.61.108"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "waatheqinv.com",
+      "ips": [
+        "82.221.139.173"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "laptopy-komputery-naprawa.pl",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node60.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m79.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m86.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "support.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "iwanttodeliver.com",
+      "ips": [
+        "185.88.180.103",
+        "185.88.180.102"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "chat.whatsapp.com",
+      "ips": [
+        "157.240.229.60",
+        "2a03:2880:f203:1c1:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "whatsapp-cdn-shv-4-3.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "pl.wanderheat.net",
+      "ips": [
+        "172.67.213.237",
+        "104.21.23.213",
+        "2606:4700:3035::ac43:d5ed",
+        "2606:4700:3035::6815:17d5"
+      ],
+      "ipv4_count": 2,
+      "ipv6_count": 2,
       "has_ips": true
     },
     {
@@ -3827,440 +3999,183 @@
       "has_ips": true
     },
     {
-      "domain": "edge38.whatsapp.net",
+      "domain": "edge30.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "pl.wanderheat.net",
+      "domain": "walgrns.112.2o7.net",
       "ips": [
-        "172.67.213.237",
-        "104.21.23.213",
-        "2606:4700:3035::6815:17d5",
-        "2606:4700:3035::ac43:d5ed"
+        "63.140.38.116",
+        "63.140.38.213",
+        "63.140.39.25",
+        "63.140.39.87",
+        "63.140.39.145",
+        "63.140.39.146",
+        "63.140.39.214",
+        "63.140.39.254",
+        "63.140.38.38",
+        "63.140.38.61"
       ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
+      "ipv4_count": 10,
+      "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "e74.whatsapp.net",
+      "domain": "m83.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "httpwwwadserver.com",
+      "domain": "s65.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "scanspyware.net",
+      "domain": "babywantsbling.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "mmg.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-4-3.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "app.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "nottinghamsuburbanrailway.co.uk",
+      "domain": "otwarte24.com.pl",
       "ips": [
-        "77.68.7.204"
+        "185.253.212.22"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "vividpathways.net",
-      "ips": [
-        "104.21.56.99",
-        "172.67.183.193",
-        "2606:4700:3034::6815:3863",
-        "2606:4700:3033::ac43:b7c1"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "e64.whatsapp.net",
+      "domain": "e99.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
-    },
-    {
-      "domain": "55995-519009.link.iwanttodeliver.com",
-      "ips": [
-        "185.88.180.102",
-        "185.88.180.103"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "live.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "garethwalker.plus.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m81.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node93.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "app.yesware.com",
-      "ips": [
-        "100.51.65.12",
-        "44.206.103.223",
-        "98.95.93.90"
-      ],
-      "ipv4_count": 3,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "live.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "warnetha.com",
-      "ips": [
-        "76.223.67.189",
-        "13.248.213.45"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "s33.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s16.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m92.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s87.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node85.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c20.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-1-4.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "utydiwapzwi.qweflasd.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "gamesw.oewabox.at",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "ads.nordichardware.se",
-      "ips": [
-        "104.21.9.118",
-        "172.67.189.61",
-        "2606:4700:3032::6815:976",
-        "2606:4700:3035::ac43:bd3d"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 2,
-      "has_ips": true
-    },
-    {
-      "domain": "skysport.oewabox.at",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node45.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s22.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "opensoftwareupdater.com",
-      "ips": [
-        "104.18.14.241",
-        "104.18.15.241"
-      ],
-      "ipv4_count": 2,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "s41.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "north.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e7.whatsapp.net",
-      "ips": [
-        "15.197.206.217"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
     }
   ],
   "networks": {
     "ipv4": [
-      "3.5.8.0/24",
-      "3.5.17.0/24",
-      "3.5.78.0/24",
-      "3.5.84.0/24",
+      "3.5.29.0/24",
       "3.33.130.0/24",
       "3.33.221.0/24",
       "3.33.250.0/23",
-      "3.36.140.0/24",
-      "3.82.124.0/24",
-      "3.163.125.0/24",
-      "3.168.147.0/24",
+      "3.170.19.0/24",
+      "3.171.117.0/24",
       "3.213.40.0/24",
       "3.217.191.0/24",
+      "3.220.143.0/24",
+      "3.223.100.0/24",
       "3.224.28.0/24",
-      "5.22.145.0/24",
-      "5.79.71.0/24",
-      "5.159.101.0/24",
+      "3.237.175.0/24",
       "5.252.231.0/24",
+      "13.35.78.0/24",
       "13.53.163.0/24",
-      "13.111.18.0/24",
       "13.223.25.0/24",
+      "13.226.238.0/24",
       "13.248.158.0/24",
       "13.248.169.0/24",
-      "13.248.213.0/24",
-      "13.249.182.0/24",
       "15.197.148.0/24",
       "15.197.206.0/24",
       "15.197.210.0/24",
       "15.197.225.0/24",
       "16.15.183.0/24",
-      "16.15.185.0/24",
       "16.15.199.0/24",
-      "16.145.66.0/24",
-      "16.146.242.0/24",
-      "18.65.3.0/24",
-      "18.154.132.0/24",
-      "18.154.144.0/24",
-      "18.164.174.0/24",
-      "18.207.53.0/24",
-      "18.213.87.0/24",
-      "18.235.73.0/24",
+      "16.182.34.0/24",
+      "16.182.66.0/24",
+      "18.160.10.0/24",
+      "18.164.116.0/24",
+      "18.212.140.0/24",
+      "18.214.66.0/24",
       "20.71.79.0/24",
+      "20.114.74.0/24",
       "20.230.171.0/24",
-      "20.242.10.0/24",
-      "23.32.152.0/24",
-      "23.56.109.0/24",
-      "23.62.176.0/24",
-      "23.62.226.0/24",
-      "23.199.47.0/24",
-      "23.206.229.0/24",
-      "23.209.84.0/24",
+      "23.12.145.0/24",
+      "23.48.203.0/24",
+      "23.53.11.0/24",
+      "23.55.176.0/24",
+      "23.73.207.0/24",
+      "23.205.106.0/24",
+      "23.215.0.0/24",
+      "23.221.227.0/24",
       "23.227.38.0/24",
-      "23.239.110.0/24",
-      "24.144.79.0/24",
       "31.13.0.0/16",
       "31.47.77.0/24",
-      "31.172.112.0/24",
       "34.8.133.0/24",
       "34.8.176.0/24",
+      "34.8.207.0/24",
       "34.36.178.0/24",
       "34.110.146.0/24",
       "34.110.236.0/24",
-      "34.111.128.0/24",
+      "34.111.60.0/24",
+      "34.117.28.0/24",
       "34.117.135.0/24",
       "34.149.76.0/24",
       "34.160.51.0/24",
       "34.160.218.0/24",
-      "34.192.6.0/24",
       "34.206.210.0/24",
       "34.206.227.0/24",
-      "34.210.23.0/24",
       "34.214.226.0/24",
       "34.223.187.0/24",
-      "34.231.113.0/24",
-      "34.236.83.0/24",
-      "34.254.33.0/24",
-      "35.82.189.0/24",
-      "35.82.253.0/24",
       "35.186.238.0/24",
       "35.186.240.0/24",
       "35.214.125.0/24",
       "35.215.93.0/24",
+      "37.19.207.0/24",
       "37.46.132.0/24",
       "37.221.223.0/24",
       "38.249.45.0/24",
-      "40.104.23.0/24",
-      "43.202.206.0/24",
+      "44.195.217.0/24",
       "44.206.103.0/24",
+      "44.207.151.0/24",
       "44.208.83.0/24",
-      "44.219.243.0/24",
-      "44.221.72.0/24",
-      "44.231.81.0/24",
-      "44.231.181.0/24",
+      "44.212.193.0/24",
       "44.232.171.0/24",
-      "44.235.46.0/24",
-      "44.235.79.0/24",
-      "44.253.75.0/24",
-      "45.33.127.0/24",
-      "45.55.183.0/24",
+      "45.10.111.0/24",
+      "45.56.81.0/24",
       "45.64.40.0/22",
+      "45.76.182.0/24",
+      "45.79.147.0/24",
       "45.84.59.0/24",
-      "46.4.94.0/24",
-      "46.101.190.0/24",
       "46.105.174.0/24",
-      "46.242.180.0/24",
       "50.112.140.0/24",
-      "52.12.129.0/24",
+      "51.89.11.0/24",
+      "52.2.37.0/24",
+      "52.6.15.0/24",
       "52.16.25.0/24",
-      "52.20.84.0/24",
-      "52.33.47.0/24",
-      "52.35.158.0/24",
-      "52.36.162.0/24",
       "52.38.120.0/24",
       "52.44.244.0/24",
       "52.45.171.0/24",
-      "52.84.20.0/24",
-      "52.90.12.0/24",
-      "52.92.144.0/24",
-      "52.92.162.0/24",
-      "52.92.178.0/24",
-      "52.92.226.0/24",
-      "52.96.104.0/24",
-      "52.96.222.0/24",
+      "52.72.247.0/24",
+      "52.85.193.0/24",
+      "52.91.215.0/24",
       "52.194.135.0/24",
-      "52.209.212.0/24",
-      "52.216.59.0/24",
-      "52.217.116.0/24",
-      "52.217.171.0/24",
-      "52.218.220.0/23",
       "54.84.240.0/24",
-      "54.153.117.0/24",
+      "54.87.147.0/24",
+      "54.88.217.0/24",
       "54.160.20.0/24",
       "54.165.131.0/24",
-      "54.200.93.0/24",
+      "54.225.199.0/24",
+      "54.231.170.0/24",
+      "54.231.224.0/24",
       "54.243.117.0/24",
       "54.243.152.0/24",
-      "54.246.82.0/24",
-      "57.144.203.0/24",
-      "57.144.252.0/23",
       "62.204.71.0/24",
       "63.140.36.0/23",
+      "63.140.38.0/23",
       "64.98.135.0/24",
-      "64.136.20.0/24",
       "64.190.63.0/24",
+      "64.225.72.0/24",
       "64.225.83.0/24",
       "64.227.52.0/24",
-      "66.115.133.0/24",
-      "66.212.229.0/24",
+      "66.147.239.0/24",
       "66.220.144.0/20",
       "67.227.227.0/24",
       "69.63.176.0/20",
@@ -4268,215 +4183,190 @@
       "69.171.224.0/19",
       "70.38.95.0/24",
       "72.5.64.0/24",
+      "74.115.51.0/24",
+      "74.118.186.0/24",
       "74.119.76.0/22",
       "76.223.54.0/24",
-      "76.223.67.0/24",
       "76.223.84.0/24",
       "77.55.252.0/24",
       "77.68.7.0/24",
       "77.79.221.0/24",
-      "77.79.227.0/24",
-      "82.163.176.0/24",
+      "82.180.143.0/24",
       "82.221.139.0/24",
-      "83.243.20.0/24",
-      "85.17.31.0/24",
-      "89.115.243.0/24",
-      "89.174.15.0/24",
-      "91.92.241.0/24",
+      "85.13.131.0/24",
       "91.142.254.0/24",
       "91.216.248.0/24",
-      "94.130.106.0/24",
       "94.246.113.0/24",
       "98.87.245.0/24",
+      "98.89.224.0/24",
       "98.89.243.0/24",
+      "98.90.109.0/24",
       "98.95.93.0/24",
-      "99.84.41.0/24",
-      "99.84.215.0/24",
-      "100.23.14.0/24",
-      "100.24.87.0/24",
-      "100.29.153.0/24",
       "100.29.232.0/24",
-      "100.49.0.0/24",
+      "100.30.27.0/24",
+      "100.48.188.0/24",
       "100.49.105.0/24",
-      "100.50.23.0/24",
+      "100.49.174.0/24",
       "100.51.65.0/24",
       "102.132.96.0/20",
       "103.4.96.0/22",
       "103.224.182.0/24",
       "103.224.212.0/24",
       "103.231.98.0/24",
-      "104.16.211.0/24",
+      "104.17.232.0/24",
       "104.18.0.0/23",
-      "104.18.12.0/23",
       "104.18.14.0/23",
       "104.18.20.0/24",
       "104.18.30.0/23",
       "104.18.36.0/24",
-      "104.18.40.0/24",
       "104.20.7.0/24",
+      "104.20.40.0/24",
       "104.21.0.0/23",
       "104.21.3.0/24",
-      "104.21.6.0/24",
+      "104.21.4.0/23",
+      "104.21.7.0/24",
       "104.21.8.0/23",
-      "104.21.12.0/24",
-      "104.21.14.0/23",
-      "104.21.16.0/23",
+      "104.21.14.0/24",
       "104.21.18.0/24",
       "104.21.22.0/23",
       "104.21.29.0/24",
-      "104.21.30.0/23",
+      "104.21.32.0/24",
       "104.21.36.0/23",
       "104.21.40.0/24",
       "104.21.42.0/24",
-      "104.21.44.0/23",
+      "104.21.45.0/24",
       "104.21.47.0/24",
       "104.21.50.0/24",
-      "104.21.52.0/23",
       "104.21.54.0/23",
-      "104.21.57.0/24",
+      "104.21.56.0/23",
       "104.21.59.0/24",
-      "104.21.61.0/24",
-      "104.21.64.0/23",
-      "104.21.68.0/23",
-      "104.21.78.0/24",
-      "104.21.81.0/24",
+      "104.21.62.0/23",
+      "104.21.65.0/24",
+      "104.21.70.0/24",
+      "104.21.72.0/23",
+      "104.21.76.0/24",
+      "104.21.78.0/23",
+      "104.21.80.0/23",
       "104.21.84.0/24",
       "104.21.88.0/24",
+      "104.21.90.0/24",
       "104.21.92.0/23",
       "104.26.4.0/23",
       "104.26.8.0/23",
       "104.26.12.0/23",
+      "104.83.236.0/24",
       "104.247.81.0/24",
-      "104.248.44.0/24",
-      "104.248.92.0/24",
+      "107.161.23.0/24",
       "109.95.159.0/24",
-      "109.205.56.0/24",
-      "128.204.132.0/24",
       "129.134.0.0/16",
-      "129.212.220.0/23",
-      "129.212.253.0/24",
+      "129.212.201.0/24",
+      "129.212.221.0/24",
       "130.211.12.0/24",
-      "131.153.51.0/24",
-      "134.209.26.0/24",
-      "134.209.31.0/24",
-      "134.209.82.0/24",
-      "134.209.252.0/24",
-      "138.68.82.0/24",
+      "138.68.100.0/24",
       "138.68.122.0/24",
-      "138.197.173.0/24",
-      "138.226.236.0/24",
       "139.59.187.0/24",
-      "141.193.213.0/24",
+      "142.93.139.0/24",
       "142.93.232.0/24",
-      "142.251.35.0/24",
-      "143.244.49.0/24",
-      "144.31.244.0/24",
       "144.172.114.0/24",
       "146.0.74.0/24",
+      "146.75.38.0/24",
       "146.112.61.0/24",
-      "146.190.29.0/24",
-      "151.101.0.0/23",
-      "151.101.64.0/23",
-      "151.101.128.0/23",
-      "151.101.192.0/23",
+      "151.101.2.0/24",
+      "151.101.66.0/24",
+      "151.101.130.0/24",
+      "151.101.194.0/24",
       "153.124.198.0/24",
       "154.196.106.0/24",
       "154.210.253.0/24",
       "154.215.68.0/24",
+      "157.90.69.0/24",
       "157.90.131.0/24",
+      "157.230.109.0/24",
       "157.240.0.0/16",
-      "157.245.64.0/24",
+      "157.245.25.0/24",
+      "159.65.200.0/24",
+      "159.89.26.0/24",
       "159.203.102.0/24",
-      "159.223.213.0/24",
       "159.223.238.0/24",
+      "159.223.250.0/24",
       "161.35.80.0/24",
-      "161.35.194.0/24",
       "161.170.244.0/24",
       "163.44.185.0/24",
+      "164.92.131.0/24",
       "165.227.30.0/24",
       "165.232.88.0/24",
-      "167.71.35.0/24",
+      "167.71.72.0/24",
       "167.99.130.0/24",
       "169.63.11.0/24",
-      "172.64.147.0/24",
       "172.64.151.0/24",
       "172.66.40.0/24",
       "172.66.43.0/24",
       "172.66.129.0/24",
-      "172.67.70.0/23",
+      "172.66.154.0/24",
+      "172.67.70.0/24",
       "172.67.72.0/24",
       "172.67.74.0/24",
       "172.67.128.0/23",
-      "172.67.132.0/23",
+      "172.67.133.0/24",
       "172.67.135.0/24",
-      "172.67.138.0/24",
-      "172.67.140.0/24",
+      "172.67.137.0/24",
       "172.67.142.0/23",
-      "172.67.146.0/24",
+      "172.67.144.0/23",
       "172.67.149.0/24",
-      "172.67.152.0/23",
+      "172.67.153.0/24",
       "172.67.156.0/23",
       "172.67.158.0/24",
-      "172.67.161.0/24",
-      "172.67.163.0/24",
+      "172.67.162.0/23",
+      "172.67.165.0/24",
       "172.67.171.0/24",
-      "172.67.174.0/24",
+      "172.67.172.0/23",
       "172.67.176.0/23",
-      "172.67.182.0/23",
+      "172.67.182.0/24",
       "172.67.184.0/23",
       "172.67.186.0/23",
       "172.67.189.0/24",
       "172.67.197.0/24",
       "172.67.202.0/23",
       "172.67.204.0/23",
-      "172.67.208.0/23",
-      "172.67.210.0/23",
+      "172.67.211.0/24",
       "172.67.213.0/24",
-      "172.67.216.0/24",
       "172.67.218.0/23",
-      "172.67.220.0/23",
+      "172.67.221.0/24",
+      "172.178.240.0/24",
       "172.233.219.0/24",
       "172.234.24.0/24",
       "172.237.146.0/24",
       "172.239.57.0/24",
-      "172.241.213.0/24",
-      "173.222.162.0/24",
-      "173.230.155.0/24",
       "173.252.64.0/18",
-      "178.162.203.0/24",
-      "178.250.242.0/24",
+      "174.138.12.0/24",
+      "178.128.140.0/24",
       "179.60.192.0/22",
-      "184.28.81.0/24",
-      "184.30.148.0/24",
-      "184.72.22.0/24",
       "185.12.50.0/24",
       "185.60.216.0/22",
       "185.64.219.0/24",
-      "185.73.228.0/24",
       "185.88.180.0/24",
       "185.89.218.0/23",
       "185.107.44.0/24",
-      "185.110.51.0/24",
       "185.200.45.0/24",
-      "185.200.47.0/24",
+      "185.230.63.0/24",
       "185.253.212.0/24",
       "188.64.138.0/24",
+      "188.128.255.0/24",
+      "188.166.12.0/24",
+      "188.166.43.0/24",
       "188.166.132.0/24",
       "188.210.221.0/24",
-      "192.0.78.0/24",
+      "190.115.19.0/24",
       "192.64.119.0/24",
-      "192.82.242.0/24",
+      "192.151.149.0/24",
       "192.254.189.0/24",
-      "194.181.228.0/24",
       "195.16.241.0/24",
       "195.78.66.0/23",
       "195.160.223.0/24",
       "195.162.24.0/24",
-      "195.201.181.0/24",
-      "198.51.13.0/24",
+      "198.251.81.0/24",
       "199.15.163.0/24",
       "199.59.243.0/24",
-      "199.192.25.0/24",
       "199.201.64.0/22",
       "202.228.215.0/24",
       "203.135.128.0/24",
@@ -4486,50 +4376,43 @@
       "205.234.175.0/24",
       "206.188.4.0/24",
       "206.188.192.0/24",
-      "206.189.67.0/24",
       "206.189.109.0/24",
+      "206.189.111.0/24",
+      "207.65.32.0/24",
       "207.148.248.0/24",
       "208.53.183.0/24",
       "208.74.150.0/24",
       "208.91.196.0/24",
       "209.38.54.0/23",
-      "209.38.99.0/24",
-      "209.97.163.0/24",
-      "209.126.24.0/24",
+      "209.126.123.0/24",
+      "209.141.38.0/24",
       "209.212.145.0/24",
       "209.239.162.0/24",
       "209.239.172.0/24",
+      "212.77.100.0/24",
+      "212.92.104.0/24",
       "212.117.169.0/24",
       "213.158.72.0/24",
       "213.218.116.0/24",
       "216.18.179.0/24",
       "216.18.188.0/24",
+      "216.38.2.0/24",
       "216.92.3.0/24",
-      "216.194.171.0/24",
       "216.222.196.0/24",
       "217.160.0.0/24"
     ],
     "ipv6": [
       "2001:8d8:100f::/48",
-      "2400:52e0:1a01::/48",
+      "2400:52e0:1a04::/48",
       "2401:db00::/32",
-      "2408:8722:b000::/48",
-      "2408:874f:a000::/48",
-      "2408:8752:700::/48",
-      "2409:8c44:1::/48",
-      "2409:8c44:2::/48",
-      "2409:8c4c:e00::/48",
-      "240e:93c:1206::/48",
-      "240e:95c:601::/48",
-      "240e:95d:1904::/48",
-      "2600:1406:4e00::/48",
-      "2600:1406:5400::/48",
-      "2600:1406:5e00::/48",
+      "2408:8726:1001::/48",
+      "2408:873c:7016::/48",
+      "2408:8763::/48",
+      "2600:1408:5400::/48",
+      "2600:1408:c400::/48",
       "2600:1901::/48",
       "2600:1f18:4ae::/48",
-      "2600:1f18:26d4::/48",
-      "2600:9000:24da::/48",
-      "2600:9000:265c::/48",
+      "2600:9000:286d::/48",
       "2606:4700::/48",
       "2606:4700:10::/48",
       "2606:4700:20::/48",
@@ -4542,13 +4425,13 @@
       "2606:4700:3036::/48",
       "2606:4700:3037::/48",
       "2606:4700:3108::/48",
-      "2607:f8b0:4007::/48",
       "2607:ffb8:c::/48",
       "2620:0:1c00::/48",
       "2620:127:f00f::/48",
       "2a00:f48:2000::/48",
-      "2a00:18e0:5::/48",
+      "2a01:4f8:252::/48",
       "2a01:a940:446::/48",
+      "2a02:4780:11::/48",
       "2a03:2880::/32",
       "2a0e:fd45:2ba0::/48"
     ]

@@ -1,6 +1,6 @@
 # Domain Scanner Results
-# Generated: 2026-01-31 13:11:33
-# Total domains: 2018
+# Generated: 2026-01-31 18:49:47
+# Total domains: 2016
 ##################################################
 
 1000ps.oewabox.at
@@ -660,7 +660,6 @@ forumprawa24.pl
 forward-page.com
 forward5costume.com
 forwardor.com
-forwardtogether.fb.com
 fosterarcway.com
 fratz.oewabox.at
 freelaptopreward.com
@@ -1959,7 +1958,6 @@ whatsapp-chatd.fbcdn.net
 whatsapp-chatd.wa.me
 whatsapp.com
 whatsapp.net
-whatsapppolicy.fb.com
 whatsappsupport.net
 wienerz.oewabox.at
 wiengvat.oewabox.at
