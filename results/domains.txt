@@ -1,6 +1,6 @@
 # Domain Scanner Results
-# Generated: 2026-01-30 19:01:24
-# Total domains: 2016
+# Generated: 2026-01-31 02:42:35
+# Total domains: 2013
 ##################################################
 
 1000ps.oewabox.at
@@ -673,9 +673,6 @@ fscout24.oewabox.at
 futureinvestwave.com
 futurepay.globway.eu
 futurewayy.com
-fwaw3-1.fna.fbcdn.net
-fwaw4-1.fna.fbcdn.net
-fwaw5-1.fna.fbcdn.net
 gabrielstewart.shop
 gamegeargiveaways.com
 gamesw.oewabox.at
