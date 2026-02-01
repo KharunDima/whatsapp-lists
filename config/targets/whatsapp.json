@@ -7,13 +7,16 @@
     "wa",
     "whats-app",
     "whatsapp-cdn",
-    "whatsapp-chat"
+    "whatsapp-chat",
+    "facebook",
+    "fb",
+    "meta"
   ],
 
   "sources": {
     "crt_sh": true,
     "dns_bruteforce": true,
-    "passive": false,
+    "passive": true,
     "static": true
   },
 
