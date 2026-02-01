@@ -1,31 +1,50 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T22:49:37.186135",
+    "generated_at": "2026-02-01T03:20:07.173621",
     "target": "whatsapp",
     "description": "WhatsApp domains and networks - optimized config",
     "statistics": {
       "total_domains": 944,
       "unique_domains": 944,
       "domains_with_ips": 35,
-      "unique_ips": 22,
-      "ipv4_count": 13,
-      "ipv6_count": 9,
-      "ipv4_networks": 27,
+      "unique_ips": 20,
+      "ipv4_count": 12,
+      "ipv6_count": 8,
+      "ipv4_networks": 24,
       "ipv6_networks": 4
     }
   },
   "domains": [
     {
-      "domain": "e4.whatsapp.net",
-      "ips": [
-        "3.33.221.48"
-      ],
-      "ipv4_count": 1,
+      "domain": "c36.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
       "ipv6_count": 0,
-      "has_ips": true
+      "has_ips": false
     },
     {
-      "domain": "edge28.whatsapp.net",
+      "domain": "edge47.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server78.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c99.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "smtp.whatsapp.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -33,6 +52,830 @@
     },
     {
       "domain": "server64.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node2.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge5.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s8.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge6.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e78.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-3-1.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s18.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s28.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server77.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c97.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node71.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c74.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s31.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wss.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c60.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c54.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c80.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "bsg.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m34.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge50.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e46.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m64.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e57.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "upload.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "pop.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m78.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c67.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server59.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "cdn.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge11.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-8.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "socket.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge49.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge44.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "mms.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge61.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server61.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server94.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node22.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge68.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c85.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s96.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c45.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s59.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c89.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m39.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node64.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node31.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m15.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m86.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "portal.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server74.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge70.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp.net",
+      "ips": [
+        "157.240.254.60",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "e47.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "status.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c14.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e53.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node73.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node96.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-cdn-shv-2-2.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c4.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge85.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e49.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e64.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge84.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c47.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c56.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server34.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node52.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server68.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "admin.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node81.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s52.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m73.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s14.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server23.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge93.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c18.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server79.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "south.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server82.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "west.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "sa.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s37.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s33.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node90.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-4-3.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c76.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "api.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e97.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server86.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m14.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "apac.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s38.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m51.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s63.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e95.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e39.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c83.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c33.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node97.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node19.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m99.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "na.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c61.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m58.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m69.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e31.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e10.whatsapp.net",
+      "ips": [
+        "15.197.210.208"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "node62.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c25.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server80.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c7.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge58.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server72.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -53,1377 +896,7 @@
       "has_ips": false
     },
     {
-      "domain": "whatsapp-chatd-1-1.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "pps.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node78.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "status.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c7.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "alert.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e87.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e2.whatsapp.net",
-      "ips": [
-        "15.197.210.208"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "e49.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e54.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "owa.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node14.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e12.whatsapp.net",
-      "ips": [
-        "15.197.210.208"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "edge58.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "owa.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "www.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m76.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node27.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "newsroom.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m82.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node43.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "wss.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "cdn.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "img.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge97.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c54.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "eu.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-6.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c82.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "support.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server82.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s84.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c45.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c80.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m3.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s44.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-1-4.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "mail.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "sa.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "smtp.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node93.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s95.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node28.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-2-3.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e32.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m1.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server53.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-4-4.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e59.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e64.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "na.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "chat.whatsapp.com",
-      "ips": [
-        "57.144.205.32",
-        "2a03:2880:f366:120:face:b00c:0:167"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "m30.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "exchange.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m27.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e29.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-4-2.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c59.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge2.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m89.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e21.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s98.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node83.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server80.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c31.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-10.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e76.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m40.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e75.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e72.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server83.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e99.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge11.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s97.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge40.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node64.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c34.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "stream.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e28.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e43.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "beta.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server36.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "mail.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node22.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node44.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "video.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server16.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m22.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge52.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m62.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s93.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge10.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m97.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node29.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "na.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c26.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e60.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m80.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "imap.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e96.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "img.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node58.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server97.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node33.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-2-2.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e78.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "alert.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge42.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m61.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "newsroom.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "app.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c38.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server19.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c99.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node56.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e94.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server43.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e27.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e50.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server26.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "app.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m13.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s3.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "alert.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server12.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e20.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m81.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-3-2.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c52.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node24.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node23.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "pop.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server71.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c35.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server49.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge82.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s42.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node96.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-3.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node9.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node32.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c51.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server41.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s52.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "web.whatsapp.com",
-      "ips": [
-        "57.144.205.32",
-        "2a03:2880:f366:120:face:b00c:0:167"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "push.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server61.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node74.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c17.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e14.whatsapp.net",
-      "ips": [
-        "3.33.252.61"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "e8.whatsapp.net",
-      "ips": [
-        "15.197.206.217"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "edge22.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server93.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-1-3.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "support.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s19.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge44.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server38.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m48.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c9.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e71.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node54.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "www.whatsapp.com",
-      "ips": [
-        "57.144.205.32",
-        "2a03:2880:f366:120:face:b00c:0:167"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "node25.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge77.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m57.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge81.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "exchange.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e3.whatsapp.net",
-      "ips": [
-        "3.33.252.61"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "edge16.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c4.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "live.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m90.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "call.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m15.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c66.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e51.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m21.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge90.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c37.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m53.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s74.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-8.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "socket.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge34.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge92.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c18.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server35.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node39.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server55.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node51.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node75.whatsapp.net",
+      "domain": "e35.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -1437,557 +910,7 @@
       "has_ips": false
     },
     {
-      "domain": "c1.whatsapp.net",
-      "ips": [
-        "15.197.210.208"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "s17.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c2.whatsapp.net",
-      "ips": [
-        "3.33.221.48"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "node87.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "live.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge26.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e55.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge94.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node45.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s7.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s59.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server2.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m60.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node62.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c90.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m77.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server76.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node37.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server48.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server95.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node84.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node72.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge20.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-3-2.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server58.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c28.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge68.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "imap.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "blog.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "business.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server11.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e63.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge1.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge48.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server30.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c86.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m96.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server24.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "mmg.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "cdn.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s72.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "web.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s6.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e81.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s65.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "updates.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c76.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c42.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s64.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m91.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node12.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s66.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e38.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "portal.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-1-3.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge91.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s78.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e44.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e92.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-4-1.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server87.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server37.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m86.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge29.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node59.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "eu.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server89.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c25.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m26.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge70.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server52.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "ws.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "api.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e66.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m46.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge18.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node1.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s77.whatsapp.net",
+      "domain": "whatsapp-chatd-1-1.fbcdn.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -2001,409 +924,49 @@
       "has_ips": false
     },
     {
-      "domain": "exchange.wa.me",
+      "domain": "server19.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "c96.whatsapp.net",
+      "domain": "s29.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "edge56.whatsapp.net",
+      "domain": "download.wa.me",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "s26.whatsapp.net",
+      "domain": "server26.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "edge.whatsapp.net",
+      "domain": "bsg.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "central.whatsapp.net",
+      "domain": "voice.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "edge69.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "eu.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-2-1.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c8.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "mmi.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e68.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s69.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e62.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "support.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "mmg.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e25.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s34.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge75.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "static.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge47.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "cdn.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge54.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s89.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "mx.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge21.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "help.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-2-2.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-4-2.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node90.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m50.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server85.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m75.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge55.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge14.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m14.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge65.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node16.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s41.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "static.whatsapp.net",
-      "ips": [
-        "57.144.205.32",
-        "2a03:2880:f366:120:face:b00c:0:167"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "c60.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "mms.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c43.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "video.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c92.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "bsg.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "south.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge73.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node86.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m2.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c62.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node13.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m6.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node91.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge35.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c48.whatsapp.net",
+      "domain": "owa.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -2417,194 +980,112 @@
       "has_ips": false
     },
     {
-      "domain": "edge59.whatsapp.net",
+      "domain": "edge79.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "s58.whatsapp.net",
+      "domain": "edge2.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "node80.whatsapp.net",
+      "domain": "s4.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "c88.whatsapp.net",
+      "domain": "s47.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "server21.whatsapp.net",
+      "domain": "s71.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "e23.whatsapp.net",
+      "domain": "s46.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "c22.whatsapp.net",
+      "domain": "whatsapp-cdn-shv-7.fbcdn.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "server42.whatsapp.net",
+      "domain": "c59.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "m66.whatsapp.net",
+      "domain": "exchange.wa.me",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "voice.wa.me",
+      "domain": "push.whatsapp.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "e95.whatsapp.net",
+      "domain": "server7.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "node10.whatsapp.net",
+      "domain": "whatsapp-chatd-2-3.fbcdn.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "c64.whatsapp.net",
+      "domain": "api.wa.me",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "s90.whatsapp.net",
+      "domain": "secure.wa.me",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "pps.whatsapp.net",
-      "ips": [
-        "57.144.205.32",
-        "2a03:2880:f275:1c7:face:b00c:0:167"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "smtp.wa.me",
+      "domain": "whatsapp-cdn-shv-4.fbcdn.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "edge24.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "pop.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server74.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s79.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s54.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e11.whatsapp.net",
-      "ips": [
-        "15.197.206.217"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "e42.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "east.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "mail.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s53.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge13.whatsapp.net",
+      "domain": "node37.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -2618,147 +1099,77 @@
       "has_ips": false
     },
     {
-      "domain": "m19.whatsapp.net",
+      "domain": "m85.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "sa.whatsapp.net",
+      "domain": "alert.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "node38.whatsapp.net",
+      "domain": "portal.wa.me",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "m38.whatsapp.net",
+      "domain": "node98.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "server23.whatsapp.net",
+      "domain": "m28.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "emea.wa.me",
+      "domain": "apac.whatsapp.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "e80.whatsapp.net",
+      "domain": "m74.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "e39.whatsapp.net",
+      "domain": "alert.wa.me",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "node34.whatsapp.net",
+      "domain": "edge65.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "edge49.whatsapp.net",
+      "domain": "edge32.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "ws.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node41.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c27.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge12.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge27.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-3-3.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "mms.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-1-1.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m36.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c32.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c33.whatsapp.net",
+      "domain": "whatsapp-chatd-10.fbcdn.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -2772,49 +1183,66 @@
       "has_ips": false
     },
     {
-      "domain": "owa.wa.me",
+      "domain": "socket.whatsapp.com",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "m29.whatsapp.net",
+      "domain": "s83.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "upload.wa.me",
+      "domain": "c16.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "node76.whatsapp.net",
+      "domain": "e54.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "mx.whatsapp.com",
+      "domain": "node95.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "s60.whatsapp.net",
+      "domain": "s27.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "server99.whatsapp.net",
+      "domain": "c51.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "blog.whatsapp.com",
+      "ips": [
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "s7.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -2830,571 +1258,28 @@
       "has_ips": true
     },
     {
-      "domain": "mmi.whatsapp.net",
+      "domain": "c40.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "s21.whatsapp.net",
+      "domain": "server58.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "whatsapp-chatd-1-2.fbcdn.net",
+      "domain": "business.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "edge51.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server34.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "secure.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e6.whatsapp.net",
-      "ips": [
-        "15.197.206.217"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "s88.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server46.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "business.whatsapp.com",
-      "ips": [
-        "57.144.172.141",
-        "2a03:2880:f065:2:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "server20.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "media.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c77.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "wa.me",
-      "ips": [
-        "57.144.205.32",
-        "2a03:2880:f275:1c7:face:b00c:0:167"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "node52.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e65.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m71.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m45.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server39.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c39.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s38.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c74.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m92.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-3-4.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "call.whatsapp.com",
-      "ips": [
-        "157.240.254.60",
-        "2a03:2880:f366:120:face:b00c:0:167"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "server31.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server3.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node69.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "c84.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "autodiscover.whatsapp.com",
-      "ips": [
-        "52.96.164.136",
-        "52.96.157.152",
-        "52.96.170.88",
-        "52.96.79.232",
-        "2603:1036:304:2857::8",
-        "2603:1036:304:284f::8",
-        "2603:1036:304:2820::8",
-        "2603:1036:304:838::8"
-      ],
-      "ipv4_count": 4,
-      "ipv6_count": 4,
-      "has_ips": true
-    },
-    {
-      "domain": "mmg.whatsapp.net",
-      "ips": [
-        "57.144.173.32",
-        "2a03:2880:f356:120:face:b00c:0:167"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "server1.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "stream.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server54.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge84.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server62.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server51.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge5.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "voice.whatsapp.com",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s68.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s24.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e85.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m9.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "media.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node49.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s28.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m55.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m37.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m31.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s49.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge53.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge57.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node47.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node15.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server22.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s45.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e67.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e9.whatsapp.net",
-      "ips": [
-        "15.197.206.217"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "s36.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-3-1.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge30.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e86.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s71.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-3-1.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node20.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge87.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "e40.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-1-4.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "south.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m93.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-4-4.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "edge15.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s80.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-chatd-2-3.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "pop.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m17.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server7.whatsapp.net",
+      "domain": "node36.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -3408,140 +1293,56 @@
       "has_ips": false
     },
     {
-      "domain": "c89.whatsapp.net",
+      "domain": "us.wa.me",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "e98.whatsapp.net",
+      "domain": "m55.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "node71.whatsapp.net",
+      "domain": "server6.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "m43.whatsapp.net",
+      "domain": "node94.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "e48.whatsapp.net",
+      "domain": "e71.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "voice.whatsapp.net",
+      "domain": "node8.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "server96.whatsapp.net",
+      "domain": "m89.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "e24.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s11.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "whatsapp-cdn-shv-4.fbcdn.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "server72.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "node99.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "admin.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m99.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "ws.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m33.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "s48.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m98.whatsapp.net",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "central.wa.me",
-      "ips": [],
-      "ipv4_count": 0,
-      "ipv6_count": 0,
-      "has_ips": false
-    },
-    {
-      "domain": "m54.whatsapp.net",
+      "domain": "e68.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -3555,14 +1356,1957 @@
       "has_ips": false
     },
     {
-      "domain": "autodiscover.wa.me",
+      "domain": "node49.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
       "has_ips": false
     },
     {
-      "domain": "e30.whatsapp.net",
+      "domain": "node92.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server10.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m18.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c53.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e41.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "newsroom.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e26.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge18.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s76.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "call.whatsapp.com",
+      "ips": [
+        "157.240.24.60",
+        "2a03:2880:f356:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "c23.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s32.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server49.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server30.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "live.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c2.whatsapp.net",
+      "ips": [
+        "15.197.206.217"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "s72.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m17.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e6.whatsapp.net",
+      "ips": [
+        "15.197.210.208"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "whatsapp.com",
+      "ips": [
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "s5.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server5.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge7.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s84.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c75.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-3-2.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-cdn-shv-2-1.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m32.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge34.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge30.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "autodiscover.whatsapp.com",
+      "ips": [
+        "52.96.79.120",
+        "52.96.79.56",
+        "52.96.157.72",
+        "52.96.191.200",
+        "2603:1036:301:300f::8",
+        "2603:1036:301:2000::8",
+        "2603:1036:301:203c::8",
+        "2603:1036:301:21e0::8"
+      ],
+      "ipv4_count": 4,
+      "ipv6_count": 4,
+      "has_ips": true
+    },
+    {
+      "domain": "c11.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server69.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "beta.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m48.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "push.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "mail.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e34.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "newsroom.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e38.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node61.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server14.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node38.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s44.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e13.whatsapp.net",
+      "ips": [
+        "3.33.221.48"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "server54.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s54.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node76.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server1.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node7.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c57.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e8.whatsapp.net",
+      "ips": [
+        "3.33.252.61"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "s92.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server62.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node25.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "vpn.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-1-2.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "socket.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "south.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node46.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e40.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e12.whatsapp.net",
+      "ips": [
+        "3.33.252.61"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "edge43.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge21.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m87.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge23.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e25.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c27.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m24.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c10.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-1-3.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "v.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e65.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e69.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c28.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m63.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "asia.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge74.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "us.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge66.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s16.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m79.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server15.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "support.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m22.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node30.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "images.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge67.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m45.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge54.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "www.whatsapp.com",
+      "ips": [
+        "157.240.254.60",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "whatsapp-cdn-shv-4-3.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge35.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge96.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m92.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e36.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s55.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m67.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge56.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge75.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s17.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "mms.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server41.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server53.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server85.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e62.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server95.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node12.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "us.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge64.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server3.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s87.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "alert.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge37.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server97.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "business.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "voice.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m30.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "stream.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e89.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c70.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node42.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m27.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c21.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m54.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c87.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "api.whatsapp.com",
+      "ips": [
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "s49.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge87.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge91.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s99.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "assets.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node41.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c48.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-cdn-shv.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "help.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s89.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node67.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e18.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server29.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e9.whatsapp.net",
+      "ips": [
+        "3.33.252.61"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "c19.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s69.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "mmi.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m57.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e56.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "mmg.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server90.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node84.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node5.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "beta.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m7.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server31.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s1.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-4-1.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s21.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge9.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m94.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server55.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "beta.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "img.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s20.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node59.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e33.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m20.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node75.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "eu.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c79.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c88.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "apac.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s97.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node3.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m61.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge55.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s39.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server28.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node74.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s81.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e85.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "emea.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "north.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c12.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "support.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c42.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-cdn-shv-1-2.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e99.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-cdn-shv-6.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m49.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-cdn-shv-1-1.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m65.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c39.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server87.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e61.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server44.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "upload.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "sa.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m40.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server52.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c55.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge52.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m36.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c8.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "wss.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "ws.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e73.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m71.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server35.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e5.whatsapp.net",
+      "ips": [
+        "15.197.210.208"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "e82.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server25.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node51.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server88.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m82.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "east.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node57.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e16.whatsapp.net",
+      "ips": [
+        "3.33.221.48"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "s48.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge12.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "app.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c66.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server8.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e2.whatsapp.net",
+      "ips": [
+        "15.197.206.217"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "e55.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m42.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-4-4.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node21.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "eu.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server9.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e23.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c6.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "secure.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m81.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "video.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e45.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s88.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m35.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-cdn-shv-1-3.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e90.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server91.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s86.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s45.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge81.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-1-4.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server98.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge86.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c20.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "static.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s13.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "pps.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge76.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node63.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e83.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m97.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node86.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c86.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c81.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m19.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "images.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge88.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node87.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server45.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s85.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e59.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m10.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge69.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "live.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server40.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-4-2.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c95.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e75.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m80.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -3570,6 +3314,254 @@
     },
     {
       "domain": "edge38.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-01.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "whatsapp-chatd-3-4.fbcdn.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m90.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "asia.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e93.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "m88.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge48.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server24.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server27.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "server18.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s98.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge31.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c78.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s62.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s73.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge78.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s3.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node54.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge15.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "v.whatsapp.net",
+      "ips": [
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "s19.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "c31.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "central.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "admin.whatsapp.com",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node1.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "img.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s67.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node60.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "call.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "e91.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "edge29.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "status.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "s79.whatsapp.net",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "na.wa.me",
+      "ips": [],
+      "ipv4_count": 0,
+      "ipv6_count": 0,
+      "has_ips": false
+    },
+    {
+      "domain": "node20.whatsapp.net",
       "ips": [],
       "ipv4_count": 0,
       "ipv6_count": 0,
@@ -3586,11 +3578,8 @@
       "45.64.40.0/22",
       "52.96.79.0/24",
       "52.96.157.0/24",
-      "52.96.164.0/24",
-      "52.96.170.0/24",
-      "57.144.172.0/23",
-      "57.144.205.0/24",
-      "57.144.219.0/24",
+      "52.96.191.0/24",
+      "57.144.204.0/23",
       "66.220.144.0/20",
       "69.63.176.0/20",
       "69.171.224.0/19",
@@ -3608,7 +3597,7 @@
     ],
     "ipv6": [
       "2401:db00::/32",
-      "2603:1036:304::/48",
+      "2603:1036:301::/48",
       "2620:0:1c00::/48",
       "2a03:2880::/32"
     ]
