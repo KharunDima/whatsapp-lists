@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "generated_at": "2026-02-03T20:52:03.766932",
+    "target": "whatsapp",
+    "description": "WhatsApp domains and networks - optimized config",
+    "statistics": {
+      "total_domains_scanned": 13,
+      "domains_with_ips": 13,
+      "domains_without_ips": 0,
+      "unique_ips": 13,
+      "ipv4_count": 7,
+      "ipv6_count": 6,
+      "ipv4_networks": 15,
+      "ipv6_networks": 3
+    }
+  },
+  "domains_with_ips": [
+    {
+      "domain": "mmg.whatsapp.net",
+      "ips": [
+        "31.13.70.49",
+        "2a03:2880:f36e:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "sonar-iad.xx.fbcdn.net",
+      "ips": [
+        "31.13.66.38"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 0,
+      "has_ips": true
+    },
+    {
+      "domain": "call.whatsapp.com",
+      "ips": [
+        "57.144.203.32",
+        "2a03:2880:f365:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "web.whatsapp.com",
+      "ips": [
+        "57.144.221.32",
+        "2a03:2880:f36e:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "blog.whatsapp.com",
+      "ips": [
+        "57.144.203.32",
+        "2a03:2880:f365:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "www.whatsapp.com",
+      "ips": [
+        "57.144.221.32",
+        "2a03:2880:f36e:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "static.whatsapp.net",
+      "ips": [
+        "57.144.203.32",
+        "2a03:2880:f365:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "g.whatsapp.net",
+      "ips": [
+        "57.144.203.33",
+        "2a03:2880:f365:121:face:b00c:0:7260"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "www.fbcdn.net",
+      "ips": [
+        "57.144.220.1",
+        "2a03:2880:f36e:1:face:b00c:0:25de"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "v.whatsapp.net",
+      "ips": [
+        "57.144.203.32",
+        "2a03:2880:f365:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "api.fbcdn.net",
+      "ips": [
+        "31.13.70.1",
+        "2a03:2880:f00d:110:face:b00c:0:2"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "mmg-fna.whatsapp.net",
+      "ips": [
+        "31.13.70.49",
+        "2a03:2880:f20d:c5:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "api.whatsapp.com",
+      "ips": [
+        "57.144.203.32",
+        "2a03:2880:f365:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    }
+  ],
+  "domains_without_ips_count": 0,
+  "networks": {
+    "ipv4": [
+      "31.13.0.0/16",
+      "45.64.40.0/22",
+      "66.220.144.0/20",
+      "69.63.176.0/20",
+      "69.171.224.0/19",
+      "74.119.76.0/22",
+      "102.132.96.0/20",
+      "103.4.96.0/22",
+      "129.134.0.0/16",
+      "157.240.0.0/16",
+      "173.252.64.0/18",
+      "179.60.192.0/22",
+      "185.60.216.0/22",
+      "199.201.64.0/22",
+      "204.15.20.0/22"
+    ],
+    "ipv6": [
+      "2401:db00::/32",
+      "2620:0:1c00::/48",
+      "2a03:2880::/32"
+    ]
+  },
+  "config": {
+    "name": "whatsapp",
+    "description": "WhatsApp domains and networks - optimized config",
+    "keywords": [
+      "whatsapp",
+      "wa",
+      "whats-app",
+      "whatsapp-cdn",
+      "whatsapp-chat",
+      "facebook",
+      "fb",
+      "meta"
+    ],
+    "sources": {
+      "crt_sh": true,
+      "dns_bruteforce": true,
+      "passive": true,
+      "static": true
+    },
+    "static_domains": [
+      "whatsapp.com",
+      "www.whatsapp.com",
+      "web.whatsapp.com",
+      "api.whatsapp.com",
+      "chat.whatsapp.com",
+      "call.whatsapp.com",
+      "business.whatsapp.com",
+      "status.whatsapp.com",
+      "whatsapp.net",
+      "s.whatsapp.net",
+      "static.whatsapp.net",
+      "mmg.whatsapp.net",
+      "mms.whatsapp.net",
+      "v.whatsapp.net",
+      "wa.me",
+      "media.fbcdn.net",
+      "whatsapp-cdn-shv-01.fbcdn.net",
+      "whatsapp-chatd-01.fbcdn.net",
+      "g.whatsapp.net",
+      "m.whatsapp.net",
+      "e.whatsapp.net",
+      "c.whatsapp.net"
+    ],
+    "static_cidrs": [
+      "31.13.0.0/16",
+      "31.13.24.0/21",
+      "31.13.64.0/18",
+      "66.220.144.0/20",
+      "69.63.176.0/20",
+      "157.240.0.0/16",
+      "129.134.0.0/16",
+      "2a03:2880::/32",
+      "2620:0:1c00::/48"
+    ],
+    "domain_patterns": [
+      ".+\\.whatsapp\\.(com|net)$",
+      ".+\\.wa\\.me$",
+      "whatsapp.+\\.fbcdn\\.net$",
+      "[a-z]\\d*\\.whatsapp\\.net$",
+      "[scme]\\d+\\.whatsapp\\.net$",
+      "node\\d+\\.whatsapp\\.net$",
+      "edge\\d+\\.whatsapp\\.net$",
+      "server\\d+\\.whatsapp\\.net$",
+      "bsg\\d+\\.whatsapp\\.net$",
+      "whatsapp-cdn-shv.+\\.fbcdn\\.net$",
+      "whatsapp-chatd.+\\.fbcdn\\.net$",
+      ".+\\.fastly\\.net$",
+      "a\\d+\\.[a-z]\\.akamai\\.net$"
+    ],
+    "crt_sh_patterns": [
+      "%.whatsapp.net",
+      "%.fbcdn.net",
+      "%.whatsapp.com",
+      "whatsapp%",
+      "%.fastly.net",
+      "%.akamai.net"
+    ],
+    "domain_templates": [
+      "bsg{num:03d}.whatsapp.net",
+      "whatsapp-cdn-shv-{shard}-{server}.fbcdn.net",
+      "{letter}.whatsapp.net",
+      "a{num:04d}.q.akamai.net",
+      "a{num:04d}.b.akamai.net",
+      "a{num:04d}.g.akamai.net"
+    ],
+    "subdomains": [
+      "www",
+      "web",
+      "api",
+      "chat",
+      "call",
+      "voice",
+      "status",
+      "business",
+      "support",
+      "help",
+      "blog",
+      "newsroom",
+      "cdn",
+      "media",
+      "static",
+      "upload",
+      "download",
+      "assets",
+      "mobile",
+      "app",
+      "portal",
+      "admin",
+      "secure",
+      "auth",
+      "login",
+      "account",
+      "dev",
+      "staging",
+      "test",
+      "g",
+      "m",
+      "e",
+      "c",
+      "s",
+      "v"
+    ],
+    "numeric_patterns": [
+      "s{num}",
+      "c{num}",
+      "m{num}",
+      "e{num}",
+      "node{num}",
+      "edge{num}",
+      "server{num}",
+      "bsg{num:03d}",
+      "whatsapp-cdn-shv-{num}",
+      "whatsapp-chatd-{num}",
+      "a{num:04d}.q",
+      "a{num:04d}.b",
+      "a{num:04d}.g"
+    ],
+    "exclude_patterns": [
+      "--\\d+",
+      "kostenlos.*whatsapp",
+      "whatsapp.*handy",
+      "\\.helpclean\\.",
+      "\\.wingforum\\.",
+      "whatsapp.*\\.(de|ru|fr|es|pl|it|br|mx|ar)$",
+      "whatsapp.*gratis",
+      "whatsapp.*free",
+      "descargar.*whatsapp",
+      "baixar.*whatsapp",
+      "update.*whatsapp",
+      "download.*whatsapp",
+      "install.*whatsapp",
+      "free.*whatsapp",
+      "apk.*whatsapp",
+      "mod.*whatsapp",
+      "plus.*whatsapp",
+      "^test\\.",
+      "^localhost\\.",
+      "^dev\\.",
+      "^staging\\.",
+      ".*\\.(tk|ml|ga|cf|gq|xyz|top|club|site|online|info)$"
+    ],
+    "include_patterns": [],
+    "ipv4_prefixes": [
+      24,
+      22,
+      20,
+      16
+    ],
+    "ipv6_prefix": 48,
+    "known_ranges": {
+      "ipv4": [
+        "31.13.0.0/16",
+        "31.13.24.0/21",
+        "31.13.64.0/18",
+        "45.64.40.0/22",
+        "66.220.144.0/20",
+        "69.63.176.0/20",
+        "69.171.224.0/19",
+        "74.119.76.0/22",
+        "102.132.96.0/20",
+        "103.4.96.0/22",
+        "129.134.0.0/16",
+        "157.240.0.0/16",
+        "173.252.64.0/18",
+        "179.60.192.0/22",
+        "185.60.216.0/22",
+        "185.89.218.0/23",
+        "199.201.64.0/22",
+        "204.15.20.0/22"
+      ],
+      "ipv6": [
+        "2a03:2880::/32",
+        "2620:0:1c00::/48",
+        "2401:db00::/32",
+        "2a03:2880:f000::/48",
+        "2a03:2880:f100::/48",
+        "2a03:2880:f200::/48",
+        "2a03:2880:f300::/48"
+      ]
+    }
+  }
+}
