@@ -6,7 +6,7 @@ import ipaddress
 import logging
 import asyncio
 import dns.asyncresolver
-import aiohttp
+
 from typing import List, Set, Dict, Tuple, Optional
 from datetime import datetime, timedelta
 

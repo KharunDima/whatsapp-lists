@@ -62,18 +62,18 @@ class DomainValidator:
         """Базовые проверки домена"""
         # Используем проверку из Meta фильтра
         return self.meta_filter.is_valid_domain_format(domain)
-
+    
     def _has_keyword(self, domain: str) -> bool:
         """Проверяет наличие ключевых слов"""
         keywords = self.target_config.keywords
         domain_lower = domain.lower()
-
+        
         for keyword in keywords:
             if keyword.lower() in domain_lower:
                 return True
-
+        
         return False
-
+    
     def _is_whatsapp_specific(self, domain: str) -> bool:
         """Проверяет, является ли домен специфичным для WhatsApp"""
         # WhatsApp использует fbcdn.net для CDN
@@ -94,18 +94,18 @@ class DomainValidator:
             for pattern in whatsapp_patterns:
                 if pattern in domain:
                     return True
-
+            
             # Числовые CDN сервера (s1, c1, m1 и т.д.)
             if re.search(r'[scme]\d+\.fbcdn\.net$', domain):
                 return True
-
+        
         # Домены с числовыми серверами WhatsApp
         if domain.endswith('.whatsapp.net'):
             if re.search(r'[scme]\d+\.|node\d+\.|edge\d+\.|server\d+\.', domain):
                 return True
-
+        
         return False
-
+    
     def _matches_exclude(self, domain: str) -> bool:
         """Проверяет соответствие исключающим паттернам"""
         for pattern in self._compiled_exclude:
@@ -115,7 +115,7 @@ class DomainValidator:
             except:
                 continue
         return False
-
+    
     def _matches_include(self, domain: str) -> bool:
         """Проверяет соответствие включающим паттернам"""
         for pattern in self._compiled_include:
@@ -125,7 +125,7 @@ class DomainValidator:
             except:
                 continue
         return False
-
+    
     def _is_valid_whatsapp_domain(self, domain: str) -> bool:
         """Дополнительные проверки для WhatsApp доменов"""
         # Избегаем явно сгенерированных или спам доменов
@@ -147,19 +147,19 @@ class DomainValidator:
             r'^dev\.',
             r'^staging\.'
         ]
-
+        
         for pattern in garbage_patterns:
             if re.search(pattern, domain, re.IGNORECASE):
                 return False
-
+        
         return True
-
+    
     def filter_domains(self, domains: Set[str]) -> List[str]:
         """Фильтрует список доменов"""
         valid_domains = []
-
+        
         for domain in domains:
             if self.is_valid(domain):
                 valid_domains.append(domain)
-
+        
         return valid_domains

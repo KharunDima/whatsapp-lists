@@ -104,14 +104,14 @@ class NetworkAnalyzer:
             all_cidrs.add(str(net))
         
         return self._optimize_cidrs(list(all_cidrs))
-
+        
         # Группируем IP по сетям
         networks = set()
-
+        
         # Сначала проверяем, попадают ли IP в известные диапазоны Facebook
         facebook_ips = []
         other_ips = []
-
+        
         for ip_obj in ip_objects:
             is_facebook = False
             for facebook_range in self.facebook_ranges:
@@ -119,13 +119,13 @@ class NetworkAnalyzer:
                     facebook_ips.append(ip_obj)
                     is_facebook = True
                     break
-
+            
             if not is_facebook:
                 other_ips.append(ip_obj)
-
+        
         logger.info(f"  • IP в диапазонах Facebook: {len(facebook_ips)}")
         logger.info(f"  • Другие IP: {len(other_ips)}")
-
+        
         # Для IP Facebook используем более агрессивную агрегацию
         for prefix in [24, 22, 20, 16]:
             for ip_obj in facebook_ips:
@@ -135,7 +135,7 @@ class NetworkAnalyzer:
                         networks.add(network)
                 except:
                     continue
-
+        
         # Для других IP используем консервативную агрегацию
         for prefix in [24, 25, 26]:  # Меньшие префиксы для не-Facebook IP
             for ip_obj in other_ips:
@@ -147,45 +147,45 @@ class NetworkAnalyzer:
                             networks.add(network)
                 except:
                     continue
-
+        
         # Добавляем найденные сети
         for net in networks:
             all_cidrs.add(str(net))
-
+        
         # Оптимизируем CIDR
         optimized = self._optimize_cidrs(list(all_cidrs))
-
+        
         logger.info(f"✅ Создано {len(optimized)} IPv4 CIDR сетей")
         return optimized
-
+    
     def _process_ipv6(self, ips: List[str]) -> List[str]:
         """Обрабатывает IPv6 адреса"""
         # Статические CIDR (фильтруем только IPv6)
         all_cidrs = set([c for c in self.target_config.static_cidrs if ':' in c])
-
+        
         # Известные диапазоны
         all_cidrs.update(self.target_config.known_ranges.get("ipv6", []))
-
+        
         if not ips:
             logger.info("ℹ️ Нет IPv6 адресов для обработки")
             return self._optimize_ipv6_cidrs(list(all_cidrs))
-
+        
         # Обрабатываем IPv6 адреса
         for ip in ips:
             try:
                 ip_obj = ipaddress.IPv6Address(ip)
                 network = ipaddress.IPv6Network(f"{ip_obj}/{self.target_config.ipv6_prefix}", strict=False)
-
+                
                 # Пропускаем приватные сети и некорректные CIDR
                 if not network.is_private and not self._is_invalid_ipv6_network(network):
                     all_cidrs.add(str(network))
             except:
                 logger.debug(f"⚠️ Некорректный IPv6 адрес: {ip}")
-
+        
         result = self._optimize_ipv6_cidrs(list(all_cidrs))
         logger.info(f"✅ Создано {len(result)} IPv6 CIDR сетей")
         return result
-
+    
     def _is_invalid_ipv6_network(self, network: ipaddress.IPv6Network) -> bool:
         """Проверяет, является ли IPv6 сеть некорректной"""
         # Исключаем слишком широкие сети и некорректные CIDR
@@ -200,41 +200,41 @@ class NetworkAnalyzer:
             ipaddress.IPv6Network("fc00::/7"),  # Unique local
             ipaddress.IPv6Network("ff00::/8"),  # Multicast
         ]
-
+        
         for invalid_net in invalid_networks:
             if network == invalid_net:
                 return True
-
+        
         # Исключаем сети с префиксом больше 64 (слишком специфичные)
         if network.prefixlen > 64:
             return True
-
+        
         return False
-
+    
     def _optimize_ipv6_cidrs(self, cidrs: List[str]) -> List[str]:
         """Оптимизирует список IPv6 CIDR сетей"""
         if not cidrs:
             return []
-
+        
         # Конвертируем в объекты сетей
         networks = []
         for cidr in cidrs:
             try:
                 if ':' in cidr:  # Только IPv6
                     network = ipaddress.IPv6Network(cidr, strict=False)
-
+                    
                     # Фильтруем некорректные сети
                     if not self._is_invalid_ipv6_network(network):
                         networks.append(network)
             except:
                 logger.debug(f"⚠️ Некорректный IPv6 CIDR: {cidr}")
-
+        
         if not networks:
             return []
-
+        
         # Удаляем подсети
         networks.sort(key=lambda x: x.prefixlen)  # Сначала сети с меньшим префиксом
-
+        
         optimized = []
         for i, net in enumerate(networks):
             is_subnet = False
@@ -244,29 +244,29 @@ class NetworkAnalyzer:
                     break
             if not is_subnet:
                 optimized.append(net)
-
+        
         # Сортируем по IP адресу
         optimized.sort(key=lambda x: x.network_address)
-
+        
         # Конвертируем обратно в строки
         result = [str(net) for net in optimized]
-
+        
         return result
-
+    
     def _is_valid_ipv4(self, ip_obj: ipaddress.IPv4Address) -> bool:
         """Проверяет валидность IPv4 адреса"""
         # Исключаем приватные IP
         if ip_obj.is_private:
             return False
-
+        
         # Исключаем loopback
         if ip_obj.is_loopback:
             return False
-
+        
         # Исключаем link-local
         if ip_obj.is_link_local:
             return False
-
+        
         # Исключаем тестовые сети
         test_nets = [
             ipaddress.IPv4Network('192.0.2.0/24'),    # TEST-NET-1
@@ -274,13 +274,13 @@ class NetworkAnalyzer:
             ipaddress.IPv4Network('203.0.113.0/24'),  # TEST-NET-3
             ipaddress.IPv4Network('198.18.0.0/15'),   # Network benchmark
         ]
-
+        
         for test_net in test_nets:
             if ip_obj in test_net:
                 return False
-
+        
         return True
-
+    
     def _is_mass_hosting_network(self, network: ipaddress.IPv4Network) -> bool:
         """Проверяет, не является ли сеть массовым хостингом/CDN"""
         # Крупные провайдеры хостинга/CDN
@@ -325,37 +325,37 @@ class NetworkAnalyzer:
             ipaddress.IPv4Network('222.0.0.0/8'),    # ChinaNet
             ipaddress.IPv4Network('223.0.0.0/8'),    # ChinaNet
         ]
-
+        
         for hosting_range in mass_hosting_ranges:
             if network.overlaps(hosting_range):
                 return True
-
+        
         return False
-
+    
     def _optimize_cidrs(self, cidrs: List[str]) -> List[str]:
         """Оптимизирует список CIDR сетей"""
         if not cidrs:
             return []
-
+        
         # Конвертируем в объекты сетей
         networks = []
         for cidr in cidrs:
             try:
                 if ':' not in cidr:  # Только IPv4
                     network = ipaddress.IPv4Network(cidr, strict=False)
-
+                    
                     # Фильтруем приватные и тестовые сети
                     if not self._is_private_or_test_network(network):
                         networks.append(network)
             except:
                 logger.debug(f"⚠️ Некорректный CIDR: {cidr}")
-
+        
         if not networks:
             return []
-
+        
         # Удаляем подсети
         networks.sort(key=lambda x: x.prefixlen)  # Сначала сети с меньшим префиксом (большие сети)
-
+        
         optimized = []
         for i, net in enumerate(networks):
             is_subnet = False
@@ -365,33 +365,33 @@ class NetworkAnalyzer:
                     break
             if not is_subnet:
                 optimized.append(net)
-
+        
         # Объединяем соседние сети
         merged = self._merge_adjacent_networks(optimized)
-
+        
         # Сортируем по IP адресу
         merged.sort(key=lambda x: x.network_address)
-
+        
         # Конвертируем обратно в строки
         result = [str(net) for net in merged]
-
+        
         return result
-
+    
     def _merge_adjacent_networks(self, networks: List[ipaddress.IPv4Network]) -> List[ipaddress.IPv4Network]:
         """Объединяет соседние сети"""
         if len(networks) <= 1:
             return networks
-
+        
         networks.sort(key=lambda x: (x.network_address, x.prefixlen))
         merged = [networks[0]]
-
+        
         for net in networks[1:]:
             last = merged[-1]
-
+            
             # Проверяем, можно ли объединить
             if (last.prefixlen == net.prefixlen and
                     last.prefixlen > 8):  # Не объединяем очень большие сети
-
+                
                 # Проверяем, являются ли соседними
                 if (last.broadcast_address + 1 == net.network_address):
                     # Объединяем
@@ -401,11 +401,11 @@ class NetworkAnalyzer:
                         continue
                     except:
                         pass
-
+            
             merged.append(net)
-
+        
         return merged
-
+    
     def _is_private_or_test_network(self, network: ipaddress.IPv4Network) -> bool:
         """Проверяет, является ли сеть приватной или тестовой"""
         private_ranges = [
@@ -420,9 +420,9 @@ class NetworkAnalyzer:
             ipaddress.IPv4Network("203.0.113.0/24"), # TEST-NET-3
             ipaddress.IPv4Network("198.18.0.0/15"),  # Network benchmark
         ]
-
+        
         for private_range in private_ranges:
             if network.overlaps(private_range):
                 return True
-
+        
         return False
