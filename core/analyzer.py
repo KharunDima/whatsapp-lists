@@ -5,16 +5,17 @@ import ipaddress
 import logging
 from typing import List, Tuple
 from config.settings import TargetConfig
+from utils.meta_filter import create_meta_filter
 
 logger = logging.getLogger(__name__)
 
-
 class NetworkAnalyzer:
     """Анализатор сетей"""
-
+    
     def __init__(self, target_config: TargetConfig):
         self.target_config = target_config
-
+        self.meta_filter = create_meta_filter()
+        
         # Известные диапазоны Facebook/WhatsApp
         self.facebook_ranges = [
             ipaddress.IPv4Network('31.13.0.0/16'),
@@ -32,56 +33,77 @@ class NetworkAnalyzer:
             ipaddress.IPv4Network('199.201.64.0/22'),
             ipaddress.IPv4Network('204.15.20.0/22'),
         ]
-
+    
     def analyze_ips(self, ips: List[str]) -> Tuple[List[str], List[str]]:
         """Анализирует IP и создает CIDR сети"""
-        # Разделяем IPv4 и IPv6
+        # Фильтруем IP, принадлежащие Meta
+        meta_ips = [ip for ip in set(ips) if self.meta_filter.is_meta_ip(ip)]
+        other_ips = [ip for ip in set(ips) if not self.meta_filter.is_meta_ip(ip)]
+        
+        logger.info(f"📊 Обработка {len(meta_ips)} Meta IP и {len(other_ips)} других IP")
+        
+        # Разделяем IPv4 и IPv6 для Meta IP
         ipv4_list = []
         ipv6_list = []
-
-        for ip in set(ips):
+        
+        for ip in meta_ips:
             if ':' in ip:
                 ipv6_list.append(ip)
             else:
                 ipv4_list.append(ip)
-
-        logger.info(f"📊 Обработка {len(ipv4_list)} IPv4 и {len(ipv6_list)} IPv6 адресов")
-
+        
         # Обрабатываем IPv4
-        ipv4_cidrs = self._process_ipv4(ipv4_list)
-
+        ipv4_cidrs = self._process_meta_ipv4(ipv4_list)
+        
         # Обрабатываем IPv6
         ipv6_cidrs = self._process_ipv6(ipv6_list)
-
-        return ipv4_cidrs, ipv6_cidrs
-
-    def _process_ipv4(self, ips: List[str]) -> List[str]:
-        """Обрабатывает IPv4 адреса"""
-        # Начинаем со статических CIDR
+        
+        # Фильтруем CIDR через Meta фильтр
+        filtered_ipv4_cidrs = self.meta_filter.filter_cidrs(ipv4_cidrs)
+        filtered_ipv6_cidrs = self.meta_filter.filter_cidrs(ipv6_cidrs)
+        
+        logger.info(f"✅ После фильтрации Meta: {len(filtered_ipv4_cidrs)} IPv4 и {len(filtered_ipv6_cidrs)} IPv6 сетей")
+        
+        return filtered_ipv4_cidrs, filtered_ipv6_cidrs
+    
+    def _process_meta_ipv4(self, ips: List[str]) -> List[str]:
+        """Обрабатывает IPv4 адреса Meta"""
         all_cidrs = set(self.target_config.static_cidrs)
-
-        # Добавляем известные диапазоны
         all_cidrs.update(self.target_config.known_ranges.get("ipv4", []))
-
+        
         if not ips:
-            logger.info("ℹ️ Нет IPv4 адресов для обработки")
+            logger.info("ℹ️ Нет Meta IPv4 адресов для обработки")
             return self._optimize_cidrs(list(all_cidrs))
-
+        
         # Конвертируем IP в объекты
         ip_objects = []
         for ip in ips:
             try:
                 ip_obj = ipaddress.IPv4Address(ip)
-
-                # Фильтруем приватные и тестовые IP
                 if self._is_valid_ipv4(ip_obj):
                     ip_objects.append(ip_obj)
             except:
-                logger.debug(f"⚠️ Некорректный IPv4 адрес: {ip}")
-
+                continue
+        
         if not ip_objects:
-            logger.warning("⚠️ Не удалось создать объекты IPv4")
             return self._optimize_cidrs(list(all_cidrs))
+        
+        # Для IP Meta используем агрессивную агрегацию
+        networks = set()
+        for prefix in [24, 22, 20, 16]:
+            for ip_obj in ip_objects:
+                try:
+                    network = ipaddress.IPv4Network(f"{ip_obj}/{prefix}", strict=False)
+                    if not self._is_private_or_test_network(network):
+                        networks.add(network)
+                except:
+                    continue
+        
+        # Добавляем найденные сети
+        for net in networks:
+            all_cidrs.add(str(net))
+        
+        return self._optimize_cidrs(list(all_cidrs))
 
         # Группируем IP по сетям
         networks = set()

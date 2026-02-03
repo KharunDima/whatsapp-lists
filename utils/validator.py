@@ -5,98 +5,63 @@ import re
 import logging
 from typing import List, Set
 from config.settings import TargetConfig
-
+from utils.meta_filter import create_meta_filter
 logger = logging.getLogger(__name__)
 
 
 class DomainValidator:
     """Валидатор доменов"""
-
+    
     def __init__(self, target_config: TargetConfig):
         self.target_config = target_config
+        self.meta_filter = create_meta_filter()
         self._compiled_exclude = []
         self._compiled_include = []
-
+        
         # Компилируем regex паттерны
         for pattern in target_config.exclude_patterns:
             try:
                 self._compiled_exclude.append(re.compile(pattern, re.IGNORECASE))
             except re.error as e:
                 logger.warning(f"Некорректный exclude паттерн '{pattern}': {e}")
-
+        
         for pattern in target_config.include_patterns:
             try:
                 self._compiled_include.append(re.compile(pattern, re.IGNORECASE))
             except re.error as e:
                 logger.warning(f"Некорректный include паттерн '{pattern}': {e}")
-
+    
     def is_valid(self, domain: str) -> bool:
-        """Проверяет валидность домена"""
+        """Проверяет валидность домена с использованием Meta фильтра"""
         domain_lower = domain.lower().strip()
-
-        # Базовые проверки
+        
+        # 1. Быстрая проверка исключений
+        if self.meta_filter.should_exclude_domain(domain_lower):
+            return False
+        
+        # 2. Проверка через Meta фильтр
+        if not (self.meta_filter.is_whatsapp_domain(domain_lower) or
+                self.meta_filter.is_meta_domain(domain_lower)):
+            return False
+        
+        # 3. Проверка базовой валидности
         if not self._is_basic_valid(domain_lower):
             return False
-
-        # Проверка ключевых слов
-        if not self._has_keyword(domain_lower):
-            # Разрешаем только специфичные WhatsApp домены
-            if not self._is_whatsapp_specific(domain_lower):
-                return False
-
-        # Проверка исключающих паттернов
+        
+        # 4. Проверка исключающих паттернов из конфига
         if self._matches_exclude(domain_lower):
             return False
-
-        # Проверка включающих паттернов (если есть)
+        
+        # 5. Проверка включающих паттернов (если есть)
         if self._compiled_include and not self._matches_include(domain_lower):
             return False
-
-        # Дополнительные проверки для WhatsApp
-        return self._is_valid_whatsapp_domain(domain_lower)
-
+        
+        return True
+    
     def _is_basic_valid(self, domain: str) -> bool:
         """Базовые проверки домена"""
-        if len(domain) < 4 or len(domain) > 253:
-            return False
-
-        # Проверка формата
-        if not re.match(r'^[a-z0-9]([a-z0-9\-]{0,61}[a-z0-9])?(\.[a-z0-9]([a-z0-9\-]{0,61}[a-z0-9])?)+$', domain):
-            return False
-
-        # Двойные дефисы
-        if '--' in domain:
-            return False
-
-        # Двойные точки
-        if '..' in domain:
-            return False
-
-        # Начинается или заканчивается дефисом/точкой
-        if domain.startswith('-') or domain.endswith('-'):
-            return False
-        if domain.startswith('.') or domain.endswith('.'):
-            return False
-
-        # Слишком много поддоменов
-        if domain.count('.') > 5:
-            return False
-
-        # Проверка TLD
-        parts = domain.split('.')
-        if len(parts) < 2:
-            return False
-
-        tld = parts[-1]
-        if len(tld) < 2 or len(tld) > 10:
-            return False
-
-        # Избегаем очевидно некорректных TLD
-        invalid_tlds = {'local', 'localhost', 'test', 'example', 'invalid'}
-        if tld in invalid_tlds:
-            return False
-
-        return True
+        # Используем проверку из Meta фильтра
+        return self.meta_filter.is_valid_domain_format(domain)
 
     def _has_keyword(self, domain: str) -> bool:
         """Проверяет наличие ключевых слов"""

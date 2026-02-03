@@ -24,6 +24,7 @@ venv*/
 # Results (опционально - если не хочешь коммитить результаты)
 
 # IDE
+.gigaide/
 .vscode/
 .idea/
 *.swp
