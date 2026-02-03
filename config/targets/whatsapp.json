@@ -38,7 +38,13 @@
     "wa.me",
     "media.fbcdn.net",
     "whatsapp-cdn-shv-01.fbcdn.net",
-    "whatsapp-chatd-01.fbcdn.net"
+    "whatsapp-chatd-01.fbcdn.net",
+
+
+    "g.whatsapp.net",
+    "m.whatsapp.net",
+    "e.whatsapp.net",
+    "c.whatsapp.net"
   ],
 
   "static_cidrs": [
@@ -57,25 +63,34 @@
     "%.whatsapp.net",
     "%.fbcdn.net",
     "%.whatsapp.com",
-    "whatsapp%"
+    "whatsapp%",
+    "%.fastly.net",
+    "%.akamai.net"
   ],
 
   "domain_patterns": [
     ".+\\.whatsapp\\.(com|net)$",
     ".+\\.wa\\.me$",
     "whatsapp.+\\.fbcdn\\.net$",
+    "[a-z]\\d*\\.whatsapp\\.net$",
     "[scme]\\d+\\.whatsapp\\.net$",
     "node\\d+\\.whatsapp\\.net$",
     "edge\\d+\\.whatsapp\\.net$",
     "server\\d+\\.whatsapp\\.net$",
     "bsg\\d+\\.whatsapp\\.net$",
     "whatsapp-cdn-shv.+\\.fbcdn\\.net$",
-    "whatsapp-chatd.+\\.fbcdn\\.net$"
+    "whatsapp-chatd.+\\.fbcdn\\.net$",
+    ".+\\.fastly\\.net$",
+    "a\\d+\\.[a-z]\\.akamai\\.net$"
   ],
 
   "domain_templates": [
     "bsg{num:03d}.whatsapp.net",
-    "whatsapp-cdn-shv-{shard}-{server}.fbcdn.net"
+    "whatsapp-cdn-shv-{shard}-{server}.fbcdn.net",
+    "{letter}.whatsapp.net",
+    "a{num:04d}.q.akamai.net",
+    "a{num:04d}.b.akamai.net",
+    "a{num:04d}.g.akamai.net"
   ],
 
   "subdomains": [
@@ -83,7 +98,8 @@
     "business", "support", "help", "blog", "newsroom",
     "cdn", "media", "static", "upload", "download", "assets",
     "mobile", "app", "portal", "admin", "secure",
-    "auth", "login", "account", "dev", "staging", "test"
+    "auth", "login", "account", "dev", "staging", "test",
+    "g", "m", "e", "c", "s", "v"
   ],
 
   "numeric_patterns": [
@@ -96,7 +112,10 @@
     "server{num}",
     "bsg{num:03d}",
     "whatsapp-cdn-shv-{num}",
-    "whatsapp-chatd-{num}"
+    "whatsapp-chatd-{num}",
+    "a{num:04d}.q",
+    "a{num:04d}.b",
+    "a{num:04d}.g"
   ],
 
   "exclude_patterns": [

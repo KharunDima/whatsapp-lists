@@ -35,29 +35,28 @@ class StaticSource(BaseSource):
         logger.info(f"🔢 Числовые паттерны: {len(numeric)}")
 
         return self._filter_domains(domains)
-
+    
     def _generate_from_templates(self) -> Set[str]:
         """Генерирует домены из шаблонов"""
         domains = set()
-
+        
         for template in self.target_config.domain_templates:
-            if 'bsg{num:03d}' in template:
-                # Генерация bsg паттернов (только реальные)
-                for i in [1, 2, 3, 4, 5, 6, 10, 20, 30, 50, 100]:
+            if '{letter}' in template:
+                # Генерация односимвольных доменов WhatsApp
+                for letter in ['g', 'm', 'e', 'c', 's', 'v', 'p', 'd', 'f']:
                     try:
-                        domain = template.format(num=f"{i:03d}")
+                        domain = template.format(letter=letter)
                         domains.add(domain)
                     except:
                         continue
-            elif '{shard}' in template and '{server}' in template:
-                # Генерация CDN паттернов
-                for shard in [1, 2, 3, 4]:
-                    for server in [1, 2, 3, 4]:
-                        try:
-                            domain = template.format(shard=shard, server=server)
-                            domains.add(domain)
-                        except:
-                            continue
+            elif 'a{num:04d}.' in template:
+                # Генерация Akamai CDN доменов
+                for i in range(1, 2000):  # Реалистичный диапазон
+                    try:
+                        domain = template.format(num=i)
+                        domains.add(domain)
+                    except:
+                        continue
             elif '{num}' in template:
                 # Ограниченная генерация числовых шаблонов
                 for i in range(1, 21):  # Только первые 20
@@ -69,8 +68,8 @@ class StaticSource(BaseSource):
                         domains.add(domain)
                     except:
                         continue
-            else:
-                domains.add(template)
+        else:
+            domains.add(template)
 
         return domains
 

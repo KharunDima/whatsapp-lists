@@ -7,7 +7,7 @@ import logging
 import asyncio
 import dns.asyncresolver
 
-from typing import List, Set, Dict, Tuple, Optional
+from typing import List, Set, Dict, Tuple
 from datetime import datetime, timedelta
 
 logger = logging.getLogger(__name__)
@@ -74,6 +74,24 @@ class MetaFilter:
 			"new_subdomain_format": re.compile(r'^[a-z0-9-]+-[a-z0-9-]+\.(whatsapp\.com|fbcdn\.net)$'),
 			"cdn_shard": re.compile(r'^[a-z]{3}\d+-\d+\.fna\.fbcdn\.net$'),
 			"fna_fbcdn": re.compile(r'^[a-z]{3}\d+\.[a-z]{2}\d+\.fna\.fbcdn\.net$'),
+			# WhatsApp шлюзы (g.whatsapp.net, m.whatsapp.net и т.д.)
+			"whatsapp_gateway": re.compile(r'^[a-z]\.whatsapp\.net$'),
+			"whatsapp_single_letter": re.compile(r'^[a-z]\d*\.whatsapp\.net$'),
+			
+			# Fastly CDN для WhatsApp
+			"fastly_whatsapp": re.compile(r'^.*\.fastly\.net$'),
+			"quic_fastly": re.compile(r'^quic\..*\.fastly\.net$'),
+			
+			# Akamai CDN паттерны
+			"akamai_pattern": re.compile(r'^a\d+\.([a-z])\.akamai\.net$'),
+			"akamai_cdn": re.compile(r'^.*\.akamai\.net$'),
+			
+			# Базовые сервисы, используемые WhatsApp
+			"bing_domain": re.compile(r'^bing\.com$'),
+			"microsoft_services": re.compile(r'^.*\.microsoft\.com$'),
+			
+			# Обновленные паттерны для CDN
+			"cdn_providers": re.compile(r'\.(fastly\.net|akamai\.net|cloudfront\.net|cloudflare\.com)$'),
 		}
 		return patterns
 	
@@ -138,48 +156,110 @@ class MetaFilter:
 		if not self.is_valid_domain_format(domain):
 			return False
 		
+		domain_lower = domain.lower()
+		
 		# 1. Точные совпадения
-		if domain == 'wa.me':
+		if domain_lower == 'wa.me':
 			return True
 		
 		# 2. WhatsApp официальные домены
-		if self._compiled_patterns["whatsapp_official"].match(domain):
-			# Проверяем, что это не фишинговый домен в середине
-			parts = domain.split('.')
-			if len(parts) >= 3:
-				# Разрешаем только официальные поддомены
-				if parts[-2] == 'whatsapp':
-					return True
-		
-		# 3. Специфичные поддомены WhatsApp
-		if self._compiled_patterns["whatsapp_subdomains"].match(domain):
+		if self._compiled_patterns["whatsapp_official"].match(domain_lower):
 			return True
 		
-		if self._compiled_patterns["whatsapp_service"].match(domain):
+		# 3. WhatsApp шлюзы (g.whatsapp.net, m.whatsapp.net)
+		if self._compiled_patterns["whatsapp_gateway"].match(domain_lower):
 			return True
 		
-		# 4. WhatsApp CDN через Facebook
-		if self._compiled_patterns["whatsapp_cdn"].match(domain):
+		# 4. WhatsApp single letter domains (g1, m2, etc.)
+		if self._compiled_patterns["whatsapp_single_letter"].match(domain_lower):
 			return True
 		
-		# 5. Проверяем по паттернам
-		domain_lower = domain.lower()
+		# 5. Специфичные поддомены WhatsApp
+		if self._compiled_patterns["whatsapp_subdomains"].match(domain_lower):
+			return True
 		
-		# WhatsApp инфраструктура
-		whatsapp_patterns = [
-			r'^bsg\d+\.whatsapp\.net$',
-			r'^node\d+\.whatsapp\.net$',
-			r'^server\d+\.whatsapp\.net$',
-			r'^edge\d+\.whatsapp\.net$',
-			r'^media\d+\.whatsapp\.net$',
-			r'^mms\d+\.whatsapp\.net$',
-			r'^v\d+\.whatsapp\.net$',
-			r'^mmg\d+\.whatsapp\.net$',
-			r'^pps\d+\.whatsapp\.net$',
+		if self._compiled_patterns["whatsapp_service"].match(domain_lower):
+			return True
+		
+		# 6. WhatsApp CDN через Facebook
+		if self._compiled_patterns["whatsapp_cdn"].match(domain_lower):
+			return True
+		
+		# 7. CDN провайдеры, используемые WhatsApp
+		if self._is_whatsapp_cdn_provider(domain_lower):
+			return True
+		
+		# 8. Внешние сервисы, используемые WhatsApp
+		if self._is_whatsapp_external_service(domain_lower):
+			return True
+		
+		return False
+	
+	def _is_whatsapp_cdn_provider(self, domain: str) -> bool:
+		"""Проверяет CDN провайдеров, используемых WhatsApp"""
+		# Fastly CDN (используется для карт и медиа)
+		if self._compiled_patterns["fastly_whatsapp"].match(domain):
+			# Проверяем специфичные поддомены
+			if 'quic.map' in domain or 'map.fastly' in domain:
+				return True
+		
+		# Akamai CDN
+		if self._compiled_patterns["akamai_pattern"].match(domain):
+			# aNNNN.q.akamai.net или aNNNN.b.akamai.net
+			return True
+		
+		# Проверяем по известным шаблонам
+		akamai_patterns = [
+			r'^a\d+\.(q|b|g|s)\.akamai\.net$',
+			r'^.*\.edgesuite\.net$',  # Akamai EdgeSuite
+			r'^.*\.akamaiedge\.net$',
 		]
 		
-		for pattern in whatsapp_patterns:
-			if re.match(pattern, domain_lower):
+		for pattern in akamai_patterns:
+			if re.match(pattern, domain):
+				return True
+		
+		return False
+	
+	def _is_whatsapp_external_service(self, domain: str) -> bool:
+		"""Проверяет внешние сервисы, используемые WhatsApp"""
+		# Bing для поиска/локаций
+		if domain == 'bing.com':
+			return True
+		
+		# Другие Microsoft сервисы
+		if self._compiled_patterns["microsoft_services"].match(domain):
+			# Проверяем, не слишком ли общий домен
+			specific_microsoft = [
+				'maps.microsoft.com',
+				'location.microsoft.com',
+				'search.microsoft.com',
+			]
+			if any(s in domain for s in specific_microsoft):
+				return True
+		
+		# Картографические сервисы
+		map_services = [
+			'maps.google.com',
+			'maps.apple.com',
+			'nominatim.openstreetmap.org',
+		]
+		
+		if domain in map_services:
+			return True
+		
+		# Другие известные сервисы WhatsApp
+		known_services = [
+			'gstatic.com',  # Google Static
+			'googleapis.com',  # Google APIs
+			'apple.com',  # Для push уведомлений iOS
+			'android.com',  # Для Android сервисов
+			'firebase.com',  # Firebase для push уведомлений
+			'crashlytics.com',  # Для отчетов об ошибках
+		]
+		
+		for service in known_services:
+			if domain.endswith(service):
 				return True
 		
 		return False
