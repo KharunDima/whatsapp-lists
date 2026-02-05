@@ -1,57 +1,15 @@
 # Domain Scanner Results
-# Generated: 2026-02-04 19:09:32
-# Total domains with IP addresses: 52
+# Generated: 2026-02-05 02:52:28
+# Total domains with IP addresses: 10
 ##################################################
 
-api.fbcdn.net
-autodiscover.whatsapp.com
+api.whatsapp.net
 b.whatsapp.com
-beta.facebook.com
 call.whatsapp.com
-chat.whatsapp.com
-connect.facebook.com
-cstools.facebook.com
-dns.facebook.com
-extern.facebook.com
-fb.alpha.facebook.comfb.alpha.facebook.com
-fb.m.alpha.facebook.com
-fb.m.alpha.facebook.comfb.m.alpha.facebook.com
-fb.m.beta.facebook.com
-interngraph.prod.scgraph.facebook.com
-interngraph.scgraph.facebook.com
-internmc.facebook.com
-lite.facebook.com
-login.facebook.com
-m.alpha.facebook.comm.alpha.facebook.com
-m.beta.facebook.com
-m.beta.facebook.comm.beta.facebook.com
-m.facebook.com
-m.intern.facebook.com
-msgin-regional.vvv.facebook.com
-p.facebook.com
+g.whatsapp.net
 post.update.fbsbx.com
-pps.whatsapp.net
-prod.scgraph.facebook.com
-prod.workplace.com
-scgraph.facebook.com
-secure.alpha.facebook.comsecure.alpha.facebook.com
-secure.beta.facebook.com
-secure.beta.facebook.comsecure.beta.facebook.com
-secure.facebook.com
-secure.intern.facebook.com
-secure.internmc.facebook.com
-secure.latest.facebook.comsecure.latest.facebook.com
-secure.prod.facebook.comsecure.prod.facebook.com
-secure.trunkstable.facebook.com
-secure.trunkstable.facebook.comsecure.trunkstable.facebook.com
-smtpin.vvv.facebook.com
+s.update.fbsbx.com
+sha256.xz.fbcdn.netsha256.xz.fbcdn.net
 sonar-iad.xx.fbcdn.net
-ssl.facebook.com
 static.whatsapp.net
-t.update.fbsbx.com
-v.whatsapp.com
-v.whatsapp.net
-web.whatsapp.com
-www.facebook.com
-www.whatsapp.com
-z.facebook.com
+www.fbcdn.net
