@@ -21,7 +21,8 @@ class PassiveSource(BaseSource):
             "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
             "https://raw.githubusercontent.com/justdomains/blocklists/master/lists/adguarddns-justdomains.txt",
             "https://raw.githubusercontent.com/justdomains/blocklists/master/lists/easyprivacy-justdomains.txt",
-            "https://raw.githubusercontent.com/HybridNetworks/whatsapp-cidr/main/WhatsApp/whatsapp_domainlist.txt"
+            "https://raw.githubusercontent.com/HybridNetworks/whatsapp-cidr/main/WhatsApp/whatsapp_domainlist.txt",
+            "https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Services/meta.lst"
         ]
 
         async with aiohttp.ClientSession() as session:
