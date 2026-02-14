@@ -1,76 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-02-14T02:10:53.054714",
+    "generated_at": "2026-02-14T12:56:54.650493",
     "target": "whatsapp",
     "description": "WhatsApp domains and networks - optimized config",
     "statistics": {
-      "total_domains_scanned": 52,
-      "domains_with_ips": 11,
-      "domains_without_ips": 41,
-      "unique_ips": 10,
-      "ipv4_count": 4,
-      "ipv6_count": 6,
+      "total_domains_scanned": 11,
+      "domains_with_ips": 2,
+      "domains_without_ips": 9,
+      "unique_ips": 2,
+      "ipv4_count": 1,
+      "ipv6_count": 1,
       "ipv4_networks": 15,
       "ipv6_networks": 3
     }
   },
   "domains_with_ips": [
     {
-      "domain": "secure.alpha.facebook.comsecure.alpha.facebook.com",
-      "ips": [
-        "157.240.254.6"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "secure.alpha.facebook.com",
-      "ips": [
-        "2a03:2880:f356:84:face:b00c:0:6a97"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "api.fbcdn.net",
-      "ips": [
-        "57.144.172.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "mmg.whatsapp.net",
-      "ips": [
-        "157.240.254.60"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "api.whatsapp.com",
-      "ips": [
-        "157.240.254.60"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "interngraph.prod.scgraph.facebook.com",
-      "ips": [
-        "2401:db00:21ff:fffe:face:b00c:0:462d"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "m.prod.facebook.com",
+      "domain": "post.update.fbsbx.com",
       "ips": [
         "2a03:2880:f366:8d:face:b00c:0:2"
       ],
@@ -79,43 +25,16 @@
       "has_ips": true
     },
     {
-      "domain": "fb.m.beta.facebook.comfb.m.beta.facebook.com",
+      "domain": "t.update.fbsbx.com",
       "ips": [
-        "2a03:2880:f082:106:face:b00c:0:4f5a"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "alpha.facebook.com",
-      "ips": [
-        "57.144.204.136"
+        "57.144.218.141"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
-    },
-    {
-      "domain": "www.fbcdn.net",
-      "ips": [
-        "2a03:2880:f175:181:face:b00c:0:25de"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "login.facebook.com",
-      "ips": [
-        "2a03:2880:f356:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
     }
   ],
-  "domains_without_ips_count": 41,
+  "domains_without_ips_count": 9,
   "networks": {
     "ipv4": [
       "31.13.0.0/16",

@@ -1,16 +1,7 @@
 # Domain Scanner Results
-# Generated: 2026-02-14 02:10:53
-# Total domains with IP addresses: 11
+# Generated: 2026-02-14 12:56:54
+# Total domains with IP addresses: 2
 ##################################################
 
-alpha.facebook.com
-api.fbcdn.net
-api.whatsapp.com
-fb.m.beta.facebook.comfb.m.beta.facebook.com
-interngraph.prod.scgraph.facebook.com
-login.facebook.com
-m.prod.facebook.com
-mmg.whatsapp.net
-secure.alpha.facebook.com
-secure.alpha.facebook.comsecure.alpha.facebook.com
-www.fbcdn.net
+post.update.fbsbx.com
+t.update.fbsbx.com
