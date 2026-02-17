@@ -7,3 +7,5 @@ call.whatsapp.com
 s.update.fbsbx.com
 v.whatsapp.com
 www.whatsapp.com
+g.whatsapp.net
+g-fallba1ck.whatsapp.net
