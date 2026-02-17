@@ -1,6 +1,6 @@
 {
-  "name": "whatsapp",
-  "description": "WhatsApp domains and networks - optimized config",
+  "name": "whatsapp-enhanced",
+  "description": "WhatsApp domains and networks - fully optimized config with all known Meta infrastructure",
 
   "keywords": [
     "whatsapp",
@@ -10,7 +10,9 @@
     "whatsapp-chat",
     "facebook",
     "fb",
-    "meta"
+    "meta",
+    "messenger",
+    "instagram"
   ],
 
   "sources": {
@@ -39,24 +41,105 @@
     "media.fbcdn.net",
     "whatsapp-cdn-shv-01.fbcdn.net",
     "whatsapp-chatd-01.fbcdn.net",
-
-
     "g.whatsapp.net",
     "m.whatsapp.net",
     "e.whatsapp.net",
-    "c.whatsapp.net"
+    "c.whatsapp.net",
+
+    
+    "v.whatsapp.com",
+    "graph.whatsapp.com",
+    "s.update.fbsbx.com",
+
+    
+    "g-fallback.whatsapp.net",
+    "g-fallba1ck.whatsapp.net",
+
+    
+    "*.cdn.whatsapp.net",
+
+    
+    "static.xx.fbcdn.net",
+    "scontent.xx.fbcdn.net",
+    "external.xx.fbcdn.net",
+
+    
+    "pps.whatsapp.net",
+    "profile.whatsapp.net",
+    "media.whatsapp.net",
+    "cdn.whatsapp.net",
+    "cdn-files.whatsapp.net",
+    "content.whatsapp.net",
+
+    
+    "fbsbx.com",
+    "www.fbsbx.com",
+    "api.fbsbx.com",
+    "lookup.fbsbx.com",
+    "graph.facebook.com",
+    "graph-video.facebook.com",
+
+    
+    "whatsapp-chatd-shv-01.fbcdn.net",
+    "whatsapp-cdn-shv-01.fbcdn.net",
+    "whatsapp-media-shv-01.fbcdn.net",
+
+    
+    "a.whatsapp.net",
+    "b.whatsapp.net",
+    "c.whatsapp.net",
+    "d.whatsapp.net",
+    "e.whatsapp.net",
+    "f.whatsapp.net"
   ],
 
   "static_cidrs": [
     "31.13.0.0/16",
     "31.13.24.0/21",
     "31.13.64.0/18",
+    "45.64.40.0/22",
     "66.220.144.0/20",
     "69.63.176.0/20",
-    "157.240.0.0/16",
+    "69.171.224.0/19",
+    "74.119.76.0/22",
+    "102.132.96.0/20",
+    "103.4.96.0/22",
     "129.134.0.0/16",
+    "157.240.0.0/16",
+    "173.252.64.0/18",
+    "179.60.192.0/22",
+    "185.60.216.0/22",
+    "185.89.218.0/23",
+    "199.201.64.0/22",
+    "204.15.20.0/22",
+
+    
+    "163.70.128.0/17",
+    "165.254.208.0/23",
+    "185.89.216.0/22",
+
+    
     "2a03:2880::/32",
-    "2620:0:1c00::/48"
+    "2620:0:1c00::/48",
+    "2401:db00::/32",
+    "2a03:2880:f000::/48",
+    "2a03:2880:f100::/48",
+    "2a03:2880:f200::/48",
+    "2a03:2880:f300::/48",
+
+    
+    "2a03:2880:f400::/48",
+    "2a03:2880:f500::/48",
+    "2a03:2880:f600::/48",
+    "2a03:2880:f700::/48",
+    "2a03:2880:f800::/48",
+    "2a03:2880:f900::/48",
+    "2a03:2880:fa00::/48",
+    "2a03:2880:fb00::/48",
+    "2a03:2880:fc00::/48",
+    "2a03:2880:fd00::/48",
+    "2a03:2880:fe00::/48",
+    "2a03:2880:ff00::/48"
   ],
 
   "crt_sh_patterns": [
@@ -65,7 +148,9 @@
     "%.whatsapp.com",
     "whatsapp%",
     "%.fastly.net",
-    "%.akamai.net"
+    "%.akamai.net",
+    "%.fbsbx.com",
+    "%.facebook.com"
   ],
 
   "domain_patterns": [
@@ -81,7 +166,9 @@
     "whatsapp-cdn-shv.+\\.fbcdn\\.net$",
     "whatsapp-chatd.+\\.fbcdn\\.net$",
     ".+\\.fastly\\.net$",
-    "a\\d+\\.[a-z]\\.akamai\\.net$"
+    "a\\d+\\.[a-z]\\.akamai\\.net$",
+    "media-([a-z0-9]+-?)+\\d*\\.cdn\\.whatsapp\\.net$",
+    "([a-z]{2,4})-\\d+-\\d+\\.cdn\\.whatsapp\\.net$"
   ],
 
   "domain_templates": [
@@ -90,7 +177,10 @@
     "{letter}.whatsapp.net",
     "a{num:04d}.q.akamai.net",
     "a{num:04d}.b.akamai.net",
-    "a{num:04d}.g.akamai.net"
+    "a{num:04d}.g.akamai.net",
+    "media-{region}-{num:01d}.cdn.whatsapp.net",
+    "{service}-{shard:02d}.whatsapp.net",
+    "{service}-{region}-{shard:02d}.fbsbx.com"
   ],
 
   "subdomains": [
@@ -99,7 +189,12 @@
     "cdn", "media", "static", "upload", "download", "assets",
     "mobile", "app", "portal", "admin", "secure",
     "auth", "login", "account", "dev", "staging", "test",
-    "g", "m", "e", "c", "s", "v"
+    "g", "m", "e", "c", "s", "v",
+    "pps", "profile", "content", "files", "cdn-files",
+    "video", "audio", "image", "img", "picture",
+    "graph", "graph-video", "lookup", "external",
+    "scontent", "scontent-arn2", "scontent-fra5",
+    "static-arn2", "static-fra5"
   ],
 
   "numeric_patterns": [
@@ -115,7 +210,10 @@
     "whatsapp-chatd-{num}",
     "a{num:04d}.q",
     "a{num:04d}.b",
-    "a{num:04d}.g"
+    "a{num:04d}.g",
+    "media-{region}-{num:01d}",
+    "scontent-{region}{num:02d}",
+    "static-{region}{num:02d}"
   ],
 
   "exclude_patterns": [
@@ -140,7 +238,9 @@
     "^localhost\\.",
     "^dev\\.",
     "^staging\\.",
-    ".*\\.(tk|ml|ga|cf|gq|xyz|top|club|site|online|info)$"
+    ".*\\.(tk|ml|ga|cf|gq|xyz|top|club|site|online|info)$",
+    "whatsapp.*(gratis|download|install|free|apk|mod|plus)",
+    ".*whatsapp.*(tutorial|guide|tips|hack|cheat|crack)"
   ],
 
   "include_patterns": [],
@@ -162,9 +262,12 @@
       "103.4.96.0/22",
       "129.134.0.0/16",
       "157.240.0.0/16",
+      "163.70.128.0/17",
+      "165.254.208.0/23",
       "173.252.64.0/18",
       "179.60.192.0/22",
       "185.60.216.0/22",
+      "185.89.216.0/22",
       "185.89.218.0/23",
       "199.201.64.0/22",
       "204.15.20.0/22"
@@ -176,7 +279,19 @@
       "2a03:2880:f000::/48",
       "2a03:2880:f100::/48",
       "2a03:2880:f200::/48",
-      "2a03:2880:f300::/48"
+      "2a03:2880:f300::/48",
+      "2a03:2880:f400::/48",
+      "2a03:2880:f500::/48",
+      "2a03:2880:f600::/48",
+      "2a03:2880:f700::/48",
+      "2a03:2880:f800::/48",
+      "2a03:2880:f900::/48",
+      "2a03:2880:fa00::/48",
+      "2a03:2880:fb00::/48",
+      "2a03:2880:fc00::/48",
+      "2a03:2880:fd00::/48",
+      "2a03:2880:fe00::/48",
+      "2a03:2880:ff00::/48"
     ]
   }
 }
