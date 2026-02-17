@@ -4,9 +4,12 @@
 ##################################################
 
 call.whatsapp.com
+static.whatsapp.net
 s.update.fbsbx.com
 v.whatsapp.com
 www.whatsapp.com
 g.whatsapp.net
+g-fallback.whatsapp.net
 g-fallba1ck.whatsapp.net
 graph.whatsapp.com
+media-arn2-1.cdn.whatsapp.net
