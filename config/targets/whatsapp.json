@@ -1,6 +1,6 @@
 {
   "name": "whatsapp-mega",
-  "description": "WhatsApp domains and networks",
+  "description": "WhatsApp domains and networks - ULTIMATE config with historical patterns and complete infrastructure",
 
   "keywords": [
     "whatsapp",
@@ -78,7 +78,6 @@
     "d.whatsapp.net",
     "f.whatsapp.net",
 
-    
     "c1.whatsapp.net",
     "c2.whatsapp.net",
     "c3.whatsapp.net",
@@ -120,12 +119,10 @@
     "s9.whatsapp.net",
     "s10.whatsapp.net",
 
-    
     "sro.whatsapp.net",
     "android-crashlog.whatsapp.net",
     "static.reverse.softlayer.com",
 
-    
     "ns1.p13.dynect.net",
     "ns2.p13.dynect.net",
     "ns3.p13.dynect.net",
@@ -155,7 +152,6 @@
     "199.201.64.0/22",
     "204.15.20.0/22",
 
-    
     "5.153.52.248/29",
     "17.143.162.225/32",
     "17.172.232.0/24",
@@ -394,7 +390,6 @@
     "208.43.244.175/32",
     "209.95.33.68/32",
 
-    
     "204.13.250.13/32",
     "208.78.70.13/32",
     "208.78.71.13/32",
@@ -637,7 +632,5 @@
       "2a03:2880:fe00::/48",
       "2a03:2880:ff00::/48"
     ]
-  },
-
-  "ports": [80, 443, 5222, 5223, 5228, 5060, 5064, 8080]
+  }
 }
