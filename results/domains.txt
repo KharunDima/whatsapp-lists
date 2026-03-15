@@ -1,20 +1,51 @@
 # Domain Scanner Results
-# Generated: 2026-03-15 02:39:55
-# Total domains with IP addresses: 15
+# Generated: 2026-03-15 13:01:58
+# Total domains with IP addresses: 46
 ##################################################
 
+alpha.facebook.com
 an.facebook.com
-api.whatsapp.com
+api.fbcdn.net
 api.whatsapp.net
-b.whatsapp.com
+autodiscover.whatsapp.com
+bigzipfiles.facebook.com
+blog.whatsapp.com
+call.whatsapp.com
 chat.whatsapp.com
+connect.facebook.com
+extern.facebook.com
+facebook.com
+fb.alpha.facebook.com
+fb.alpha.facebook.comfb.alpha.facebook.com
+fb.m.alpha.facebook.com
+fb.m.alpha.facebook.comfb.m.alpha.facebook.com
 g-fallback.whatsapp.net
-g.whatsapp.net
-mmg-fna.whatsapp.net
-pixel.facebook.com
-pps.whatsapp.net
-static.xx.fbcdn.net
-t.update.fbsbx.com
-web.whatsapp.com
+graph-video.facebook.com
+graph.facebook.com
+hr.facebook.com
+intern.facebook.com
+latest.facebook.com
+login.beta.facebook.com
+m.alpha.facebook.com
+m.alpha.facebook.comm.alpha.facebook.com
+m.beta.facebook.com
+m.facebook.com
+m.intern.facebook.com
+m.internmc.facebook.comm.internmc.facebook.com
+m.prod.facebook.comm.prod.facebook.com
+msgin-regional.vvv.facebook.com
+prod.facebook.com
+prod.scgraph.facebook.com
+prod.workplace.com
+register.new.facebook.com
+s.update.fbsbx.com
+scgraph.facebook.com
+secure.alpha.facebook.com
+secure.alpha.facebook.comsecure.alpha.facebook.com
+secure.beta.facebook.com
+secure.beta.facebook.comsecure.beta.facebook.com
+secure.intern.facebook.com
+secure.internmc.facebook.com
+secure.prod.facebook.com
 www.fbcdn.net
-www.whatsapp.com
+z.facebook.com
