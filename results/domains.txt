@@ -19,3 +19,5 @@ static.whatsapp.net
 static.xx.fbcdn.net
 t.update.fbsbx.com
 v.whatsapp.com
+g-fallback.whatsapp.net
+e3.whatsapp.net
