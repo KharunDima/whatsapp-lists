@@ -20,3 +20,4 @@ v.whatsapp.com
 v.whatsapp.net
 web.whatsapp.com
 www.whatsapp.com
+instagram.com
