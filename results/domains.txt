@@ -1,23 +1,47 @@
 # Domain Scanner Results
-# Generated: 2026-04-19 13:10:04
-# Total domains with IP addresses: 18
+# Generated: 2026-04-20 02:56:08
+# Total domains with IP addresses: 42
 ##################################################
 
 an.facebook.com
-api.fbcdn.net
-api.whatsapp.com
-api.whatsapp.net
 autodiscover.whatsapp.com
-call.whatsapp.com
-g-fallback.whatsapp.net
+bigzipfiles.facebook.com
+chat.whatsapp.com
+external.xx.fbcdn.net
+fb.beta.facebook.com
+fb.beta.facebook.comfb.beta.facebook.com
 g.whatsapp.net
 graph-video.facebook.com
-graph.facebook.com
 graph.whatsapp.com
-mmg-fna.whatsapp.net
+hr.facebook.com
+intern.facebook.com
+interngraph.scgraph.facebook.com
+interngraph.staging.scgraph.facebook.com
+internmc.facebook.com
+login.beta.facebook.com
+m.beta.facebook.comm.beta.facebook.com
+m.internmc.facebook.com
+m.internmc.facebook.comm.internmc.facebook.com
+m.prod.facebook.comm.prod.facebook.com
+mmg.whatsapp.net
+msgin-regional.vvv.facebook.com
+p.facebook.com
+pixel.facebook.com
+post.update.fbsbx.com
 pps.whatsapp.net
-static.xx.fbcdn.net
+prod.facebook.com
+prod.scgraph.facebook.com
+s.update.fbsbx.com
+secure.alpha.facebook.comsecure.alpha.facebook.com
+secure.beta.facebook.comsecure.beta.facebook.com
+secure.intern.facebook.com
+secure.internmc.facebook.com
+secure.latest.facebook.com
+secure.trunkstable.facebook.comsecure.trunkstable.facebook.com
+ssl.facebook.com
 t.update.fbsbx.com
+trunkstable.facebook.com
 v.whatsapp.com
 v.whatsapp.net
-web.whatsapp.com
+www.whatsapp.com
+z.facebook.com
