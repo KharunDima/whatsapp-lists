@@ -1,48 +1,32 @@
 # Domain Scanner Results
-# Generated: 2026-04-27 14:06:29
-# Total domains with IP addresses: 43
+# Generated: 2026-04-28 03:01:06
+# Total domains with IP addresses: 27
 ##################################################
 
-alpha.facebook.com
-api.facebook.com
+an.facebook.com
 api.fbcdn.net
 api.whatsapp.net
+autodiscover.whatsapp.com
 b.whatsapp.com
-bigzipfiles.facebook.com
 blog.whatsapp.com
-business.whatsapp.com
-dns.facebook.com
-facebook.com
-fb.com
-fb.m.beta.facebook.comfb.m.beta.facebook.com
+call.whatsapp.com
+chat.whatsapp.com
+external.xx.fbcdn.net
 g-fallback.whatsapp.net
 g.whatsapp.net
-intern.facebook.com
-latest.facebook.com
-lite.facebook.com
-m.intern.facebook.comm.intern.facebook.com
-m.internmc.facebook.com
-m.prod.facebook.com
+graph-video.facebook.com
+graph.facebook.com
+graph.whatsapp.com
 mmg-fna.whatsapp.net
 mmg.whatsapp.net
-msgin-regional.vvv.facebook.com
-p.facebook.com
-prod.facebook.com
-register.facebook.com
-scgraph.facebook.com
-scontent.xx.fbcdn.net
-secure.alpha.facebook.com
-secure.alpha.facebook.comsecure.alpha.facebook.com
-secure.beta.facebook.com
-secure.beta.facebook.comsecure.beta.facebook.com
-secure.intern.facebook.com
-secure.internmc.facebook.com
-secure.latest.facebook.comsecure.latest.facebook.com
-sha256.xz.fbcdn.netsha256.xz.fbcdn.net
-static.whatsapp.net
+pixel.facebook.com
+post.update.fbsbx.com
+pps.whatsapp.net
+s.update.fbsbx.com
+static.xx.fbcdn.net
+t.update.fbsbx.com
 v.whatsapp.com
+v.whatsapp.net
 web.whatsapp.com
-whatsapp.com
-www.facebook.com
+www.fbcdn.net
 www.whatsapp.com
-z.facebook.com
