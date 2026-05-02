@@ -1,8 +1,69 @@
 # Domain Scanner Results
-# Generated: 2026-05-02 02:52:10
-# Total domains with IP addresses: 3
+# Generated: 2026-05-02 13:21:54
+# Total domains with IP addresses: 64
 ##################################################
 
+api.facebook.com
+api.whatsapp.com
+autodiscover.whatsapp.com
+b.whatsapp.com
+bigzipfiles.facebook.com
 blog.whatsapp.com
+business.whatsapp.com
+external.xx.fbcdn.net
+facebook.com
+fb.alpha.facebook.com
+fb.alpha.facebook.comfb.alpha.facebook.com
+fb.beta.facebook.com
+fb.beta.facebook.comfb.beta.facebook.com
+fb.m.alpha.facebook.comfb.m.alpha.facebook.com
+fb.m.beta.facebook.com
+fb.m.beta.facebook.comfb.m.beta.facebook.com
+fbcdn.net
+g-fallback.whatsapp.net
+g.whatsapp.net
+graph-video.facebook.com
+graph.facebook.com
+graph.whatsapp.com
+internmc.facebook.com
+latest.facebook.com
+login.facebook.com
+m.alpha.facebook.com
+m.alpha.facebook.comm.alpha.facebook.com
+m.beta.facebook.com
+m.beta.facebook.comm.beta.facebook.com
+m.facebook.com
+m.intern.facebook.com
+m.intern.facebook.comm.intern.facebook.com
+m.prod.facebook.com
+m.prod.facebook.comm.prod.facebook.com
 mmg.whatsapp.net
-v.whatsapp.net
+msgin-regional.vvv.facebook.com
+p.facebook.com
+pixel.facebook.com
+post.update.fbsbx.com
+prod.scgraph.facebook.com
+prod.workplace.com
+register.facebook.com
+s.update.fbsbx.com
+scontent.xx.fbcdn.net
+secure.beta.facebook.comsecure.beta.facebook.com
+secure.facebook.com
+secure.intern.facebook.com
+secure.internmc.facebook.com
+secure.latest.facebook.comsecure.latest.facebook.com
+secure.prod.facebook.com
+secure.prod.facebook.comsecure.prod.facebook.com
+sha256.xz.fbcdn.net
+sha256.xz.fbcdn.netsha256.xz.fbcdn.net
+shortwave.facebook.com
+smtpin.vvv.facebook.com
+static.xx.fbcdn.net
+t.update.fbsbx.com
+trunkstable.facebook.com
+v.whatsapp.com
+wa.me
+whatsapp.net
+www.facebook.com
+www.whatsapp.com
+z.facebook.com
