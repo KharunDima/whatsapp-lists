@@ -1,61 +1,22 @@
 # Domain Scanner Results
-# Generated: 2026-05-21 03:52:10
-# Total domains with IP addresses: 56
+# Generated: 2026-05-21 15:35:22
+# Total domains with IP addresses: 17
 ##################################################
 
-alpha.facebook.com
-api.facebook.com
-api.fbcdn.net
+an.facebook.com
+api.whatsapp.com
 api.whatsapp.net
-bigzipfiles.facebook.com
+autodiscover.whatsapp.com
+b.whatsapp.com
 blog.whatsapp.com
-chat.whatsapp.com
-connect.facebook.com
-cstools.facebook.com
 external.xx.fbcdn.net
-fb.alpha.facebook.com
-fb.alpha.facebook.comfb.alpha.facebook.com
-fb.beta.facebook.com
-fb.beta.facebook.comfb.beta.facebook.com
-fb.m.alpha.facebook.comfb.m.alpha.facebook.com
+facebook.com
 g-fallback.whatsapp.net
-g.whatsapp.net
-graph.facebook.com
-hr.facebook.com
-intern.facebook.com
-interngraph.scgraph.facebook.com
-login.beta.facebook.com
-login.facebook.com
-m.beta.facebook.com
-m.beta.facebook.comm.beta.facebook.com
-m.internmc.facebook.com
-m.prod.facebook.com
-m.prod.facebook.comm.prod.facebook.com
-mmg.whatsapp.net
-msgin-regional.vvv.facebook.com
-pixel.facebook.com
-pps.whatsapp.net
-prod.facebook.com
-prod.scgraph.facebook.com
-prod.workplace.com
-s.update.fbsbx.com
-scgraph.facebook.com
-secure.alpha.facebook.com
-secure.beta.facebook.com
-secure.beta.facebook.comsecure.beta.facebook.com
-secure.intern.facebook.comsecure.intern.facebook.com
-secure.internmc.facebook.com
-secure.latest.facebook.com
-secure.prod.facebook.com
-secure.trunkstable.facebook.com
-secure.trunkstable.facebook.comsecure.trunkstable.facebook.com
-sha256.xz.fbcdn.netsha256.xz.fbcdn.net
-sonar-iad.xx.fbcdn.net
-static.whatsapp.net
+graph.whatsapp.com
+scontent.xx.fbcdn.net
+sha256.xz.fbcdn.net
 t.update.fbsbx.com
-trunkstable.facebook.com
 v.whatsapp.net
-whatsapp.com
-www.facebook.com
-www.fbcdn.net
-z.facebook.com
+web.whatsapp.com
+whatsapp.net
+www.whatsapp.com
