@@ -1,53 +1,22 @@
 # Domain Scanner Results
-# Generated: 2026-05-22 14:47:37
-# Total domains with IP addresses: 48
+# Generated: 2026-05-23 03:27:43
+# Total domains with IP addresses: 17
 ##################################################
 
 an.facebook.com
-api.facebook.com
-api.fbcdn.net
 api.whatsapp.com
-autodiscover.whatsapp.com
-bigzipfiles.facebook.com
-cstools.facebook.com
-extern.facebook.com
+api.whatsapp.net
+b.whatsapp.com
+blog.whatsapp.com
 external.xx.fbcdn.net
-fb.alpha.facebook.comfb.alpha.facebook.com
-fb.beta.facebook.com
-fb.beta.facebook.comfb.beta.facebook.com
-fb.m.alpha.facebook.comfb.m.alpha.facebook.com
-fb.m.beta.facebook.comfb.m.beta.facebook.com
 g-fallback.whatsapp.net
 g.whatsapp.net
+graph-video.facebook.com
 graph.facebook.com
-hr.facebook.com
-intern.facebook.com
-interngraph.prod.scgraph.facebook.com
-interngraph.scgraph.facebook.com
-internmc.facebook.com
-login.beta.facebook.com
-m.alpha.facebook.com
-m.alpha.facebook.comm.alpha.facebook.com
-m.prod.facebook.com
-m.prod.facebook.comm.prod.facebook.com
+graph.whatsapp.com
 mmg-fna.whatsapp.net
-mmg.whatsapp.net
-p.facebook.com
 post.update.fbsbx.com
-register.facebook.com
-register.new.facebook.com
-s.update.fbsbx.com
-scgraph.facebook.com
-secure.alpha.facebook.com
-secure.alpha.facebook.comsecure.alpha.facebook.com
-secure.beta.facebook.comsecure.beta.facebook.com
-secure.intern.facebook.com
-secure.prod.facebook.com
-secure.trunkstable.facebook.com
-ssl.facebook.com
-static.whatsapp.net
-static.xx.fbcdn.net
 t.update.fbsbx.com
 web.whatsapp.com
-www.facebook.com
-www.fbcdn.net
+whatsapp.net
+www.whatsapp.com
