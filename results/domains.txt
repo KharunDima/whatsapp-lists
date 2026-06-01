@@ -1,53 +1,21 @@
 # Domain Scanner Results
-# Generated: 2026-06-01 04:16:50
-# Total domains with IP addresses: 48
+# Generated: 2026-06-01 17:46:35
+# Total domains with IP addresses: 16
 ##################################################
 
 an.facebook.com
-api.facebook.com
+api.fbcdn.net
 api.whatsapp.com
 api.whatsapp.net
-autodiscover.whatsapp.com
-bigzipfiles.facebook.com
-blog.whatsapp.com
-call.whatsapp.com
-chat.whatsapp.com
-cstools.facebook.com
-dns.facebook.com
-extern.facebook.com
-fb.m.alpha.facebook.com
-fb.m.alpha.facebook.comfb.m.alpha.facebook.com
-fb.m.beta.facebook.comfb.m.beta.facebook.com
+b.whatsapp.com
+business.whatsapp.com
+fbcdn.net
+g-fallback.whatsapp.net
 graph-video.facebook.com
-graph.facebook.com
-intern.facebook.com
-lite.facebook.com
-m.alpha.facebook.comm.alpha.facebook.com
-m.beta.facebook.comm.beta.facebook.com
-m.facebook.com
-m.intern.facebook.com
-m.intern.facebook.comm.intern.facebook.com
-m.internmc.facebook.com
-m.internmc.facebook.comm.internmc.facebook.com
-m.prod.facebook.com
-mmg.whatsapp.net
-msgin-regional.vvv.facebook.com
-post.update.fbsbx.com
-prod.facebook.com
+graph.whatsapp.com
+pixel.facebook.com
+pps.whatsapp.net
 s.update.fbsbx.com
-scgraph.facebook.com
-secure.beta.facebook.com
-secure.intern.facebook.com
-secure.internmc.facebook.com
-secure.latest.facebook.comsecure.latest.facebook.com
-secure.prod.facebook.comsecure.prod.facebook.com
-sha256.xz.fbcdn.net
-sha256.xz.fbcdn.netsha256.xz.fbcdn.net
-shortwave.facebook.com
-ssl.facebook.com
 static.whatsapp.net
-t.update.fbsbx.com
-trunkstable.facebook.com
-v.whatsapp.com
-www.facebook.com
-z.facebook.com
+whatsapp.net
+www.whatsapp.com
