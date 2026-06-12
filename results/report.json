@@ -1,42 +1,34 @@
 {
   "meta": {
-    "generated_at": "2026-06-12T04:06:50.637602",
+    "generated_at": "2026-06-12T15:20:37.966978",
     "target": "whatsapp-mega",
     "description": "WhatsApp domains and networks - ULTIMATE config with historical patterns and complete infrastructure",
     "statistics": {
-      "total_domains_scanned": 19,
-      "domains_with_ips": 6,
+      "total_domains_scanned": 17,
+      "domains_with_ips": 4,
       "domains_without_ips": 13,
-      "unique_ips": 6,
+      "unique_ips": 5,
       "ipv4_count": 3,
-      "ipv6_count": 3,
+      "ipv6_count": 2,
       "ipv4_networks": 15,
       "ipv6_networks": 3
     }
   },
   "domains_with_ips": [
     {
-      "domain": "mmg.whatsapp.net",
+      "domain": "b.whatsapp.com",
       "ips": [
-        "2a03:2880:f20d:c5:face:b00c:0:167"
+        "57.144.75.32",
+        "2a03:2880:f31d:120:face:b00c:0:167"
       ],
-      "ipv4_count": 0,
+      "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "graph-video.facebook.com",
+      "domain": "s.update.fbsbx.com",
       "ips": [
-        "2a03:2880:f031:12:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "blog.whatsapp.com",
-      "ips": [
-        "157.240.22.53"
+        "57.145.2.141"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
@@ -45,25 +37,16 @@
     {
       "domain": "g.whatsapp.net",
       "ips": [
-        "31.13.70.50"
+        "57.144.75.33"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "static.xx.fbcdn.net",
+      "domain": "blog.whatsapp.com",
       "ips": [
-        "157.240.22.25"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "www.whatsapp.com",
-      "ips": [
-        "2a03:2880:f37d:120:face:b00c:0:167"
+        "2a03:2880:f203:c5:face:b00c:0:167"
       ],
       "ipv4_count": 0,
       "ipv6_count": 1,
