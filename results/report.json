@@ -1,67 +1,205 @@
 {
   "meta": {
-    "generated_at": "2026-06-15T04:30:33.503833",
+    "generated_at": "2026-06-15T17:23:02.541343",
     "target": "whatsapp-mega",
     "description": "WhatsApp domains and networks - ULTIMATE config with historical patterns and complete infrastructure",
     "statistics": {
-      "total_domains_scanned": 13,
-      "domains_with_ips": 5,
-      "domains_without_ips": 8,
-      "unique_ips": 5,
-      "ipv4_count": 3,
-      "ipv6_count": 2,
+      "total_domains_scanned": 17,
+      "domains_with_ips": 17,
+      "domains_without_ips": 0,
+      "unique_ips": 33,
+      "ipv4_count": 17,
+      "ipv6_count": 16,
       "ipv4_networks": 15,
       "ipv6_networks": 3
     }
   },
   "domains_with_ips": [
     {
-      "domain": "static.xx.fbcdn.net",
+      "domain": "g.whatsapp.net",
       "ips": [
-        "57.144.200.128"
+        "157.240.254.61",
+        "2a03:2880:f275:1c6:face:b00c:0:7260"
       ],
       "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "v.whatsapp.net",
-      "ips": [
-        "57.144.201.32"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "chat.whatsapp.com",
-      "ips": [
-        "2a03:2880:f36d:120:face:b00c:0:167"
-      ],
-      "ipv4_count": 0,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
       "domain": "v.whatsapp.com",
       "ips": [
-        "2a03:2880:f361:120:face:b00c:0:167"
+        "57.144.205.32",
+        "2a03:2880:f356:120:face:b00c:0:167"
       ],
-      "ipv4_count": 0,
+      "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "s.update.fbsbx.com",
+      "domain": "autodiscover.whatsapp.com",
       "ips": [
-        "57.144.204.141"
+        "52.96.191.232",
+        "52.96.79.200",
+        "52.96.226.152",
+        "52.96.223.8",
+        "52.96.239.184",
+        "52.96.164.152",
+        "52.96.79.104",
+        "52.96.76.104",
+        "2603:1036:304:802::8",
+        "2603:1036:304:873::8",
+        "2603:1036:304:3407::8",
+        "2603:1036:304:839::8",
+        "2603:1036:304:803::8",
+        "2603:1036:304:85e::8",
+        "2603:1036:304:2857::8",
+        "2603:1036:304:2858::8"
+      ],
+      "ipv4_count": 8,
+      "ipv6_count": 8,
+      "has_ips": true
+    },
+    {
+      "domain": "fbcdn.net",
+      "ips": [
+        "57.144.174.1",
+        "2a03:2880:f357:1:face:b00c:0:25de"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "www.whatsapp.com",
+      "ips": [
+        "157.240.254.60",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "sonar-iad.xx.fbcdn.net",
+      "ips": [
+        "57.144.74.5"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
+    },
+    {
+      "domain": "wa.me",
+      "ips": [
+        "57.144.205.32",
+        "2a03:2880:f275:1c7:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "static.whatsapp.net",
+      "ips": [
+        "57.144.173.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "blog.whatsapp.com",
+      "ips": [
+        "157.240.15.60",
+        "2a03:2880:f20c:1c2:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "an.facebook.com",
+      "ips": [
+        "157.240.15.1",
+        "2a03:2880:f00c:100:face:b00c:0:2"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "scontent.xx.fbcdn.net",
+      "ips": [
+        "157.240.15.13",
+        "2a03:2880:f00c:10d:face:b00c:0:3"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "whatsapp.net",
+      "ips": [
+        "57.144.173.32",
+        "2a03:2880:f356:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "mmg-fna.whatsapp.net",
+      "ips": [
+        "157.240.254.60",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "api.whatsapp.com",
+      "ips": [
+        "157.240.15.60",
+        "2a03:2880:f20c:1c2:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "api.whatsapp.net",
+      "ips": [
+        "57.144.205.32",
+        "2a03:2880:f356:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "mmg.whatsapp.net",
+      "ips": [
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "web.whatsapp.com",
+      "ips": [
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
     }
   ],
-  "domains_without_ips_count": 8,
+  "domains_without_ips_count": 0,
   "networks": {
     "ipv4": [
       "31.13.0.0/16",
