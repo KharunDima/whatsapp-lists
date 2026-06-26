@@ -1,67 +1,74 @@
 {
   "meta": {
-    "generated_at": "2026-06-26T03:49:45.327780",
+    "generated_at": "2026-06-26T14:30:44.084927",
     "target": "whatsapp-mega",
     "description": "WhatsApp domains and networks - ULTIMATE config with historical patterns and complete infrastructure",
     "statistics": {
-      "total_domains_scanned": 13,
+      "total_domains_scanned": 17,
       "domains_with_ips": 5,
-      "domains_without_ips": 8,
-      "unique_ips": 4,
-      "ipv4_count": 2,
-      "ipv6_count": 2,
+      "domains_without_ips": 12,
+      "unique_ips": 12,
+      "ipv4_count": 3,
+      "ipv6_count": 9,
       "ipv4_networks": 15,
       "ipv6_networks": 3
     }
   },
   "domains_with_ips": [
     {
-      "domain": "web.whatsapp.com",
+      "domain": "graph-video.facebook.com",
       "ips": [
-        "2a03:2880:f384:120:face:b00c:0:167"
+        "57.144.220.141"
       ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
+      "ipv4_count": 1,
+      "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "www.whatsapp.com",
+      "domain": "graph.whatsapp.com",
       "ips": [
-        "2a03:2880:f384:120:face:b00c:0:167"
+        "57.144.205.32"
       ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "chat.whatsapp.com",
-      "ips": [
-        "2a03:2880:f20d:c5:face:b00c:0:167"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
+      "ipv4_count": 1,
+      "ipv6_count": 0,
       "has_ips": true
     },
     {
       "domain": "v.whatsapp.com",
       "ips": [
-        "57.144.221.32"
+        "2a03:2880:f20d:1c5:face:b00c:0:167"
+      ],
+      "ipv4_count": 0,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "g.whatsapp.net",
+      "ips": [
+        "157.240.22.54"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "call.whatsapp.com",
+      "domain": "autodiscover.whatsapp.com",
       "ips": [
-        "57.145.9.32"
+        "2603:1036:307:54ad::8",
+        "2603:1036:307:491f::8",
+        "2603:1036:307:21::8",
+        "2603:1036:307:48e6::8",
+        "2603:1036:307:4040::8",
+        "2603:1036:307:1002::8",
+        "2603:1036:307:48dd::8",
+        "2603:1036:307:48df::8"
       ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
+      "ipv4_count": 0,
+      "ipv6_count": 8,
       "has_ips": true
     }
   ],
-  "domains_without_ips_count": 8,
+  "domains_without_ips_count": 12,
   "networks": {
     "ipv4": [
       "31.13.0.0/16",

@@ -1,10 +1,10 @@
 # Domain Scanner Results
-# Generated: 2026-06-26 03:49:45
+# Generated: 2026-06-26 14:30:44
 # Total domains with IP addresses: 5
 ##################################################
 
-call.whatsapp.com
-chat.whatsapp.com
+autodiscover.whatsapp.com
+g.whatsapp.net
+graph-video.facebook.com
+graph.whatsapp.com
 v.whatsapp.com
-web.whatsapp.com
-www.whatsapp.com
