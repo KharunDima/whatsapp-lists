@@ -1,9 +1,8 @@
 # Domain Scanner Results
-# Generated: 2026-07-11 02:44:05
-# Total domains with IP addresses: 4
+# Generated: 2026-07-11 13:25:39
+# Total domains with IP addresses: 3
 ##################################################
 
 api.whatsapp.net
-s.update.fbsbx.com
-t.update.fbsbx.com
-web.whatsapp.com
+mmg.whatsapp.net
+post.update.fbsbx.com
