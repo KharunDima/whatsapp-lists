@@ -1,7 +1,35 @@
 # Domain Scanner Results
-# Generated: 2026-07-13 02:59:14
-# Total domains with IP addresses: 2
+# Generated: 2026-07-13 14:45:26
+# Total domains with IP addresses: 30
 ##################################################
 
-api.fbcdn.net
+alpha.facebook.com
+an.facebook.com
 autodiscover.whatsapp.com
+bigzipfiles.facebook.com
+business.whatsapp.com
+dns.facebook.com
+fb.alpha.facebook.comfb.alpha.facebook.com
+graph.facebook.com
+graph.whatsapp.com
+intern.facebook.com
+interngraph.scgraph.facebook.com
+lite.facebook.com
+login.facebook.com
+m.internmc.facebook.com
+mmg-fna.whatsapp.net
+pixel.facebook.com
+post.update.fbsbx.com
+scgraph.facebook.com
+scontent.xx.fbcdn.net
+secure.intern.facebook.com
+secure.latest.facebook.com
+secure.latest.facebook.comsecure.latest.facebook.com
+secure.prod.facebook.com
+secure.trunkstable.facebook.comsecure.trunkstable.facebook.com
+shortwave.facebook.com
+trunkstable.facebook.com
+v.whatsapp.net
+web.whatsapp.com
+whatsapp.com
+www.fbcdn.net
