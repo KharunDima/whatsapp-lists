@@ -1,18 +1,24 @@
 # Domain Scanner Results
-# Generated: 2026-07-19 13:23:54
-# Total domains with IP addresses: 13
+# Generated: 2026-07-20 03:04:04
+# Total domains with IP addresses: 19
 ##################################################
 
-call.whatsapp.com
-dns.facebook.com
-facebook.com
-fb.alpha.facebook.com
-fb.com
-fb.m.alpha.facebook.com
+api.whatsapp.com
+autodiscover.whatsapp.com
+b.whatsapp.com
+business.whatsapp.com
+chat.whatsapp.com
+external.xx.fbcdn.net
+fbcdn.net
 g.whatsapp.net
-graph.whatsapp.com
-interngraph.scgraph.facebook.com
-m.alpha.facebook.com
-pps.whatsapp.net
-secure.latest.facebook.com
-secure.trunkstable.facebook.com
+graph-video.facebook.com
+mmg.whatsapp.net
+post.update.fbsbx.com
+s.update.fbsbx.com
+scontent.xx.fbcdn.net
+static.whatsapp.net
+static.xx.fbcdn.net
+t.update.fbsbx.com
+wa.me
+web.whatsapp.com
+www.whatsapp.com
