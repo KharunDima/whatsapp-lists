@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-07-21T02:46:17.594984",
+    "generated_at": "2026-07-21T13:58:28.107985",
     "target": "whatsapp-mega",
     "description": "WhatsApp domains and networks - ULTIMATE config with historical patterns and complete infrastructure",
     "statistics": {
-      "total_domains_scanned": 18,
-      "domains_with_ips": 7,
-      "domains_without_ips": 11,
-      "unique_ips": 5,
+      "total_domains_scanned": 16,
+      "domains_with_ips": 4,
+      "domains_without_ips": 12,
+      "unique_ips": 4,
       "ipv4_count": 2,
-      "ipv6_count": 3,
+      "ipv6_count": 2,
       "ipv4_networks": 15,
       "ipv6_networks": 3
     }
   },
   "domains_with_ips": [
     {
-      "domain": "api.whatsapp.net",
+      "domain": "pixel.facebook.com",
       "ips": [
-        "57.144.217.32"
+        "57.144.74.6"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
@@ -27,59 +27,32 @@
     {
       "domain": "www.fbcdn.net",
       "ips": [
-        "2a03:2880:f36c:1:face:b00c:0:25de"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "business.whatsapp.com",
-      "ips": [
-        "57.144.216.141"
+        "57.144.172.1"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "graph-video.facebook.com",
+      "domain": "chat.whatsapp.com",
       "ips": [
-        "2a03:2880:f36c:8d:face:b00c:0:2"
+        "2a03:2880:f203:c5:face:b00c:0:167"
       ],
       "ipv4_count": 0,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "call.whatsapp.com",
+      "domain": "g-fallback.whatsapp.net",
       "ips": [
-        "2a03:2880:f36c:120:face:b00c:0:167"
+        "2a03:2880:f37e:121:face:b00c:0:7260"
       ],
       "ipv4_count": 0,
       "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "whatsapp.net",
-      "ips": [
-        "2a03:2880:f36c:120:face:b00c:0:167"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "whatsapp.com",
-      "ips": [
-        "57.144.217.32"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
       "has_ips": true
     }
   ],
-  "domains_without_ips_count": 11,
+  "domains_without_ips_count": 12,
   "networks": {
     "ipv4": [
       "31.13.0.0/16",
