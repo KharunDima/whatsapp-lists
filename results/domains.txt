@@ -1,17 +1,12 @@
 # Domain Scanner Results
-# Generated: 2026-07-20 14:12:19
-# Total domains with IP addresses: 12
+# Generated: 2026-07-21 02:46:17
+# Total domains with IP addresses: 7
 ##################################################
 
-connect.facebook.com
-cstools.facebook.com
-dns.facebook.com
-fb.m.beta.facebook.comfb.m.beta.facebook.com
-g-fallback.whatsapp.net
-intern.facebook.com
-internmc.facebook.com
-lite.facebook.com
-m.alpha.facebook.com
-secure.alpha.facebook.comsecure.alpha.facebook.com
-secure.beta.facebook.com
-secure.trunkstable.facebook.comsecure.trunkstable.facebook.com
+api.whatsapp.net
+business.whatsapp.com
+call.whatsapp.com
+graph-video.facebook.com
+whatsapp.com
+whatsapp.net
+www.fbcdn.net
