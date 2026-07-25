@@ -1,93 +1,45 @@
 {
   "meta": {
-    "generated_at": "2026-07-25T02:52:46.057322",
+    "generated_at": "2026-07-25T13:30:53.402002",
     "target": "whatsapp-mega",
     "description": "WhatsApp domains and networks - ULTIMATE config with historical patterns and complete infrastructure",
     "statistics": {
-      "total_domains_scanned": 232,
-      "domains_with_ips": 122,
-      "domains_without_ips": 110,
-      "unique_ips": 20,
-      "ipv4_count": 11,
-      "ipv6_count": 9,
+      "total_domains_scanned": 29,
+      "domains_with_ips": 29,
+      "domains_without_ips": 0,
+      "unique_ips": 30,
+      "ipv4_count": 17,
+      "ipv6_count": 13,
       "ipv4_networks": 15,
       "ipv6_networks": 3
     }
   },
   "domains_with_ips": [
     {
-      "domain": "aprende.fb.com",
+      "domain": "g-fallback.whatsapp.net",
       "ips": [
-        "31.13.70.1",
-        "2a03:2880:f00d:110:face:b00c:0:2"
+        "31.13.93.54",
+        "2a03:2880:f234:1c7:face:b00c:0:7260"
       ],
       "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "www.forwardtogether.fb.com",
+      "domain": "t.update.fbsbx.com",
       "ips": [
-        "57.144.220.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "www.istasyon.fb.com",
-      "ips": [
-        "157.240.11.17"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "en.facebookbrand-2018-dev.fb.com",
-      "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
+        "57.144.204.141",
+        "2a03:2880:f366:8d:face:b00c:0:2"
       ],
       "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "www.videoapp.fb.com",
+      "domain": "v.whatsapp.net",
       "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "pt-br.facebookbrand-2018-dev.fb.com",
-      "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.hardquestions.fb.com",
-      "ips": [
-        "192.0.66.19",
-        "2a04:fa87:fffd::c000:4213"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "api.fbcdn.net",
-      "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
+        "57.144.205.32",
+        "2a03:2880:f356:120:face:b00c:0:167"
       ],
       "ipv4_count": 1,
       "ipv6_count": 1,
@@ -96,1053 +48,269 @@
     {
       "domain": "www.whatsapp.com",
       "ips": [
-        "57.144.221.32",
-        "2a03:2880:f231:c6:face:b00c:0:167"
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
       ],
       "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "in.yearinreview.fb.com",
+      "domain": "graph.facebook.com",
       "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "eu-dev.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "inspired.fb.com",
-      "ips": [
-        "2a03:2880:f36e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.indiaeconomy.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "es.facebookbrand-release.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.eu-dev.fb.com",
-      "ips": [
-        "2a03:2880:f36e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "managingbias.fb.com",
-      "ips": [
-        "2a03:2880:f00d:110:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "digitaleslernen.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "ar.facebookbrand-2018-dev.fb.com",
-      "ips": [
-        "57.144.194.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "f1-usdev.fb.com",
-      "ips": [
-        "157.240.22.19"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "learn-us-uat.fb.com",
-      "ips": [
-        "2a03:2880:f00d:110:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "pl.facebookbrand-2018-release.fb.com",
-      "ips": [
-        "2a03:2880:f36e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "zh-hant.facebookbrand-2018-preprod.fb.com",
-      "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
+        "57.144.204.141",
+        "2a03:2880:f366:8d:face:b00c:0:2"
       ],
       "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "phabricatorfiles.intern.fb.com",
+      "domain": "autodiscover.whatsapp.com",
       "ips": [
-        "57.144.194.146"
+        "52.96.79.104",
+        "52.96.164.184",
+        "52.96.156.24",
+        "52.96.157.136",
+        "2603:1036:304:3409::8",
+        "2603:1036:304:859::8",
+        "2603:1036:304:2851::8",
+        "2603:1036:304:2857::8"
+      ],
+      "ipv4_count": 4,
+      "ipv6_count": 4,
+      "has_ips": true
+    },
+    {
+      "domain": "mmg.whatsapp.net",
+      "ips": [
+        "157.240.254.60",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "static.whatsapp.net",
+      "ips": [
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "graph-video.facebook.com",
+      "ips": [
+        "57.144.204.141",
+        "2a03:2880:f366:8d:face:b00c:0:2"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "b.whatsapp.com",
+      "ips": [
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "blog.whatsapp.com",
+      "ips": [
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "external.xx.fbcdn.net",
+      "ips": [
+        "57.144.204.128",
+        "2a03:2880:f366:80:face:b00c:0:3"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "v.whatsapp.com",
+      "ips": [
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "sha256.xz.fbcdn.net",
+      "ips": [
+        "163.70.131.40"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "www.polska.fb.com",
+      "domain": "g.whatsapp.net",
       "ips": [
-        "2a03:2880:f00d:110:face:b00c:0:2"
+        "57.144.205.33",
+        "2a03:2880:f366:121:face:b00c:0:7260"
       ],
-      "ipv4_count": 0,
+      "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "poland.fb.com",
+      "domain": "post.update.fbsbx.com",
       "ips": [
-        "157.240.11.17"
+        "57.144.204.141",
+        "2a03:2880:f366:8d:face:b00c:0:2"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "chat.whatsapp.com",
+      "ips": [
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "api.fbcdn.net",
+      "ips": [
+        "57.144.174.141",
+        "2a03:2880:f356:8d:face:b00c:0:2"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "api.whatsapp.com",
+      "ips": [
+        "157.240.254.60",
+        "2a03:2880:f356:120:face:b00c:0:167"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "sonar-iad.xx.fbcdn.net",
+      "ips": [
+        "31.13.66.38"
       ],
       "ipv4_count": 1,
       "ipv6_count": 0,
       "has_ips": true
     },
     {
-      "domain": "www.france.fb.com",
+      "domain": "web.whatsapp.com",
       "ips": [
-        "2a03:2880:f36e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.poland.fb.com",
-      "ips": [
-        "57.144.194.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "ds1-usdev.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.education.fb.com",
-      "ips": [
-        "57.144.220.141",
-        "2a03:2880:f36e:8d:face:b00c:0:2"
+        "57.144.173.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
       ],
       "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "www.eu-preprod.fb.com",
+      "domain": "static.xx.fbcdn.net",
       "ips": [
-        "2a03:2880:f00d:110:face:b00c:0:2"
+        "57.144.204.128",
+        "2a03:2880:f366:80:face:b00c:0:3"
       ],
-      "ipv4_count": 0,
+      "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "learn-us-uspreprod.fb.com",
+      "domain": "s.update.fbsbx.com",
       "ips": [
-        "2a03:2880:f00d:1:face:b00c:0:1"
+        "57.144.172.141",
+        "2a03:2880:f366:8d:face:b00c:0:2"
       ],
-      "ipv4_count": 0,
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "www.fbcdn.net",
+      "ips": [
+        "57.144.204.1",
+        "2a03:2880:f366:1:face:b00c:0:25de"
+      ],
+      "ipv4_count": 1,
+      "ipv6_count": 1,
+      "has_ips": true
+    },
+    {
+      "domain": "an.facebook.com",
+      "ips": [
+        "57.144.204.141",
+        "2a03:2880:f366:8d:face:b00c:0:2"
+      ],
+      "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
       "domain": "pps.whatsapp.net",
       "ips": [
-        "2a03:2880:f231:c6:face:b00c:0:167"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "es.sustainability.fb.com",
-      "ips": [
-        "192.0.66.207"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "events.fb.com",
-      "ips": [
-        "57.144.220.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "api.whatsapp.net",
-      "ips": [
-        "2a03:2880:f361:120:face:b00c:0:167"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.soydigitalmx.fb.com",
-      "ips": [
-        "192.0.66.187"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "ldnlabcreators.fb.com",
-      "ips": [
-        "57.144.194.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "www.apmms.fb.com",
-      "ips": [
-        "57.144.220.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "www.binario-f.fb.com",
-      "ips": [
-        "57.144.194.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "fr.facebookbrand-2018-release.fb.com",
-      "ips": [
-        "57.144.194.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "zh-hant.facebookbrand-2018-release.fb.com",
-      "ips": [
-        "57.144.194.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "aprenda.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "de.newsroom.fb.com",
-      "ips": [
-        "57.144.194.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "startup.fb.com",
-      "ips": [
-        "57.144.194.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "yearinreview.fb.com",
-      "ips": [
-        "57.144.220.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "aprenda-usdev.fb.com",
-      "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
       ],
       "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "live.fb.com",
+      "domain": "graph.whatsapp.com",
       "ips": [
-        "157.240.11.17"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "belajarmenjaga.fb.com",
-      "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
       ],
       "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "ds1-uspreprod.fb.com",
+      "domain": "call.whatsapp.com",
       "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
+        "57.144.205.32",
+        "2a03:2880:f366:120:face:b00c:0:167"
       ],
       "ipv4_count": 1,
       "ipv6_count": 1,
       "has_ips": true
     },
     {
-      "domain": "vi-vn.facebookbrand-2018.fb.com",
+      "domain": "pixel.facebook.com",
       "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
+        "57.144.204.6",
+        "2a03:2880:f366:6:face:b00c:0:14c9"
       ],
       "ipv4_count": 1,
       "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "digitalskills.fb.com",
-      "ips": [
-        "157.240.11.17"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "www.startupgarage.fb.com",
-      "ips": [
-        "157.240.22.19",
-        "2a03:2880:f36e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "gb.newsroom.fb.com",
-      "ips": [
-        "57.144.220.141",
-        "2a03:2880:f36e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "ko.newsroom.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "su1-uspreprod.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.philippines.fb.com",
-      "ips": [
-        "2a03:2880:f36e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "da-dk.facebookbrand-2018-preprod.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "learn-us-preprod.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "threatexchange.fb.com",
-      "ips": [
-        "2a03:2880:f36e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "fr.facebookbrand-release.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.facebookforums.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "es.yearinreview.fb.com",
-      "ips": [
-        "2a03:2880:f00d:110:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.insights.fb.com",
-      "ips": [
-        "31.13.70.1"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "placetips.fb.com",
-      "ips": [
-        "2a03:2880:f00d:110:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "hacktober.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "fr.newsroom.fb.com",
-      "ips": [
-        "2a03:2880:f00d:110:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "it.yearinreview.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "binariof.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.digitaltraining.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.aprende-dev.fb.com",
-      "ips": [
-        "2a03:2880:f00d:1:face:b00c:0:1"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "en.facebookbrand-2018.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "pl.facebookbrand-preprod.fb.com",
-      "ips": [
-        "157.240.22.19"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "www.communities.fb.com",
-      "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "ja.facebookbrand-2018-dev.fb.com",
-      "ips": [
-        "57.144.194.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "pt-br.facebookbrand-2018.fb.com",
-      "ips": [
-        "2a03:2880:f36e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "eshub.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.es-hub.fb.com",
-      "ips": [
-        "2a03:2880:f00d:110:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.learntoprotect.fb.com",
-      "ips": [
-        "2a03:2880:f031:12:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.newsfeed.fb.com",
-      "ips": [
-        "2a03:2880:f00d:1:face:b00c:0:1"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "hardquestionstour.fb.com",
-      "ips": [
-        "57.144.220.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "mmg-fna.whatsapp.net",
-      "ips": [
-        "2a03:2880:f231:c6:face:b00c:0:167"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.businesspartners.fb.com",
-      "ips": [
-        "2a03:2880:f36e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "groups.fb.com",
-      "ips": [
-        "2a03:2880:f36e:1:face:b00c:0:25de"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "communities.fb.com",
-      "ips": [
-        "2a03:2880:f00d:110:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "france.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.fbindia.fb.com",
-      "ips": [
-        "57.144.194.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "ru.facebookbrand-2018-dev.fb.com",
-      "ips": [
-        "157.240.11.17"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "www.eshub.fb.com",
-      "ips": [
-        "57.144.194.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "www.messengernews.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "ca.newsroom.fb.com",
-      "ips": [
-        "157.240.22.19",
-        "2a03:2880:f031:12:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.rightsmanager.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "learn-us-usuat.fb.com",
-      "ips": [
-        "157.240.22.19"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "messengerplatform.fb.com",
-      "ips": [
-        "31.13.70.1"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "oculusforbusiness.fb.com",
-      "ips": [
-        "57.144.194.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "www.hacktober.fb.com",
-      "ips": [
-        "57.144.194.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "pt-br.facebookbrand-2018-preprod.fb.com",
-      "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "digitaltraining.fb.com",
-      "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "agencies.fb.com",
-      "ips": [
-        "157.240.11.17",
-        "2a03:2880:f00d:110:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.360video.fb.com",
-      "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "education.fb.com",
-      "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "ru.facebookbrand-preprod.fb.com",
-      "ips": [
-        "157.240.22.19"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "madeby.fb.com",
-      "ips": [
-        "157.240.11.17",
-        "2a03:2880:f00d:110:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "fbindia.fb.com",
-      "ips": [
-        "31.13.70.1"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "www.formation.fb.com",
-      "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "jp.yearinreview.fb.com",
-      "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "lernen.fb.com",
-      "ips": [
-        "31.13.70.1",
-        "2a03:2880:f00d:110:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "australia.fb.com",
-      "ips": [
-        "57.144.194.141",
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "l1-dev.fb.com",
-      "ips": [
-        "157.240.22.19"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "www.soydigital.fb.com",
-      "ips": [
-        "192.0.66.170"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "counterspeech.fb.com",
-      "ips": [
-        "57.144.220.141",
-        "2a03:2880:f36e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "fr.facebookbrand-2018-dev.fb.com",
-      "ips": [
-        "57.144.220.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "www.impara-usuat.fb.com",
-      "ips": [
-        "2a03:2880:f36e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "forwardtogether.fb.com",
-      "ips": [
-        "2a03:2880:f00d:110:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "tr.facebookbrand-2018-preprod.fb.com",
-      "ips": [
-        "2a03:2880:f00d:1:face:b00c:0:1"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "vi-vn.facebookbrand-2018-dev.fb.com",
-      "ips": [
-        "2a03:2880:f36e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.threatexchange.fb.com",
-      "ips": [
-        "2a03:2880:f031:12:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "su1-dev.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "www.peoplepractices.fb.com",
-      "ips": [
-        "57.144.194.141"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
-      "has_ips": true
-    },
-    {
-      "domain": "giftofgiving.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "ar.facebookbrand-2018-preprod.fb.com",
-      "ips": [
-        "2a03:2880:f36e:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "ko-kr.facebookbrand-2018-dev.fb.com",
-      "ips": [
-        "2a03:2880:f361:8d:face:b00c:0:2"
-      ],
-      "ipv4_count": 0,
-      "ipv6_count": 1,
-      "has_ips": true
-    },
-    {
-      "domain": "it.facebookbrand-preprod.fb.com",
-      "ips": [
-        "157.240.22.19"
-      ],
-      "ipv4_count": 1,
-      "ipv6_count": 0,
       "has_ips": true
     }
   ],
-  "domains_without_ips_count": 110,
+  "domains_without_ips_count": 0,
   "networks": {
     "ipv4": [
       "31.13.0.0/16",
