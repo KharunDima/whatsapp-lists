@@ -1,8 +1,9 @@
 # Domain Scanner Results
-# Generated: 2026-08-12 13:13:56
-# Total domains with IP addresses: 3
+# Generated: 2026-08-13 02:02:31
+# Total domains with IP addresses: 4
 ##################################################
 
-api.whatsapp.net
-static.whatsapp.net
-v.whatsapp.com
+an.facebook.com
+call.whatsapp.com
+g.whatsapp.net
+graph.whatsapp.com
