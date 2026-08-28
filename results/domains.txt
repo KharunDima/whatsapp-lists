@@ -1,6 +1,5 @@
 # Domain Scanner Results
-# Generated: 2026-08-28 10:00:22
-# Total domains with IP addresses: 1
+# Generated: 2026-08-28 21:50:09
+# Total domains with IP addresses: 0
 ##################################################
 
-an.facebook.com
