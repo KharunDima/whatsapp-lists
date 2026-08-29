@@ -1,5 +1,8 @@
 # Domain Scanner Results
-# Generated: 2026-08-28 21:50:09
-# Total domains with IP addresses: 0
+# Generated: 2026-08-29 05:59:40
+# Total domains with IP addresses: 3
 ##################################################
 
+api.whatsapp.net
+pixel.facebook.com
+v.whatsapp.net
