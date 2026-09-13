@@ -1,6 +1,6 @@
 # Domain Scanner Results
-# Generated: 2026-09-12 15:09:04
-# Total domains with IP addresses: 88
+# Generated: 2026-09-13 03:34:53
+# Total domains with IP addresses: 89
 ##################################################
 
 alpha.facebook.com
@@ -26,13 +26,12 @@ fb.beta.facebook.com
 fb.beta.facebook.comfb.beta.facebook.com
 fb.m.alpha.facebook.com
 fb.m.alpha.facebook.comfb.m.alpha.facebook.com
-fb.m.beta.facebook.com
-fb.m.beta.facebook.comfb.m.beta.facebook.com
 g-fallback.whatsapp.net
 g.whatsapp.net
 graph-video.facebook.com
 graph.facebook.com
 graph.whatsapp.com
+hr.facebook.com
 intern.facebook.com
 interngraph.prod.scgraph.facebook.com
 interngraph.scgraph.facebook.com
@@ -40,12 +39,14 @@ interngraph.staging.scgraph.facebook.com
 internmc.facebook.com
 latest.facebook.com
 lite.facebook.com
+login.beta.facebook.com
 login.facebook.com
 m.alpha.facebook.com
 m.alpha.facebook.comm.alpha.facebook.com
 m.beta.facebook.com
 m.beta.facebook.comm.beta.facebook.com
 m.facebook.com
+m.intern.facebook.com
 m.intern.facebook.comm.intern.facebook.com
 m.internmc.facebook.com
 m.internmc.facebook.comm.internmc.facebook.com
@@ -53,17 +54,15 @@ m.prod.facebook.com
 m.prod.facebook.comm.prod.facebook.com
 mmg-fna.whatsapp.net
 mmg.whatsapp.net
-msgin-regional.vvv.facebook.com
 p.facebook.com
 pixel.facebook.com
 post.update.fbsbx.com
+pps.whatsapp.net
 prod.facebook.com
 prod.scgraph.facebook.com
-prod.workplace.com
 register.facebook.com
 register.new.facebook.com
 s.update.fbsbx.com
-scgraph.facebook.com
 secure.alpha.facebook.com
 secure.alpha.facebook.comsecure.alpha.facebook.com
 secure.beta.facebook.com
@@ -77,8 +76,10 @@ secure.prod.facebook.com
 secure.prod.facebook.comsecure.prod.facebook.com
 secure.trunkstable.facebook.com
 secure.trunkstable.facebook.comsecure.trunkstable.facebook.com
-shortwave.facebook.com
+sha256.xz.fbcdn.net
+sha256.xz.fbcdn.netsha256.xz.fbcdn.net
 smtpin.vvv.facebook.com
+sonar-iad.xx.fbcdn.net
 ssl.facebook.com
 static.whatsapp.net
 static.xx.fbcdn.net
