@@ -1,9 +1,10 @@
 # Domain Scanner Results
-# Generated: 2026-09-17 16:25:37
-# Total domains with IP addresses: 587
+# Generated: 2026-09-18 03:32:49
+# Total domains with IP addresses: 583
 ##################################################
 
 360.fb.com
+360video.fb.com
 360videos.fb.com
 access.fb.com
 agencies.fb.com
@@ -12,12 +13,11 @@ alpha.facebook.com
 an.facebook.com
 apacpolicy.fb.com
 api.facebook.com
-api.fbcdn.net
 api.whatsapp.com
+api.whatsapp.net
 apmms.fb.com
 appstore.fb.com
 appstoretest.fb.com
-aprenda-dev.fb.com
 aprenda-preprod.fb.com
 aprenda-uat.fb.com
 aprenda-usdev.fb.com
@@ -45,8 +45,6 @@ b.whatsapp.com
 belajarmenjaga.fb.com
 beta.facebook.com
 bigzipfiles.facebook.com
-binario-f.fb.com
-binariof.fb.com
 blog.whatsapp.com
 br.newsroom.fb.com
 br.yearinreview.fb.com
@@ -55,7 +53,6 @@ brazil.fb.com
 businesspartners.fb.com
 ca.newsroom.fb.com
 call.whatsapp.com
-careerconnections.fb.com
 cdp.fb.com
 chat.whatsapp.com
 cityguides.fb.com
@@ -67,14 +64,11 @@ content.fb.com
 contentdistributionpolicies.fb.com
 contentdistributionpolicy.fb.com
 counterspeech.fb.com
-cstools.facebook.com
 da-dk.facebookbrand-2018-dev.fb.com
 da-dk.facebookbrand-2018-preprod.fb.com
-da-dk.facebookbrand-2018-release.fb.com
 da-dk.facebookbrand-2018.fb.com
 da-dk.facebookbrand-preprod.fb.com
 da-dk.facebookbrand-release.fb.com
-dataforgood.fb.com
 de.facebookbrand-2018-dev.fb.com
 de.facebookbrand-2018-preprod.fb.com
 de.facebookbrand-2018-release.fb.com
@@ -106,10 +100,12 @@ ds1-usuat.fb.com
 ds2-dev.fb.com
 ds2-preprod.fb.com
 edu.fb.com
+education.fb.com
 ehrenamt.fb.com
+en.facebookbrand-2018-dev.fb.com
 en.facebookbrand-2018-preprod.fb.com
-en.facebookbrand-2018-release.fb.com
 en.facebookbrand-2018.fb.com
+en.facebookbrand-preprod.fb.com
 en.facebookbrand-release.fb.com
 engineerfortheweek.fb.com
 es-hub.fb.com
@@ -124,9 +120,11 @@ es.facebookbrand-2018-preprod.fb.com
 es.facebookbrand-2018-release.fb.com
 es.facebookbrand-2018.fb.com
 es.facebookbrand-preprod.fb.com
+es.facebookbrand-release.fb.com
 es.newsroom.fb.com
 es.sustainability.fb.com
 es.techprep.fb.com
+es.yearinreview.fb.com
 eshub.fb.com
 espana.fb.com
 estacaohack.fb.com
@@ -136,6 +134,7 @@ eu.fb.com
 europeanunion.fb.com
 events.fb.com
 expresswifi.fb.com
+extern.facebook.com
 external.xx.fbcdn.net
 f1-dev.fb.com
 f1-preprod.fb.com
@@ -155,7 +154,6 @@ facebookinnigeria.fb.com
 fb.alpha.facebook.com
 fb.alpha.facebook.comfb.alpha.facebook.com
 fb.beta.facebook.com
-fb.beta.facebook.comfb.beta.facebook.com
 fb.m.alpha.facebook.com
 fb.m.alpha.facebook.comfb.m.alpha.facebook.com
 fb.m.beta.facebook.com
@@ -171,6 +169,7 @@ fr.facebookbrand-preprod.fb.com
 fr.facebookbrand-release.fb.com
 fr.newsroom.fb.com
 fr.sustainability.fb.com
+fr.yearinreview.fb.com
 france.fb.com
 fs.fb.com
 g-fallback.whatsapp.net
@@ -188,6 +187,7 @@ gs.fb.com
 hacktober.fb.com
 hardquestionstour.fb.com
 hr.facebook.com
+impara-dev.fb.com
 impara-preprod.fb.com
 impara-uat.fb.com
 impara-usdev.fb.com
@@ -208,10 +208,7 @@ interngraph.scgraph.facebook.com
 interngraph.staging.scgraph.facebook.com
 internmc.facebook.com
 istasyon.fb.com
-it.facebookbrand-2018-dev.fb.com
 it.facebookbrand-2018-preprod.fb.com
-it.facebookbrand-2018-release.fb.com
-it.facebookbrand-2018.fb.com
 it.facebookbrand-preprod.fb.com
 it.facebookbrand-release.fb.com
 it.newsroom.fb.com
@@ -222,14 +219,15 @@ ja.facebookbrand-2018-dev.fb.com
 ja.facebookbrand-2018-preprod.fb.com
 ja.facebookbrand-2018-release.fb.com
 ja.facebookbrand-2018.fb.com
-ja.facebookbrand-preprod.fb.com
 ja.facebookbrand-release.fb.com
 ja.newsroom.fb.com
 jp.yearinreview.fb.com
 ko-kr.facebookbrand-2018-dev.fb.com
+ko-kr.facebookbrand-2018-preprod.fb.com
 ko-kr.facebookbrand-2018-release.fb.com
 ko-kr.facebookbrand-2018.fb.com
 ko-kr.facebookbrand-preprod.fb.com
+ko-kr.facebookbrand-release.fb.com
 ko.newsroom.fb.com
 korea.fb.com
 kr.yearinreview.fb.com
@@ -248,7 +246,6 @@ learn-us-uat.fb.com
 learn-us-usdev.fb.com
 learn-us-uspreprod.fb.com
 learn-us-usuat.fb.com
-learn.fb.com
 learntoprotect.fb.com
 lerequest-lookaside.fb.com
 lerequest.fb.com
@@ -267,18 +264,11 @@ m.intern.facebook.com
 m.intern.facebook.comm.intern.facebook.com
 m.internmc.facebook.com
 m.internmc.facebook.comm.internmc.facebook.com
-m.prod.facebook.com
 m.prod.facebook.comm.prod.facebook.com
-madeby.fb.com
 madebyyou.fb.com
-managingbias.fb.com
-media.fb.com
 messenger.fb.com
 messengernews.fb.com
 messengerplatform.fb.com
-mexico.fb.com
-mmg-fna.whatsapp.net
-mmg.whatsapp.net
 msgin-regional.vvv.facebook.com
 mx.yearinreview.fb.com
 newsfeed.fb.com
@@ -295,23 +285,27 @@ nonprofits.fb.com
 npe.fb.com
 oculusforbusiness.fb.com
 oculusweb.fb.com
-p.facebook.com
 peoplepractices.fb.com
 phabricator.cstools.fb.com
 phabricator.intern.fb.com
+phabricator.internmc.fb.com
+phabricatorfiles.cstools.fb.com
 phabricatorfiles.intern.fb.com
 phabricatorfiles.internmc.fb.com
 philippines.fb.com
 pilipinas.fb.com
+pixel.facebook.com
 pl.facebookbrand-2018-dev.fb.com
 pl.facebookbrand-2018-preprod.fb.com
 pl.facebookbrand-2018-release.fb.com
 pl.facebookbrand-2018.fb.com
+pl.facebookbrand-preprod.fb.com
 pl.facebookbrand-release.fb.com
 placetips.fb.com
 pmp.fb.com
 poland.fb.com
 politics.fb.com
+polska.fb.com
 post.update.fbsbx.com
 pps.whatsapp.net
 prod.facebook.com
@@ -324,7 +318,6 @@ pt-br.facebookbrand-2018-release.fb.com
 pt-br.facebookbrand-2018.fb.com
 pt-br.facebookbrand-preprod.fb.com
 pt-br.facebookbrand-release.fb.com
-pt-pt.facebookbrand-2018-dev.fb.com
 pt-pt.facebookbrand-2018-preprod.fb.com
 pt-pt.facebookbrand-2018-release.fb.com
 pt-pt.facebookbrand-2018.fb.com
@@ -335,11 +328,11 @@ register.new.facebook.com
 research.fb.com
 rightsmanager.fb.com
 rozwoj-dev.fb.com
+rozwoj-preprod.fb.com
 rozwoj-uat.fb.com
 rozwoj-usdev.fb.com
 rozwoj-uspreprod.fb.com
 rozwoj-usuat.fb.com
-rozwoj.fb.com
 ru.facebookbrand-2018-dev.fb.com
 ru.facebookbrand-2018-preprod.fb.com
 ru.facebookbrand-2018-release.fb.com
@@ -359,12 +352,12 @@ secure.intern.facebook.comsecure.intern.facebook.com
 secure.internmc.facebook.com
 secure.latest.facebook.com
 secure.latest.facebook.comsecure.latest.facebook.com
-secure.prod.facebook.com
-secure.prod.facebook.comsecure.prod.facebook.com
+secure.trunkstable.facebook.com
 secure.trunkstable.facebook.comsecure.trunkstable.facebook.com
 seformer.fb.com
 sheleadstechin.fb.com
 shemeansbusiness.fb.com
+shortwave.facebook.com
 signal.fb.com
 smtpin.vvv.facebook.com
 socialgood.fb.com
@@ -401,7 +394,6 @@ threatexchange.fb.com
 thrive.fb.com
 tr.facebookbrand-2018-dev.fb.com
 tr.facebookbrand-2018-preprod.fb.com
-tr.facebookbrand-2018-release.fb.com
 tr.facebookbrand-2018.fb.com
 tr.facebookbrand-preprod.fb.com
 tr.facebookbrand-release.fb.com
@@ -411,14 +403,13 @@ v.whatsapp.com
 v.whatsapp.net
 vi-vn.facebookbrand-2018-dev.fb.com
 vi-vn.facebookbrand-2018-preprod.fb.com
-vi-vn.facebookbrand-2018-release.fb.com
 vi-vn.facebookbrand-2018.fb.com
-vi-vn.facebookbrand-preprod.fb.com
 vi-vn.facebookbrand-release.fb.com
 videoapp.fb.com
 vrforinclusion.fb.com
 vsptest.fb.com
 web.whatsapp.com
+whatsapppolicy.fb.com
 workplace.fb.com
 workplaceblog.fb.com
 www.360.fb.com
@@ -430,9 +421,11 @@ www.agencies.fb.com
 www.ai.fb.com
 www.apacpolicy.fb.com
 www.apmms.fb.com
+www.aprenda-usdev.fb.com
 www.aprenda-uspreprod.fb.com
 www.aprenda-usuat.fb.com
 www.aprenda.fb.com
+www.aprende-dev.fb.com
 www.aprende-preprod.fb.com
 www.aprende-uat.fb.com
 www.aprende-usdev.fb.com
@@ -453,7 +446,10 @@ www.cityguides.fb.com
 www.classof2020.fb.com
 www.code-dev.fb.com
 www.code.fb.com
+www.communities.fb.com
 www.connectivity.fb.com
+www.contentdistributionpolicies.fb.com
+www.contentdistributionpolicy.fb.com
 www.counterspeech.fb.com
 www.dataforgood.fb.com
 www.demotrainingportal.fb.com
@@ -463,14 +459,13 @@ www.digitaleslernzentrum.fb.com
 www.digitalskill.fb.com
 www.digitalskills.fb.com
 www.digitalskillsmichigan.fb.com
+www.digitalskillsus.fb.com
 www.digitaltayo.fb.com
 www.digitaltraining.fb.com
-www.diversity.fb.com
 www.diversityreport.fb.com
 www.donations.fb.com
 www.edu.fb.com
 www.education.fb.com
-www.ehrenamt.fb.com
 www.engineerfortheweek.fb.com
 www.engineering.fb.com
 www.es-hub.fb.com
@@ -482,7 +477,6 @@ www.eu-preprod.fb.com
 www.eu.fb.com
 www.europeanunion.fb.com
 www.events.fb.com
-www.expresswifi.fb.com
 www.f1-dev.fb.com
 www.f1-preprod.fb.com
 www.facebook.com
@@ -501,13 +495,12 @@ www.hardquestions.fb.com
 www.hardquestionstour.fb.com
 www.impara-usdev.fb.com
 www.impara-uspreprod.fb.com
-www.impara.fb.com
+www.impara-usuat.fb.com
 www.india.fb.com
 www.indiaeconomy.fb.com
 www.indonesia.fb.com
 www.insidefeed.fb.com
 www.insights.fb.com
-www.inspired.fb.com
 www.istasyon.fb.com
 www.italia.fb.com
 www.italy.fb.com
@@ -522,6 +515,7 @@ www.learntoprotect.fb.com
 www.lernen.fb.com
 www.live.fb.com
 www.madebyyou.fb.com
+www.managingbias.fb.com
 www.messenger.fb.com
 www.messengernews.fb.com
 www.messengerplatform.fb.com
@@ -531,6 +525,7 @@ www.nghub.fb.com
 www.nigeria.fb.com
 www.nonprofits.fb.com
 www.npe.fb.com
+www.opensource.fb.com
 www.peoplepractices.fb.com
 www.philippines.fb.com
 www.pilipinas.fb.com
@@ -553,7 +548,6 @@ www.soydigitalcr.fb.com
 www.soydigitalmx.fb.com
 www.spain.fb.com
 www.sparkar-partners.fb.com
-www.sparkar.fb.com
 www.startup.fb.com
 www.startupgarage.fb.com
 www.startuphub.fb.com
@@ -570,6 +564,7 @@ www.thrive.fb.com
 www.videoapp.fb.com
 www.vrforinclusion.fb.com
 www.wethinkdigital.fb.com
+www.whatsapp.com
 www.whatsapppolicy.fb.com
 www.workplaceblog.fb.com
 www.your.fb.com
@@ -585,6 +580,7 @@ zh-hans.facebookbrand-2018.fb.com
 zh-hans.facebookbrand-preprod.fb.com
 zh-hans.facebookbrand-release.fb.com
 zh-hant.facebookbrand-2018-dev.fb.com
+zh-hant.facebookbrand-2018-preprod.fb.com
 zh-hant.facebookbrand-2018-release.fb.com
 zh-hant.facebookbrand-2018.fb.com
 zh-hant.facebookbrand-preprod.fb.com
