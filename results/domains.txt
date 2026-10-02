@@ -1,8 +1,8 @@
 # Domain Scanner Results
-# Generated: 2026-10-02 04:33:19
+# Generated: 2026-10-02 17:37:08
 # Total domains with IP addresses: 3
 ##################################################
 
 blog.whatsapp.com
-graph.whatsapp.com
-whatsapp.com
+chat.whatsapp.com
+static.xx.fbcdn.net
