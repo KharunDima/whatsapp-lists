@@ -1,6 +1,6 @@
 # Domain Scanner Results
-# Generated: 2026-11-18 20:05:27
-# Total domains with IP addresses: 94
+# Generated: 2026-11-19 06:13:46
+# Total domains with IP addresses: 92
 ##################################################
 
 alpha.facebook.com
@@ -18,6 +18,7 @@ chat.whatsapp.com
 connect.facebook.com
 cstools.facebook.com
 dns.facebook.com
+extern.facebook.com
 external.xx.fbcdn.net
 fb.alpha.facebook.com
 fb.alpha.facebook.comfb.alpha.facebook.com
@@ -53,7 +54,6 @@ m.internmc.facebook.com
 m.internmc.facebook.comm.internmc.facebook.com
 m.prod.facebook.com
 m.prod.facebook.comm.prod.facebook.com
-mmg-fna.whatsapp.net
 mmg.whatsapp.net
 msgin-regional.vvv.facebook.com
 p.facebook.com
@@ -81,8 +81,6 @@ secure.prod.facebook.com
 secure.prod.facebook.comsecure.prod.facebook.com
 secure.trunkstable.facebook.com
 secure.trunkstable.facebook.comsecure.trunkstable.facebook.com
-sha256.xz.fbcdn.net
-sha256.xz.fbcdn.netsha256.xz.fbcdn.net
 shortwave.facebook.com
 smtpin.vvv.facebook.com
 ssl.facebook.com
